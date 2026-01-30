@@ -1,6 +1,6 @@
 # Run from project root
 # Example:
-#   python src/infer_fan_votes.py --seasons all --sigma_u 1.2 --epochs_bayes 2500 --post_samples 400
+#   python src/infer_fan_votes.py --csv data/clean_long.csv --seasons all
 #
 # Input CSV:
 #   - If you pass a cleaned long file: data/clean_long.csv
