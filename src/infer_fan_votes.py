@@ -535,6 +535,155 @@ def estimate_votes_bayes_vi(
     return p_mean, p_sd, pred_elim, acc
 
 
+
+# -----------------------------
+# Overfitting / robustness check (leave-one-week-out)
+# -----------------------------
+
+def select_loo_weeks(elim_sets: Dict[int, List[int]], active: torch.Tensor, max_weeks: int, seed: int) -> List[int]:
+    """Pick a small set of elimination weeks for leave-one-week-out checks."""
+    cand: List[int] = []
+    _, T = active.shape
+    for t, Es in elim_sets.items():
+        if t < 1 or t > T:
+            continue
+        if len(Es) == 0:
+            continue
+        # Need enough contestants in that week to make ranking meaningful
+        if int(active[:, t - 1].sum().item()) >= 3:
+            cand.append(int(t))
+    if not cand:
+        return []
+    rng = np.random.RandomState(seed)
+    rng.shuffle(cand)
+    return cand[: min(max_weeks, len(cand))]
+
+
+def bottomk_hits_for_week(
+    season_id: int,
+    week: int,
+    J: torch.Tensor,
+    active: torch.Tensor,
+    elim_sets_true: Dict[int, List[int]],
+    p_mean: np.ndarray,
+    weight_judge: float,
+    rank_tau: float,
+) -> Tuple[Optional[bool], Optional[bool], Optional[int]]:
+    """Check whether the true eliminated contestant(s) are bottom-1 / bottom-2 in week.
+
+    Returns: (hit_bottom1, hit_bottom2, n_active_used)
+    """
+    n, T = J.shape
+    t = int(week)
+    if t < 1 or t > T:
+        return None, None, None
+
+    true_elims = elim_sets_true.get(t, [])
+    if len(true_elims) == 0:
+        return None, None, None
+
+    mask = active[:, t - 1]
+    idx = mask.nonzero(as_tuple=True)[0]
+    if idx.numel() < 2:
+        return None, None, int(idx.numel())
+
+    Jt = J[idx, t - 1]
+    ok = ~torch.isnan(Jt)
+    idx = idx[ok]
+    Jt = Jt[ok]
+    if idx.numel() < 2:
+        return None, None, int(idx.numel())
+
+    # Only evaluate if true eliminated is actually in this filtered index set
+    idx_list = idx.tolist()
+    true_elims = [e for e in true_elims if e in idx_list]
+    if len(true_elims) == 0:
+        return None, None, int(idx.numel())
+
+    vp = p_mean[idx.cpu().numpy(), t - 1]
+    if vp is None or np.all(np.isnan(vp)):
+        return None, None, int(idx.numel())
+
+    b = compute_badness(season_id, Jt, torch.tensor(vp), weight_judge, rank_tau).cpu().numpy()
+    order = np.argsort(-b)  # descending badness (worst first)
+    bottom1 = int(idx.cpu().numpy()[order[0]])
+    bottom2 = set(int(idx.cpu().numpy()[k]) for k in order[: min(2, len(order))])
+
+    hit1 = any(e == bottom1 for e in true_elims)
+    hit2 = any(e in bottom2 for e in true_elims)
+    return hit1, hit2, int(idx.numel())
+
+
+def run_leave_one_week_out_checks(
+    season_id: int,
+    J: torch.Tensor,
+    active: torch.Tensor,
+    elim_sets: Dict[int, List[int]],
+    names: List[str],
+    base_cfg: BayesVIConfig,
+    weeks: List[int],
+    epochs_loo: int,
+    seed: int,
+) -> Tuple[pd.DataFrame, Dict[str, float]]:
+    """For each selected week, remove that week's elimination likelihood, retrain, and test bottom-1/bottom-2."""
+    rows = []
+    for w in weeks:
+        # Mask out elimination info for this week
+        elim_sets_masked = {t: list(v) for t, v in elim_sets.items()}
+        elim_sets_masked[int(w)] = []
+
+        cfg = BayesVIConfig(
+            weight_judge=base_cfg.weight_judge,
+            sigma0=base_cfg.sigma0,
+            sigma_u=base_cfg.sigma_u,
+            lr=base_cfg.lr,
+            epochs=epochs_loo,
+            mc_samples=base_cfg.mc_samples,
+            posterior_samples=base_cfg.posterior_samples,
+            seed=seed,
+            rank_tau=base_cfg.rank_tau,
+            elim_tau=base_cfg.elim_tau,
+            bottom2_lambda=base_cfg.bottom2_lambda,
+        )
+
+        p_bm, p_bs, pred_b, acc_b = estimate_votes_bayes_vi(season_id, J, active, elim_sets_masked, cfg)
+
+        hit1, hit2, n_active_used = bottomk_hits_for_week(
+            season_id=season_id,
+            week=w,
+            J=J,
+            active=active,
+            elim_sets_true=elim_sets,
+            p_mean=p_bm,
+            weight_judge=base_cfg.weight_judge,
+            rank_tau=base_cfg.rank_tau,
+        )
+
+        # get true elim names (could be multiple)
+        true_elims = elim_sets.get(int(w), [])
+        true_names = []
+        for e in true_elims:
+            if 0 <= int(e) < len(names):
+                true_names.append(names[int(e)])
+        rows.append({
+            "season": season_id,
+            "method": voting_method_for_season(season_id),
+            "week_heldout": int(w),
+            "true_eliminated": ";".join(true_names) if true_names else "",
+            "hit_bottom1": hit1,
+            "hit_bottom2": hit2,
+            "n_active_week": n_active_used,
+            "epochs_loo": epochs_loo,
+        })
+
+    df = pd.DataFrame(rows)
+    stats = {
+        "loo_weeks_tested": float(len(df)),
+        "loo_bottom1_rate": float(df["hit_bottom1"].mean()) if len(df) and df["hit_bottom1"].notna().any() else float("nan"),
+        "loo_bottom2_rate": float(df["hit_bottom2"].mean()) if len(df) and df["hit_bottom2"].notna().any() else float("nan"),
+    }
+    return df, stats
+
 # -----------------------------
 # Save outputs
 # -----------------------------
@@ -599,6 +748,12 @@ def main():
     parser.add_argument("--rank_tau", type=float, default=0.05, help="temperature for soft-rank (smaller = closer to hard rank)")
     parser.add_argument("--elim_tau", type=float, default=0.05, help="temperature for elimination likelihood")
     parser.add_argument("--bottom2_lambda", type=float, default=2.0, help="strength of bottom-2 constraint in judges-save seasons")
+
+    # Leave-one-week-out overfitting / robustness check
+    parser.add_argument("--loo_weeks_per_season", type=int, default=3, help="number of elimination weeks to hold out per season (0 disables)")
+    parser.add_argument("--epochs_loo", type=int, default=800, help="epochs for each leave-one-week-out retraining run")
+    parser.add_argument("--loo_seed", type=int, default=123, help="random seed for selecting held-out weeks")
+
     parser.add_argument("--seed", type=int, default=0)
     args = parser.parse_args()
 
@@ -618,6 +773,7 @@ def main():
     nonbayes_rows = []
     bayes_rows = []
     summary_rows = []
+    loo_rows = []
 
     for s in seasons:
         s = int(s)
@@ -670,6 +826,27 @@ def main():
             "T_weeks": T,
         })
 
+        # Leave-one-week-out robustness check (overfitting diagnostic)
+        if args.loo_weeks_per_season and args.loo_weeks_per_season > 0:
+            loo_seed = args.loo_seed + 1000 * int(season_id)
+            weeks = select_loo_weeks(elim_sets, active, max_weeks=args.loo_weeks_per_season, seed=loo_seed)
+            if weeks:
+                df_loo, stats = run_leave_one_week_out_checks(
+                    season_id=season_id,
+                    J=J,
+                    active=active,
+                    elim_sets=elim_sets,
+                    names=names,
+                    base_cfg=bv_cfg,
+                    weeks=weeks,
+                    epochs_loo=args.epochs_loo,
+                    seed=loo_seed + 7,
+                )
+                loo_rows.append(df_loo)
+                summary_rows[-1].update(stats)
+            else:
+                summary_rows[-1].update({"loo_weeks_tested": 0.0, "loo_bottom1_rate": float("nan"), "loo_bottom2_rate": float("nan")})
+
         print(f"[Season {season_id} | {voting_method_for_season(season_id)}] nonbayes_acc={acc_nb:.3f} | bayes_vi_acc={acc_b:.3f}")
 
     out_dir = Path(args.out_dir)
@@ -680,8 +857,13 @@ def main():
         pd.concat(bayes_rows, ignore_index=True).to_csv(out_dir / "bayes_vi_vote_estimates.csv", index=False)
     if summary_rows:
         pd.DataFrame(summary_rows).to_csv(out_dir / "model_summary.csv", index=False)
+    if loo_rows:
+        pd.concat(loo_rows, ignore_index=True).to_csv(out_dir / "loo_overfit_check.csv", index=False)
 
-    print("Done. Wrote: nonbayes_vote_estimates.csv, bayes_vi_vote_estimates.csv, model_summary.csv")
+    wrote = ["nonbayes_vote_estimates.csv", "bayes_vi_vote_estimates.csv", "model_summary.csv"]
+    if loo_rows:
+        wrote.append("loo_overfit_check.csv")
+    print("Done. Wrote: " + ", ".join(wrote))
 
 
 if __name__ == "__main__":

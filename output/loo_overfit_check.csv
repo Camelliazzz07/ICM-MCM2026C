@@ -1,0 +1,103 @@
+season,method,week_heldout,true_eliminated,hit_bottom1,hit_bottom2,n_active_week,epochs_loo
+1,rank,3,Evander Holyfield,False,True,5,800
+1,rank,4,Rachel Hunter,False,False,4,800
+1,rank,5,Joey McIntyre,False,True,3,800
+2,rank,7,Lisa Rinna,True,True,4,800
+2,rank,6,George Hamilton,False,True,5,800
+2,rank,4,Master P,False,False,7,800
+3,percent,8,Monique Coleman,False,True,4,800
+3,percent,3,Harry Hamlin,False,False,9,800
+3,percent,7,Jerry Springer,False,True,5,800
+4,percent,2,Paulina Porizkova,False,False,11,800
+4,percent,6,Heather Mills,False,False,7,800
+4,percent,8,Billy Ray Cyrus,False,True,5,800
+5,percent,2,Albert Reed,False,False,11,800
+5,percent,7,Jane Seymour,False,False,6,800
+5,percent,3,Wayne Newton,False,False,10,800
+6,percent,7,Shannon Elizabeth,False,False,6,800
+6,percent,5,Priscilla Presley,False,False,8,800
+6,percent,3,Steve Guttenberg,False,False,10,800
+7,percent,6,Cloris Leachman,False,False,7,800
+7,percent,1,Jeffrey Ross;Ted McGinley,False,True,13,800
+7,percent,7,Susan Lucci,False,True,6,800
+8,percent,10,Ty Murray,False,True,4,800
+8,percent,9,Lil' Kim,False,True,5,800
+8,percent,2,Belinda Carlisle,False,False,13,800
+9,percent,2,Kathy Ireland,False,False,14,800
+9,percent,4,Chuck Liddell,False,False,11,800
+9,percent,6,Louie Vito;Melissa Joan Hart,False,False,9,800
+10,percent,7,Pamela Anderson,False,True,6,800
+10,percent,9,Chad Ochocinco,False,False,4,800
+10,percent,4,Aiden Turner,False,False,9,800
+11,percent,3,Margaret Cho,False,False,10,800
+11,percent,9,Brandy,False,True,4,800
+11,percent,5,Florence Henderson,False,False,8,800
+12,percent,2,Mike Catherwood,False,False,11,800
+12,percent,6,Chris Jericho,False,True,7,800
+12,percent,10,Chelsea Kane;Hines Ward;Kirstie Alley,True,True,3,800
+13,percent,8,Nancy Grace,False,True,5,800
+13,percent,7,David Arquette,False,True,6,800
+13,percent,3,Kristin Cavallari,False,False,10,800
+14,percent,4,Sherri Sheperd,False,False,10,800
+14,percent,8,Melissa Gilbert;Roshon Fegan,False,True,6,800
+14,percent,2,Martina Navratilova,False,False,12,800
+15,percent,9,Apolo Anton Ohno;Emmitt Smith,False,False,5,800
+15,percent,4,Bristol Palin,False,False,9,800
+15,percent,6,Sabrina Bryan,False,False,8,800
+16,percent,7,Andy Dick,False,False,7,800
+16,percent,8,Sean Lowe,False,True,6,800
+16,percent,9,Ingo Rademacher,False,False,5,800
+17,percent,5,Christina Milian,False,False,9,800
+17,percent,10,Leah Remini,False,True,5,800
+17,percent,3,Bill Nye,False,False,11,800
+18,percent,10,Amy Purdy;Candace Cameron Bure;James Maslow;Meryl Davis,True,True,4,800
+18,percent,9,Charlie White,False,True,5,800
+18,percent,1,Diana Nyad,False,False,12,800
+19,percent,2,Tavis Smiley,False,False,12,800
+19,percent,10,Tommy Chong,False,False,5,800
+19,percent,8,Michael Waltrip,False,True,7,800
+20,percent,2,Redfoo,False,False,12,800
+20,percent,5,Suzanne Somers,False,False,9,800
+20,percent,4,Michael Sam,False,False,10,800
+21,percent,7,Hayes Grier,False,False,8,800
+21,percent,2,Chaka Khan;Kim Zolciak-Biermann;Victor Espinoza,False,False,13,800
+21,percent,4,Gary Busey,False,False,10,800
+22,percent,3,Mischa Barton,False,False,11,800
+22,percent,7,Kim Fields;Von Miller,False,True,8,800
+22,percent,9,Antonio Brown;Wanya Morris,False,True,5,800
+23,percent,8,Ryan Lochte,False,False,7,800
+23,percent,6,Amber Rose,False,False,9,800
+23,percent,9,Marilu Henner,False,False,6,800
+24,percent,10,David Ross;Normani;Rashad Jennings,True,True,3,800
+24,percent,6,Heather Morris,False,False,8,800
+24,percent,5,Erika Jayne,False,False,9,800
+25,percent,8,Terrell Owens,False,True,6,800
+25,percent,4,Derek Fisher,False,False,11,800
+25,percent,6,Nick Lachey,False,False,9,800
+26,percent,2,Arike Ogunbowale;Kareem Abdul-Jabbar,False,False,8,800
+26,percent,4,Adam Rippon;Josh Norman;Tonya Harding,True,True,3,800
+26,percent,3,Chris Mazdzer;Jennie Finch Daigle;Mirai Nagasu,True,True,6,800
+27,percent,6,Mary Lou Retton,False,False,9,800
+27,percent,3,Nancy McKeon,False,False,11,800
+27,percent,7,DeMarcus Ware;John Schneider,False,False,8,800
+28,rank_judges_save,8,Kate Flannery,False,True,7,800
+28,rank_judges_save,7,Karamo Brown,False,False,8,800
+28,rank_judges_save,10,James Van Der Beek,True,True,5,800
+29,rank_judges_save,5,Jesse Metcalfe,False,False,12,800
+29,rank_judges_save,10,Johnny Weir;Skai Jackson,True,True,6,800
+29,rank_judges_save,6,Veron Davis,False,False,11,800
+30,rank_judges_save,6,Kenya Moore,True,True,10,800
+30,rank_judges_save,10,Amanda Kloots;Cody Rigsby;Iman Shumpert;JoJo Siwa,True,True,4,800
+30,rank_judges_save,3,Christine Chiu,False,False,14,800
+31,rank_judges_save,8,Heidi D'Amelio;Vinny Guadagnino,False,True,8,800
+31,rank_judges_save,2,Teresa Giudice,False,True,15,800
+31,rank_judges_save,1,Jason Lewis,False,True,16,800
+32,rank_judges_save,5,Mira Sorvino,True,True,10,800
+32,rank_judges_save,2,Jamie Lynn Spears,False,False,13,800
+32,rank_judges_save,4,Adrian Peterson,False,False,11,800
+33,rank_judges_save,5,Phaedra Parks,True,True,8,800
+33,rank_judges_save,3,Eric Roberts;Reginald VelJohnson,True,True,11,800
+33,rank_judges_save,7,Dwight Howard,True,True,6,800
+34,rank_judges_save,4,Hilaria Baldwin,False,False,11,800
+34,rank_judges_save,3,Lauren Jauregui,True,True,12,800
+34,rank_judges_save,2,Baron Davis;Corey Feldman,True,True,14,800
