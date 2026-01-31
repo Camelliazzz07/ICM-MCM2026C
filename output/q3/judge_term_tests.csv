@@ -1,0 +1,8 @@
+term,chi2,P>chi2,df constraint,y
+Intercept,[[288.47123323]],1.0706899873564972e-64,1,judge_percent
+C(industry),[[15.00903126]],0.05897009033511948,8,judge_percent
+C(home_region),[[4.25726977]],0.37230639691624884,4,judge_percent
+C(dancer),[[101.35413153]],7.147796611965786e-09,33,judge_percent
+z_age,[[53.07434153]],3.2116034178731277e-13,1,judge_percent
+week,[[0.64225942]],0.4228938118973674,1,judge_percent
+n_active,[[249.21057814]],3.8595958448398913e-56,1,judge_percent

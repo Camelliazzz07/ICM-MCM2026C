@@ -1,0 +1,2 @@
+season,week,n_active,p_max,gap_top1_top2,entropy_elim,method,p_true_elim_proxy,H_norm,D_entropy,det_level_pmax,sens_level_gap
+17,7,1,1.0,,-0.0,percent,1.0,-0.0,1.0,强确定,
