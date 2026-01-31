@@ -1,0 +1,2 @@
+season,week,method,celebrity_name,judge_total,vote_mean,vote_sd,p_eliminated_mc,p_bottom1_mc,p_bottom2_mc,elim_after_week_true
+17,7,percent,"Nicole ""Snooki"" Polizzi",27.0,1.0,0.0024584294296801,1.0,1.0,1.0,True

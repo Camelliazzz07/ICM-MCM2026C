@@ -1,0 +1,8 @@
+season,week,method,n_active,n_elim_true,mc,entropy_elim,top1_gap_elim,p_true_elim,p_true_elim_proxy,sampler
+17,1,percent,1,0,2000,,,,,
+17,2,percent,1,0,2000,,,,,
+17,3,percent,1,0,2000,,,,,
+17,4,percent,1,0,2000,,,,,
+17,5,percent,1,0,2000,,,,,
+17,6,percent,1,0,2000,,,,,
+17,7,percent,1,1,2000,-0.0,-1.0,,1.0,logitnormal
