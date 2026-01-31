@@ -1,0 +1,25 @@
+season, celebrity_name , method , bottom2_save, rank_tie_method, pred_elim_week, pred_exit_week, pred_final_place, official_result  , is_finalist
+     2, Jerry Rice     , percent, False       ,                ,               ,              8,              1.0, 2nd Place        , True
+     2, Jerry Rice     , percent, True        ,                ,               ,              8,              1.0, 2nd Place        , True
+     2, Jerry Rice     , rank   , False       , average        ,               ,              8,              2.0, 2nd Place        , True
+     2, Jerry Rice     , rank   , False       , min            ,               ,              8,              2.0, 2nd Place        , True
+     2, Jerry Rice     , rank   , True        , average        ,            7.0,              7,                 , 2nd Place        , False
+     2, Jerry Rice     , rank   , True        , min            ,            7.0,              7,                 , 2nd Place        , False
+     4, Billy Ray Cyrus, percent, False       ,                ,            8.0,              8,                 , Eliminated Week 8, False
+     4, Billy Ray Cyrus, percent, True        ,                ,            8.0,              8,                 , Eliminated Week 8, False
+     4, Billy Ray Cyrus, rank   , False       , average        ,            7.0,              7,                 , Eliminated Week 8, False
+     4, Billy Ray Cyrus, rank   , False       , min            ,            7.0,              7,                 , Eliminated Week 8, False
+     4, Billy Ray Cyrus, rank   , True        , average        ,            8.0,              8,                 , Eliminated Week 8, False
+     4, Billy Ray Cyrus, rank   , True        , min            ,            8.0,              8,                 , Eliminated Week 8, False
+    11, Bristol Palin  , percent, False       ,                ,               ,             10,              1.0, 3rd Place        , True
+    11, Bristol Palin  , percent, True        ,                ,            9.0,              9,                 , 3rd Place        , False
+    11, Bristol Palin  , rank   , False       , average        ,               ,             10,              1.0, 3rd Place        , True
+    11, Bristol Palin  , rank   , False       , min            ,               ,             10,              1.0, 3rd Place        , True
+    11, Bristol Palin  , rank   , True        , average        ,            9.0,              9,                 , 3rd Place        , False
+    11, Bristol Palin  , rank   , True        , min            ,            9.0,              9,                 , 3rd Place        , False
+    27, Bobby Bones    , percent, False       ,                ,               ,              9,              1.0, 1st Place        , True
+    27, Bobby Bones    , percent, True        ,                ,            8.0,              8,                 , 1st Place        , False
+    27, Bobby Bones    , rank   , False       , average        ,               ,              9,              2.0, 1st Place        , True
+    27, Bobby Bones    , rank   , False       , min            ,               ,              9,              2.0, 1st Place        , True
+    27, Bobby Bones    , rank   , True        , average        ,               ,              9,              1.0, 1st Place        , True
+    27, Bobby Bones    , rank   , True        , min            ,               ,              9,              1.0, 1st Place        , True

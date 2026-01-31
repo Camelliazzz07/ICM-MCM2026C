@@ -1,0 +1,739 @@
+season, method , bottom2_save, rank_tie_method, week, celebrity_name       , pred_final_place, combined
+     1, percent, False       ,                ,    6, John O'Hurley        ,                1, 1.1258269723402252
+     1, percent, False       ,                ,    6, Kelly Monaco         ,                2, 0.8741728488458405
+     1, percent, False       ,                ,    6, Joey McIntyre        ,                3, 0.3333333333333333
+     1, percent, True        ,                ,    6, John O'Hurley        ,                1, 1.1258269723402252
+     1, percent, True        ,                ,    6, Kelly Monaco         ,                2, 0.8741728488458405
+     1, percent, True        ,                ,    6, Joey McIntyre        ,                3, 0.3333333333333333
+     1, rank   , False       , min            ,    6, John O'Hurley        ,                1, 3.0
+     1, rank   , False       , min            ,    6, Kelly Monaco         ,                2, 3.0
+     1, rank   , False       , min            ,    6, Joey McIntyre        ,                3, 6.0
+     1, rank   , True        , min            ,    6, John O'Hurley        ,                1, 2.0
+     1, rank   , True        , min            ,    6, Joey McIntyre        ,                2, 4.0
+     1, rank   , True        , min            ,    6, Rachel Hunter        ,                3, 4.0
+     1, rank   , False       , average        ,    6, John O'Hurley        ,                1, 3.0
+     1, rank   , False       , average        ,    6, Kelly Monaco         ,                2, 3.0
+     1, rank   , False       , average        ,    6, Joey McIntyre        ,                3, 6.0
+     1, rank   , True        , average        ,    6, John O'Hurley        ,                1, 2.0
+     1, rank   , True        , average        ,    6, Joey McIntyre        ,                2, 5.0
+     1, rank   , True        , average        ,    6, Rachel Hunter        ,                3, 5.0
+     2, percent, False       ,                ,    8, Jerry Rice           ,                1, 0.8536203821982542
+     2, percent, False       ,                ,    8, Drew Lachey          ,                2, 0.6230566287628707
+     2, percent, False       ,                ,    8, Stacy Keibler        ,                3, 0.5233229294342302
+     2, percent, True        ,                ,    8, Jerry Rice           ,                1, 0.8536203821982542
+     2, percent, True        ,                ,    8, Drew Lachey          ,                2, 0.6230566287628707
+     2, percent, True        ,                ,    8, Stacy Keibler        ,                3, 0.5233229294342302
+     2, rank   , False       , min            ,    8, Drew Lachey          ,                1, 3.0
+     2, rank   , False       , min            ,    8, Jerry Rice           ,                2, 4.0
+     2, rank   , False       , min            ,    8, Stacy Keibler        ,                3, 5.0
+     2, rank   , True        , min            ,    8, Drew Lachey          ,                1, 3.0
+     2, rank   , True        , min            ,    8, Lisa Rinna           ,                2, 4.0
+     2, rank   , True        , min            ,    8, Stacy Keibler        ,                3, 5.0
+     2, rank   , False       , average        ,    8, Drew Lachey          ,                1, 3.0
+     2, rank   , False       , average        ,    8, Jerry Rice           ,                2, 4.0
+     2, rank   , False       , average        ,    8, Stacy Keibler        ,                3, 5.0
+     2, rank   , True        , average        ,    8, Drew Lachey          ,                1, 3.0
+     2, rank   , True        , average        ,    8, Lisa Rinna           ,                2, 4.0
+     2, rank   , True        , average        ,    8, Stacy Keibler        ,                3, 5.0
+     3, percent, False       ,                ,   10, Emmitt Smith         ,                1, 1.0188881158828735
+     3, percent, False       ,                ,   10, Mario Lopez          ,                2, 0.9811118245124817
+     3, percent, False       ,                ,   10, Joey Lawrence        ,                3, 0.25
+     3, percent, False       ,                ,   10, Monique Coleman      ,                4, 0.25
+     3, percent, True        ,                ,   10, Emmitt Smith         ,                1, 1.0188881158828735
+     3, percent, True        ,                ,   10, Mario Lopez          ,                2, 0.9811118245124817
+     3, percent, True        ,                ,   10, Joey Lawrence        ,                3, 0.25
+     3, percent, True        ,                ,   10, Monique Coleman      ,                4, 0.25
+     3, rank   , False       , min            ,   10, Emmitt Smith         ,                1, 2.0
+     3, rank   , False       , min            ,   10, Mario Lopez          ,                2, 3.0
+     3, rank   , False       , min            ,   10, Joey Lawrence        ,                3, 6.0
+     3, rank   , False       , min            ,   10, Willa Ford           ,                4, 6.0
+     3, rank   , True        , min            ,   10, Emmitt Smith         ,                1, 2.0
+     3, rank   , True        , min            ,   10, Mario Lopez          ,                2, 3.0
+     3, rank   , True        , min            ,   10, Joey Lawrence        ,                3, 6.0
+     3, rank   , True        , min            ,   10, Monique Coleman      ,                4, 6.0
+     3, rank   , False       , average        ,   10, Emmitt Smith         ,                1, 2.5
+     3, rank   , False       , average        ,   10, Mario Lopez          ,                2, 3.5
+     3, rank   , False       , average        ,   10, Joey Lawrence        ,                3, 7.0
+     3, rank   , False       , average        ,   10, Willa Ford           ,                4, 7.0
+     3, rank   , True        , average        ,   10, Emmitt Smith         ,                1, 2.5
+     3, rank   , True        , average        ,   10, Mario Lopez          ,                2, 3.5
+     3, rank   , True        , average        ,   10, Joey Lawrence        ,                3, 7.0
+     3, rank   , True        , average        ,   10, Monique Coleman      ,                4, 7.0
+     4, percent, False       ,                ,   10, Apolo Anton Ohno     ,                1, 0.6775501088732425
+     4, percent, False       ,                ,   10, Joey Fatone          ,                2, 0.6724489395552137
+     4, percent, False       ,                ,   10, Laila Ali            ,                3, 0.6500011005831556
+     4, percent, True        ,                ,   10, Apolo Anton Ohno     ,                1, 0.6775501088732425
+     4, percent, True        ,                ,   10, Joey Fatone          ,                2, 0.6724489395552137
+     4, percent, True        ,                ,   10, Laila Ali            ,                3, 0.6500011005831556
+     4, rank   , False       , min            ,   10, Joey Fatone          ,                1, 3.0
+     4, rank   , False       , min            ,   10, Apolo Anton Ohno     ,                2, 3.0
+     4, rank   , False       , min            ,   10, Laila Ali            ,                3, 6.0
+     4, rank   , True        , min            ,   10, Joey Fatone          ,                1, 3.0
+     4, rank   , True        , min            ,   10, Apolo Anton Ohno     ,                2, 3.0
+     4, rank   , True        , min            ,   10, Laila Ali            ,                3, 6.0
+     4, rank   , False       , average        ,   10, Joey Fatone          ,                1, 3.0
+     4, rank   , False       , average        ,   10, Apolo Anton Ohno     ,                2, 3.0
+     4, rank   , False       , average        ,   10, Laila Ali            ,                3, 6.0
+     4, rank   , True        , average        ,   10, Joey Fatone          ,                1, 3.0
+     4, rank   , True        , average        ,   10, Apolo Anton Ohno     ,                2, 3.0
+     4, rank   , True        , average        ,   10, Laila Ali            ,                3, 6.0
+     5, percent, False       ,                ,   10, Mel B                ,                1, 0.6916019787333088
+     5, percent, False       ,                ,   10, Helio Castroneves    ,                2, 0.6770907414540109
+     5, percent, False       ,                ,   10, Marie Osmond         ,                3, 0.6313074288242921
+     5, percent, True        ,                ,   10, Mel B                ,                1, 0.6916019787333088
+     5, percent, True        ,                ,   10, Helio Castroneves    ,                2, 0.6770907414540109
+     5, percent, True        ,                ,   10, Marie Osmond         ,                3, 0.6313074288242921
+     5, rank   , False       , min            ,   10, Mel B                ,                1, 3.0
+     5, rank   , False       , min            ,   10, Marie Osmond         ,                2, 4.0
+     5, rank   , False       , min            ,   10, Helio Castroneves    ,                3, 5.0
+     5, rank   , True        , min            ,   10, Mel B                ,                1, 3.0
+     5, rank   , True        , min            ,   10, Marie Osmond         ,                2, 4.0
+     5, rank   , True        , min            ,   10, Helio Castroneves    ,                3, 5.0
+     5, rank   , False       , average        ,   10, Mel B                ,                1, 3.0
+     5, rank   , False       , average        ,   10, Marie Osmond         ,                2, 4.0
+     5, rank   , False       , average        ,   10, Helio Castroneves    ,                3, 5.0
+     5, rank   , True        , average        ,   10, Mel B                ,                1, 3.0
+     5, rank   , True        , average        ,   10, Marie Osmond         ,                2, 4.0
+     5, rank   , True        , average        ,   10, Helio Castroneves    ,                3, 5.0
+     6, percent, False       ,                ,   10, Jason Taylor         ,                1, 0.698017427025462
+     6, percent, False       ,                ,   10, Kristi Yamaguchi     ,                2, 0.6589751867852973
+     6, percent, False       ,                ,   10, Cristian de la Fuente,                3, 0.6430073563869183
+     6, percent, True        ,                ,   10, Jason Taylor         ,                1, 0.698017427025462
+     6, percent, True        ,                ,   10, Kristi Yamaguchi     ,                2, 0.6589751867852973
+     6, percent, True        ,                ,   10, Cristian de la Fuente,                3, 0.6430073563869183
+     6, rank   , False       , min            ,   10, Jason Taylor         ,                1, 3.0
+     6, rank   , False       , min            ,   10, Kristi Yamaguchi     ,                2, 4.0
+     6, rank   , False       , min            ,   10, Cristian de la Fuente,                3, 5.0
+     6, rank   , True        , min            ,   10, Jason Taylor         ,                1, 3.0
+     6, rank   , True        , min            ,   10, Kristi Yamaguchi     ,                2, 4.0
+     6, rank   , True        , min            ,   10, Cristian de la Fuente,                3, 5.0
+     6, rank   , False       , average        ,   10, Jason Taylor         ,                1, 3.0
+     6, rank   , False       , average        ,   10, Kristi Yamaguchi     ,                2, 4.0
+     6, rank   , False       , average        ,   10, Cristian de la Fuente,                3, 5.0
+     6, rank   , True        , average        ,   10, Jason Taylor         ,                1, 3.0
+     6, rank   , True        , average        ,   10, Kristi Yamaguchi     ,                2, 4.0
+     6, rank   , True        , average        ,   10, Cristian de la Fuente,                3, 5.0
+     7, percent, False       ,                ,   10, Brooke Burke         ,                1, 0.6998533220852123
+     7, percent, False       ,                ,   10, Lance Bass           ,                2, 0.6503079130369074
+     7, percent, False       ,                ,   10, Warren Sapp          ,                3, 0.6498387648778803
+     7, percent, False       ,                ,   10, Cody Linley          ,                4, 0.25
+     7, percent, True        ,                ,   10, Brooke Burke         ,                1, 0.6998533220852123
+     7, percent, True        ,                ,   10, Lance Bass           ,                2, 0.6503079130369074
+     7, percent, True        ,                ,   10, Warren Sapp          ,                3, 0.6498387648778803
+     7, percent, True        ,                ,   10, Cody Linley          ,                4, 0.25
+     7, rank   , False       , min            ,   10, Brooke Burke         ,                1, 2.0
+     7, rank   , False       , min            ,   10, Lance Bass           ,                2, 4.0
+     7, rank   , False       , min            ,   10, Warren Sapp          ,                3, 5.0
+     7, rank   , False       , min            ,   10, Maurice Greene       ,                4, 8.0
+     7, rank   , True        , min            ,   10, Brooke Burke         ,                1, 2.0
+     7, rank   , True        , min            ,   10, Lance Bass           ,                2, 4.0
+     7, rank   , True        , min            ,   10, Warren Sapp          ,                3, 5.0
+     7, rank   , True        , min            ,   10, Cody Linley          ,                4, 8.0
+     7, rank   , False       , average        ,   10, Brooke Burke         ,                1, 2.0
+     7, rank   , False       , average        ,   10, Lance Bass           ,                2, 4.5
+     7, rank   , False       , average        ,   10, Warren Sapp          ,                3, 5.5
+     7, rank   , False       , average        ,   10, Maurice Greene       ,                4, 8.0
+     7, rank   , True        , average        ,   10, Brooke Burke         ,                1, 2.0
+     7, rank   , True        , average        ,   10, Lance Bass           ,                2, 4.5
+     7, rank   , True        , average        ,   10, Warren Sapp          ,                3, 5.5
+     7, rank   , True        , average        ,   10, Cody Linley          ,                4, 8.0
+     8, percent, False       ,                ,   11, Gilles Marini        ,                1, 0.6790551085131509
+     8, percent, False       ,                ,   11, Shawn Johnson        ,                2, 0.6617911960397447
+     8, percent, False       ,                ,   11, Melissa Rycroft      ,                3, 0.6591537252494267
+     8, percent, True        ,                ,   11, Gilles Marini        ,                1, 0.6790551085131509
+     8, percent, True        ,                ,   11, Shawn Johnson        ,                2, 0.6617911960397447
+     8, percent, True        ,                ,   11, Melissa Rycroft      ,                3, 0.6591537252494267
+     8, rank   , False       , min            ,   11, Gilles Marini        ,                1, 3.0
+     8, rank   , False       , min            ,   11, Shawn Johnson        ,                2, 4.0
+     8, rank   , False       , min            ,   11, Melissa Rycroft      ,                3, 5.0
+     8, rank   , True        , min            ,   11, Gilles Marini        ,                1, 3.0
+     8, rank   , True        , min            ,   11, Shawn Johnson        ,                2, 4.0
+     8, rank   , True        , min            ,   11, Melissa Rycroft      ,                3, 5.0
+     8, rank   , False       , average        ,   11, Gilles Marini        ,                1, 3.0
+     8, rank   , False       , average        ,   11, Shawn Johnson        ,                2, 4.0
+     8, rank   , False       , average        ,   11, Melissa Rycroft      ,                3, 5.0
+     8, rank   , True        , average        ,   11, Gilles Marini        ,                1, 3.0
+     8, rank   , True        , average        ,   11, Shawn Johnson        ,                2, 4.0
+     8, rank   , True        , average        ,   11, Melissa Rycroft      ,                3, 5.0
+     9, percent, False       ,                ,   10, Donny Osmond         ,                1, 0.7015642935373428
+     9, percent, False       ,                ,   10, Kelly Osbourne       ,                2, 0.6581976045906645
+     9, percent, False       ,                ,   10, Mya                  ,                3, 0.6402380720696703
+     9, percent, False       ,                ,   10, Joanna Krupa         ,                4, 0.25
+     9, percent, True        ,                ,   10, Donny Osmond         ,                1, 0.7015642935373428
+     9, percent, True        ,                ,   10, Kelly Osbourne       ,                2, 0.6581976045906645
+     9, percent, True        ,                ,   10, Mya                  ,                3, 0.6402380720696703
+     9, percent, True        ,                ,   10, Joanna Krupa         ,                4, 0.25
+     9, rank   , False       , min            ,   10, Donny Osmond         ,                1, 3.0
+     9, rank   , False       , min            ,   10, Kelly Osbourne       ,                2, 4.0
+     9, rank   , False       , min            ,   10, Mya                  ,                3, 5.0
+     9, rank   , False       , min            ,   10, Joanna Krupa         ,                4, 8.0
+     9, rank   , True        , min            ,   10, Donny Osmond         ,                1, 3.0
+     9, rank   , True        , min            ,   10, Kelly Osbourne       ,                2, 4.0
+     9, rank   , True        , min            ,   10, Mya                  ,                3, 5.0
+     9, rank   , True        , min            ,   10, Joanna Krupa         ,                4, 8.0
+     9, rank   , False       , average        ,   10, Donny Osmond         ,                1, 3.0
+     9, rank   , False       , average        ,   10, Kelly Osbourne       ,                2, 4.0
+     9, rank   , False       , average        ,   10, Mya                  ,                3, 5.0
+     9, rank   , False       , average        ,   10, Joanna Krupa         ,                4, 8.0
+     9, rank   , True        , average        ,   10, Donny Osmond         ,                1, 3.0
+     9, rank   , True        , average        ,   10, Kelly Osbourne       ,                2, 4.0
+     9, rank   , True        , average        ,   10, Mya                  ,                3, 5.0
+     9, rank   , True        , average        ,   10, Joanna Krupa         ,                4, 8.0
+    10, percent, False       ,                ,   10, Nicole Scherzinger   ,                1, 0.6694869551234326
+    10, percent, False       ,                ,   10, Erin Andrews         ,                2, 0.6689753871709582
+    10, percent, False       ,                ,   10, Evan Lysacek         ,                3, 0.6615376577056093
+    10, percent, True        ,                ,   10, Nicole Scherzinger   ,                1, 0.6694869551234326
+    10, percent, True        ,                ,   10, Erin Andrews         ,                2, 0.6689753871709582
+    10, percent, True        ,                ,   10, Evan Lysacek         ,                3, 0.6615376577056093
+    10, rank   , False       , min            ,   10, Erin Andrews         ,                1, 3.0
+    10, rank   , False       , min            ,   10, Nicole Scherzinger   ,                2, 4.0
+    10, rank   , False       , min            ,   10, Evan Lysacek         ,                3, 5.0
+    10, rank   , True        , min            ,   10, Erin Andrews         ,                1, 3.0
+    10, rank   , True        , min            ,   10, Nicole Scherzinger   ,                2, 4.0
+    10, rank   , True        , min            ,   10, Evan Lysacek         ,                3, 5.0
+    10, rank   , False       , average        ,   10, Erin Andrews         ,                1, 3.0
+    10, rank   , False       , average        ,   10, Nicole Scherzinger   ,                2, 4.0
+    10, rank   , False       , average        ,   10, Evan Lysacek         ,                3, 5.0
+    10, rank   , True        , average        ,   10, Erin Andrews         ,                1, 3.0
+    10, rank   , True        , average        ,   10, Nicole Scherzinger   ,                2, 4.0
+    10, rank   , True        , average        ,   10, Evan Lysacek         ,                3, 5.0
+    11, percent, False       ,                ,   10, Bristol Palin        ,                1, 0.6960836108997779
+    11, percent, False       ,                ,   10, Jennifer Grey        ,                2, 0.6662788741658376
+    11, percent, False       ,                ,   10, Kyle Massey          ,                3, 0.6376375447367068
+    11, percent, True        ,                ,   10, Jennifer Grey        ,                1, 0.8280892509078188
+    11, percent, True        ,                ,   10, Kyle Massey          ,                2, 0.7850640577221707
+    11, percent, True        ,                ,   10, Brandy               ,                3, 0.3333333333333333
+    11, rank   , False       , min            ,   10, Bristol Palin        ,                1, 4.0
+    11, rank   , False       , min            ,   10, Kyle Massey          ,                2, 4.0
+    11, rank   , False       , min            ,   10, Jennifer Grey        ,                3, 4.0
+    11, rank   , True        , min            ,   10, Brandy               ,                1, 4.0
+    11, rank   , True        , min            ,   10, Kyle Massey          ,                2, 4.0
+    11, rank   , True        , min            ,   10, Jennifer Grey        ,                3, 4.0
+    11, rank   , False       , average        ,   10, Bristol Palin        ,                1, 4.0
+    11, rank   , False       , average        ,   10, Kyle Massey          ,                2, 4.0
+    11, rank   , False       , average        ,   10, Jennifer Grey        ,                3, 4.0
+    11, rank   , True        , average        ,   10, Brandy               ,                1, 4.0
+    11, rank   , True        , average        ,   10, Kyle Massey          ,                2, 4.0
+    11, rank   , True        , average        ,   10, Jennifer Grey        ,                3, 4.0
+    12, percent, False       ,                ,   10, Hines Ward           ,                1, 0.7009559002882497
+    12, percent, False       ,                ,   10, Kirstie Alley        ,                2, 0.6745314245688405
+    12, percent, False       ,                ,   10, Chelsea Kane         ,                3, 0.6245125857359426
+    12, percent, True        ,                ,   10, Hines Ward           ,                1, 0.7009559002882497
+    12, percent, True        ,                ,   10, Kirstie Alley        ,                2, 0.6745314245688405
+    12, percent, True        ,                ,   10, Chelsea Kane         ,                3, 0.6245125857359426
+    12, rank   , False       , min            ,   10, Hines Ward           ,                1, 2.0
+    12, rank   , False       , min            ,   10, Chelsea Kane         ,                2, 4.0
+    12, rank   , False       , min            ,   10, Kirstie Alley        ,                3, 5.0
+    12, rank   , True        , min            ,   10, Hines Ward           ,                1, 2.0
+    12, rank   , True        , min            ,   10, Chelsea Kane         ,                2, 4.0
+    12, rank   , True        , min            ,   10, Kirstie Alley        ,                3, 5.0
+    12, rank   , False       , average        ,   10, Hines Ward           ,                1, 2.5
+    12, rank   , False       , average        ,   10, Chelsea Kane         ,                2, 4.5
+    12, rank   , False       , average        ,   10, Kirstie Alley        ,                3, 5.0
+    12, rank   , True        , average        ,   10, Hines Ward           ,                1, 2.5
+    12, rank   , True        , average        ,   10, Chelsea Kane         ,                2, 4.5
+    12, rank   , True        , average        ,   10, Kirstie Alley        ,                3, 5.0
+    13, percent, False       ,                ,   10, J.R. Martinez        ,                1, 0.6975248286170268
+    13, percent, False       ,                ,   10, Ricki Lake           ,                2, 0.6562932812650215
+    13, percent, False       ,                ,   10, Rob Kardashian       ,                3, 0.6461819795249188
+    13, percent, True        ,                ,   10, J.R. Martinez        ,                1, 0.6975248286170268
+    13, percent, True        ,                ,   10, Ricki Lake           ,                2, 0.6562932812650215
+    13, percent, True        ,                ,   10, Rob Kardashian       ,                3, 0.6461819795249188
+    13, rank   , False       , min            ,   10, J.R. Martinez        ,                1, 3.0
+    13, rank   , False       , min            ,   10, Rob Kardashian       ,                2, 4.0
+    13, rank   , False       , min            ,   10, Ricki Lake           ,                3, 5.0
+    13, rank   , True        , min            ,   10, J.R. Martinez        ,                1, 3.0
+    13, rank   , True        , min            ,   10, Rob Kardashian       ,                2, 4.0
+    13, rank   , True        , min            ,   10, Ricki Lake           ,                3, 5.0
+    13, rank   , False       , average        ,   10, J.R. Martinez        ,                1, 3.0
+    13, rank   , False       , average        ,   10, Rob Kardashian       ,                2, 4.0
+    13, rank   , False       , average        ,   10, Ricki Lake           ,                3, 5.0
+    13, rank   , True        , average        ,   10, J.R. Martinez        ,                1, 3.0
+    13, rank   , True        , average        ,   10, Rob Kardashian       ,                2, 4.0
+    13, rank   , True        , average        ,   10, Ricki Lake           ,                3, 5.0
+    14, percent, False       ,                ,   10, Donald Driver        ,                1, 0.6891095307270043
+    14, percent, False       ,                ,   10, Katherine Jenkins    ,                2, 0.6569013661544811
+    14, percent, False       ,                ,   10, William Levy         ,                3, 0.6539889541069024
+    14, percent, True        ,                ,   10, Donald Driver        ,                1, 0.6891095307270043
+    14, percent, True        ,                ,   10, Katherine Jenkins    ,                2, 0.6569013661544811
+    14, percent, True        ,                ,   10, William Levy         ,                3, 0.6539889541069024
+    14, rank   , False       , min            ,   10, Donald Driver        ,                1, 3.0
+    14, rank   , False       , min            ,   10, William Levy         ,                2, 4.0
+    14, rank   , False       , min            ,   10, Katherine Jenkins    ,                3, 4.0
+    14, rank   , True        , min            ,   10, Donald Driver        ,                1, 3.0
+    14, rank   , True        , min            ,   10, William Levy         ,                2, 4.0
+    14, rank   , True        , min            ,   10, Katherine Jenkins    ,                3, 4.0
+    14, rank   , False       , average        ,   10, Donald Driver        ,                1, 3.5
+    14, rank   , False       , average        ,   10, Katherine Jenkins    ,                2, 4.0
+    14, rank   , False       , average        ,   10, William Levy         ,                3, 4.5
+    14, rank   , True        , average        ,   10, Donald Driver        ,                1, 3.5
+    14, rank   , True        , average        ,   10, Katherine Jenkins    ,                2, 4.0
+    14, rank   , True        , average        ,   10, William Levy         ,                3, 4.5
+    15, percent, False       ,                ,   10, Melissa Rycroft      ,                1, 0.6969750354248588
+    15, percent, False       ,                ,   10, Kelly Monaco         ,                2, 0.6618592272407942
+    15, percent, False       ,                ,   10, Shawn Johnson        ,                3, 0.6411657969389917
+    15, percent, True        ,                ,   10, Melissa Rycroft      ,                1, 0.6969750354248588
+    15, percent, True        ,                ,   10, Kelly Monaco         ,                2, 0.6618592272407942
+    15, percent, True        ,                ,   10, Shawn Johnson        ,                3, 0.6411657969389917
+    15, rank   , False       , min            ,   10, Melissa Rycroft      ,                1, 2.0
+    15, rank   , False       , min            ,   10, Kelly Monaco         ,                2, 4.0
+    15, rank   , False       , min            ,   10, Shawn Johnson        ,                3, 6.0
+    15, rank   , True        , min            ,   10, Melissa Rycroft      ,                1, 2.0
+    15, rank   , True        , min            ,   10, Kelly Monaco         ,                2, 4.0
+    15, rank   , True        , min            ,   10, Shawn Johnson        ,                3, 6.0
+    15, rank   , False       , average        ,   10, Melissa Rycroft      ,                1, 2.0
+    15, rank   , False       , average        ,   10, Kelly Monaco         ,                2, 4.0
+    15, rank   , False       , average        ,   10, Shawn Johnson        ,                3, 6.0
+    15, rank   , True        , average        ,   10, Melissa Rycroft      ,                1, 2.0
+    15, rank   , True        , average        ,   10, Kelly Monaco         ,                2, 4.0
+    15, rank   , True        , average        ,   10, Shawn Johnson        ,                3, 6.0
+    16, percent, False       ,                ,   10, Zendaya              ,                1, 0.5804493685488992
+    16, percent, False       ,                ,   10, Kellie Pickler       ,                2, 0.5729411204581552
+    16, percent, False       ,                ,   10, Jacoby Jones         ,                3, 0.5533482033897328
+    16, percent, False       ,                ,   10, Alexandra Raisman    ,                4, 0.29326145661482456
+    16, percent, True        ,                ,   10, Zendaya              ,                1, 0.5804493685488992
+    16, percent, True        ,                ,   10, Kellie Pickler       ,                2, 0.5729411204581552
+    16, percent, True        ,                ,   10, Jacoby Jones         ,                3, 0.5533482033897328
+    16, percent, True        ,                ,   10, Alexandra Raisman    ,                4, 0.29326145661482456
+    16, rank   , False       , min            ,   10, Zendaya              ,                1, 2.0
+    16, rank   , False       , min            ,   10, Kellie Pickler       ,                2, 3.0
+    16, rank   , False       , min            ,   10, Jacoby Jones         ,                3, 7.0
+    16, rank   , False       , min            ,   10, Alexandra Raisman    ,                4, 7.0
+    16, rank   , True        , min            ,   10, Zendaya              ,                1, 2.0
+    16, rank   , True        , min            ,   10, Kellie Pickler       ,                2, 3.0
+    16, rank   , True        , min            ,   10, Jacoby Jones         ,                3, 7.0
+    16, rank   , True        , min            ,   10, Alexandra Raisman    ,                4, 7.0
+    16, rank   , False       , average        ,   10, Zendaya              ,                1, 2.5
+    16, rank   , False       , average        ,   10, Kellie Pickler       ,                2, 3.5
+    16, rank   , False       , average        ,   10, Jacoby Jones         ,                3, 7.0
+    16, rank   , False       , average        ,   10, Alexandra Raisman    ,                4, 7.0
+    16, rank   , True        , average        ,   10, Zendaya              ,                1, 2.5
+    16, rank   , True        , average        ,   10, Kellie Pickler       ,                2, 3.5
+    16, rank   , True        , average        ,   10, Jacoby Jones         ,                3, 7.0
+    16, rank   , True        , average        ,   10, Alexandra Raisman    ,                4, 7.0
+    17, percent, False       ,                ,   11, Jack Osbourne        ,                1, 0.6725308633228568
+    17, percent, False       ,                ,   11, Amber Riley          ,                2, 0.6497302625741372
+    17, percent, False       ,                ,   11, Corbin Bleu          ,                3, 0.6253311027540525
+    17, percent, True        ,                ,   11, Jack Osbourne        ,                1, 0.6725308633228568
+    17, percent, True        ,                ,   11, Amber Riley          ,                2, 0.6497302625741372
+    17, percent, True        ,                ,   11, Corbin Bleu          ,                3, 0.6253311027540525
+    17, rank   , False       , min            ,   11, Amber Riley          ,                1, 3.0
+    17, rank   , False       , min            ,   11, Jack Osbourne        ,                2, 4.0
+    17, rank   , False       , min            ,   11, Corbin Bleu          ,                3, 5.0
+    17, rank   , True        , min            ,   11, Amber Riley          ,                1, 3.0
+    17, rank   , True        , min            ,   11, Jack Osbourne        ,                2, 4.0
+    17, rank   , True        , min            ,   11, Corbin Bleu          ,                3, 5.0
+    17, rank   , False       , average        ,   11, Amber Riley          ,                1, 3.0
+    17, rank   , False       , average        ,   11, Jack Osbourne        ,                2, 4.0
+    17, rank   , False       , average        ,   11, Corbin Bleu          ,                3, 5.0
+    17, rank   , True        , average        ,   11, Amber Riley          ,                1, 3.0
+    17, rank   , True        , average        ,   11, Jack Osbourne        ,                2, 4.0
+    17, rank   , True        , average        ,   11, Corbin Bleu          ,                3, 5.0
+    18, percent, False       ,                ,   10, Candace Cameron Bure ,                1, 0.5796407622242764
+    18, percent, False       ,                ,   10, Amy Purdy            ,                2, 0.5656332236824022
+    18, percent, False       ,                ,   10, Meryl Davis          ,                3, 0.5557946333217225
+    18, percent, False       ,                ,   10, James Maslow         ,                4, 0.298931347243986
+    18, percent, True        ,                ,   10, Candace Cameron Bure ,                1, 0.5796407622242764
+    18, percent, True        ,                ,   10, Amy Purdy            ,                2, 0.5656332236824022
+    18, percent, True        ,                ,   10, Meryl Davis          ,                3, 0.5557946333217225
+    18, percent, True        ,                ,   10, James Maslow         ,                4, 0.298931347243986
+    18, rank   , False       , min            ,   10, Amy Purdy            ,                1, 4.0
+    18, rank   , False       , min            ,   10, Meryl Davis          ,                2, 4.0
+    18, rank   , False       , min            ,   10, Candace Cameron Bure ,                3, 5.0
+    18, rank   , False       , min            ,   10, James Maslow         ,                4, 7.0
+    18, rank   , True        , min            ,   10, Amy Purdy            ,                1, 4.0
+    18, rank   , True        , min            ,   10, Meryl Davis          ,                2, 4.0
+    18, rank   , True        , min            ,   10, Candace Cameron Bure ,                3, 5.0
+    18, rank   , True        , min            ,   10, James Maslow         ,                4, 7.0
+    18, rank   , False       , average        ,   10, Amy Purdy            ,                1, 4.0
+    18, rank   , False       , average        ,   10, Meryl Davis          ,                2, 4.0
+    18, rank   , False       , average        ,   10, Candace Cameron Bure ,                3, 5.0
+    18, rank   , False       , average        ,   10, James Maslow         ,                4, 7.0
+    18, rank   , True        , average        ,   10, Amy Purdy            ,                1, 4.0
+    18, rank   , True        , average        ,   10, Meryl Davis          ,                2, 4.0
+    18, rank   , True        , average        ,   10, Candace Cameron Bure ,                3, 5.0
+    18, rank   , True        , average        ,   10, James Maslow         ,                4, 7.0
+    19, percent, False       ,                ,   11, Janel Parrish        ,                1, 0.6636025330634077
+    19, percent, False       ,                ,   11, Sadie Robertson      ,                2, 0.6542555918596973
+    19, percent, False       ,                ,   11, Alfonso Ribeiro      ,                3, 0.6396877813822082
+    19, percent, True        ,                ,   11, Janel Parrish        ,                1, 0.6636025330634077
+    19, percent, True        ,                ,   11, Sadie Robertson      ,                2, 0.6542555918596973
+    19, percent, True        ,                ,   11, Alfonso Ribeiro      ,                3, 0.6396877813822082
+    19, rank   , False       , min            ,   11, Janel Parrish        ,                1, 4.0
+    19, rank   , False       , min            ,   11, Sadie Robertson      ,                2, 4.0
+    19, rank   , False       , min            ,   11, Alfonso Ribeiro      ,                3, 4.0
+    19, rank   , True        , min            ,   11, Janel Parrish        ,                1, 4.0
+    19, rank   , True        , min            ,   11, Sadie Robertson      ,                2, 4.0
+    19, rank   , True        , min            ,   11, Alfonso Ribeiro      ,                3, 4.0
+    19, rank   , False       , average        ,   11, Janel Parrish        ,                1, 4.0
+    19, rank   , False       , average        ,   11, Sadie Robertson      ,                2, 4.0
+    19, rank   , False       , average        ,   11, Alfonso Ribeiro      ,                3, 4.0
+    19, rank   , True        , average        ,   11, Janel Parrish        ,                1, 4.0
+    19, rank   , True        , average        ,   11, Sadie Robertson      ,                2, 4.0
+    19, rank   , True        , average        ,   11, Alfonso Ribeiro      ,                3, 4.0
+    20, percent, False       ,                ,   10, Rumer Willis         ,                1, 0.6846789357991054
+    20, percent, False       ,                ,   10, Riker Lynch          ,                2, 0.6652224598259762
+    20, percent, False       ,                ,   10, Noah Galloway        ,                3, 0.6500984851656288
+    20, percent, True        ,                ,   10, Rumer Willis         ,                1, 0.8398513495922089
+    20, percent, True        ,                ,   10, Riker Lynch          ,                2, 0.8203948736190796
+    20, percent, True        ,                ,   10, Nastia Liukin        ,                3, 0.3333333333333333
+    20, rank   , False       , min            ,   10, Rumer Willis         ,                1, 2.0
+    20, rank   , False       , min            ,   10, Riker Lynch          ,                2, 4.0
+    20, rank   , False       , min            ,   10, Nastia Liukin        ,                3, 5.0
+    20, rank   , True        , min            ,   10, Rumer Willis         ,                1, 2.0
+    20, rank   , True        , min            ,   10, Riker Lynch          ,                2, 4.0
+    20, rank   , True        , min            ,   10, Nastia Liukin        ,                3, 5.0
+    20, rank   , False       , average        ,   10, Rumer Willis         ,                1, 2.5
+    20, rank   , False       , average        ,   10, Riker Lynch          ,                2, 4.5
+    20, rank   , False       , average        ,   10, Nastia Liukin        ,                3, 5.0
+    20, rank   , True        , average        ,   10, Rumer Willis         ,                1, 2.5
+    20, rank   , True        , average        ,   10, Riker Lynch          ,                2, 4.5
+    20, rank   , True        , average        ,   10, Nastia Liukin        ,                3, 5.0
+    21, percent, False       ,                ,   11, Bindi Irwin          ,                1, 0.5823277242808782
+    21, percent, False       ,                ,   11, Nick Carter          ,                2, 0.5671902008681738
+    21, percent, False       ,                ,   11, Alek Skarlatos       ,                3, 0.5646149492772686
+    21, percent, False       ,                ,   11, Carlos PenaVega      ,                4, 0.285867311838194
+    21, percent, False       ,                ,   11, Tamar Braxton        ,                5, 0.2
+    21, percent, True        ,                ,   11, Bindi Irwin          ,                1, 0.5823277242808782
+    21, percent, True        ,                ,   11, Nick Carter          ,                2, 0.5671902008681738
+    21, percent, True        ,                ,   11, Alek Skarlatos       ,                3, 0.5646149492772686
+    21, percent, True        ,                ,   11, Carlos PenaVega      ,                4, 0.285867311838194
+    21, percent, True        ,                ,   11, Tamar Braxton        ,                5, 0.2
+    21, rank   , False       , min            ,   11, Bindi Irwin          ,                1, 2.0
+    21, rank   , False       , min            ,   11, Nick Carter          ,                2, 4.0
+    21, rank   , False       , min            ,   11, Alek Skarlatos       ,                3, 6.0
+    21, rank   , False       , min            ,   11, Carlos PenaVega      ,                4, 6.0
+    21, rank   , False       , min            ,   11, Tamar Braxton        ,                5, 9.0
+    21, rank   , True        , min            ,   11, Bindi Irwin          ,                1, 2.0
+    21, rank   , True        , min            ,   11, Nick Carter          ,                2, 4.0
+    21, rank   , True        , min            ,   11, Alek Skarlatos       ,                3, 6.0
+    21, rank   , True        , min            ,   11, Carlos PenaVega      ,                4, 6.0
+    21, rank   , True        , min            ,   11, Tamar Braxton        ,                5, 9.0
+    21, rank   , False       , average        ,   11, Bindi Irwin          ,                1, 3.0
+    21, rank   , False       , average        ,   11, Nick Carter          ,                2, 5.0
+    21, rank   , False       , average        ,   11, Alek Skarlatos       ,                3, 6.0
+    21, rank   , False       , average        ,   11, Carlos PenaVega      ,                4, 7.0
+    21, rank   , False       , average        ,   11, Tamar Braxton        ,                5, 9.0
+    21, rank   , True        , average        ,   11, Bindi Irwin          ,                1, 3.0
+    21, rank   , True        , average        ,   11, Nick Carter          ,                2, 5.0
+    21, rank   , True        , average        ,   11, Alek Skarlatos       ,                3, 6.0
+    21, rank   , True        , average        ,   11, Carlos PenaVega      ,                4, 7.0
+    21, rank   , True        , average        ,   11, Tamar Braxton        ,                5, 9.0
+    22, percent, False       ,                ,   10, Nyle DiMarco         ,                1, 0.6947690532904869
+    22, percent, False       ,                ,   10, Paige VanZant        ,                2, 0.6587228669363391
+    22, percent, False       ,                ,   10, Ginger Zee           ,                3, 0.6465082585871083
+    22, percent, True        ,                ,   10, Nyle DiMarco         ,                1, 0.855753505867018
+    22, percent, True        ,                ,   10, Paige VanZant        ,                2, 0.8234088772125105
+    22, percent, True        ,                ,   10, Wanya Morris         ,                3, 0.3333333333333333
+    22, rank   , False       , min            ,   10, Nyle DiMarco         ,                1, 3.0
+    22, rank   , False       , min            ,   10, Paige VanZant        ,                2, 4.0
+    22, rank   , False       , min            ,   10, Wanya Morris         ,                3, 5.0
+    22, rank   , True        , min            ,   10, Nyle DiMarco         ,                1, 3.0
+    22, rank   , True        , min            ,   10, Paige VanZant        ,                2, 4.0
+    22, rank   , True        , min            ,   10, Ginger Zee           ,                3, 5.0
+    22, rank   , False       , average        ,   10, Nyle DiMarco         ,                1, 3.0
+    22, rank   , False       , average        ,   10, Paige VanZant        ,                2, 4.0
+    22, rank   , False       , average        ,   10, Wanya Morris         ,                3, 5.0
+    22, rank   , True        , average        ,   10, Nyle DiMarco         ,                1, 3.0
+    22, rank   , True        , average        ,   10, Paige VanZant        ,                2, 4.0
+    22, rank   , True        , average        ,   10, Ginger Zee           ,                3, 5.0
+    23, percent, False       ,                ,   11, Calvin Johnson Jr.   ,                1, 0.6621401935323279
+    23, percent, False       ,                ,   11, James Hinchcliffe    ,                2, 0.6559938856397346
+    23, percent, False       ,                ,   11, Laurie Hernandez     ,                3, 0.6334983311157947
+    23, percent, True        ,                ,   11, Calvin Johnson Jr.   ,                1, 0.6621401935323279
+    23, percent, True        ,                ,   11, James Hinchcliffe    ,                2, 0.6559938856397346
+    23, percent, True        ,                ,   11, Laurie Hernandez     ,                3, 0.6334983311157947
+    23, rank   , False       , min            ,   11, Calvin Johnson Jr.   ,                1, 4.0
+    23, rank   , False       , min            ,   11, James Hinchcliffe    ,                2, 4.0
+    23, rank   , False       , min            ,   11, Laurie Hernandez     ,                3, 4.0
+    23, rank   , True        , min            ,   11, James Hinchcliffe    ,                1, 3.0
+    23, rank   , True        , min            ,   11, Laurie Hernandez     ,                2, 3.0
+    23, rank   , True        , min            ,   11, Jana Kramer          ,                3, 6.0
+    23, rank   , False       , average        ,   11, Calvin Johnson Jr.   ,                1, 4.0
+    23, rank   , False       , average        ,   11, James Hinchcliffe    ,                2, 4.0
+    23, rank   , False       , average        ,   11, Laurie Hernandez     ,                3, 4.0
+    23, rank   , True        , average        ,   11, James Hinchcliffe    ,                1, 3.0
+    23, rank   , True        , average        ,   11, Laurie Hernandez     ,                2, 3.0
+    23, rank   , True        , average        ,   11, Jana Kramer          ,                3, 6.0
+    24, percent, False       ,                ,   10, Rashad Jennings      ,                1, 0.6919963087128042
+    24, percent, False       ,                ,   10, Normani              ,                2, 0.6582406868315808
+    24, percent, False       ,                ,   10, David Ross           ,                3, 0.6497630342579374
+    24, percent, True        ,                ,   10, Rashad Jennings      ,                1, 0.8501756870200572
+    24, percent, True        ,                ,   10, Normani              ,                2, 0.8150905585835042
+    24, percent, True        ,                ,   10, Simone Biles         ,                3, 0.3333333333333333
+    24, rank   , False       , min            ,   10, Rashad Jennings      ,                1, 2.0
+    24, rank   , False       , min            ,   10, David Ross           ,                2, 5.0
+    24, rank   , False       , min            ,   10, Normani              ,                3, 5.0
+    24, rank   , True        , min            ,   10, David Ross           ,                1, 3.0
+    24, rank   , True        , min            ,   10, Normani              ,                2, 4.0
+    24, rank   , True        , min            ,   10, Simone Biles         ,                3, 5.0
+    24, rank   , False       , average        ,   10, Rashad Jennings      ,                1, 2.0
+    24, rank   , False       , average        ,   10, David Ross           ,                2, 5.0
+    24, rank   , False       , average        ,   10, Normani              ,                3, 5.0
+    24, rank   , True        , average        ,   10, David Ross           ,                1, 3.0
+    24, rank   , True        , average        ,   10, Normani              ,                2, 4.0
+    24, rank   , True        , average        ,   10, Simone Biles         ,                3, 5.0
+    25, percent, False       ,                ,   10, Jordan Fisher        ,                1, 0.6540405316305835
+    25, percent, False       ,                ,   10, Lindsey Stirling     ,                2, 0.6486323339892108
+    25, percent, False       ,                ,   10, Frankie Muniz        ,                3, 0.6474123571013053
+    25, percent, True        ,                ,   10, Jordan Fisher        ,                1, 0.6540405316305835
+    25, percent, True        ,                ,   10, Lindsey Stirling     ,                2, 0.6486323339892108
+    25, percent, True        ,                ,   10, Frankie Muniz        ,                3, 0.6474123571013053
+    25, rank   , False       , min            ,   10, Jordan Fisher        ,                1, 3.0
+    25, rank   , False       , min            ,   10, Frankie Muniz        ,                2, 4.0
+    25, rank   , False       , min            ,   10, Lindsey Stirling     ,                3, 4.0
+    25, rank   , True        , min            ,   10, Jordan Fisher        ,                1, 3.0
+    25, rank   , True        , min            ,   10, Frankie Muniz        ,                2, 4.0
+    25, rank   , True        , min            ,   10, Lindsey Stirling     ,                3, 4.0
+    25, rank   , False       , average        ,   10, Jordan Fisher        ,                1, 3.5
+    25, rank   , False       , average        ,   10, Frankie Muniz        ,                2, 4.0
+    25, rank   , False       , average        ,   10, Lindsey Stirling     ,                3, 4.5
+    25, rank   , True        , average        ,   10, Jordan Fisher        ,                1, 3.5
+    25, rank   , True        , average        ,   10, Frankie Muniz        ,                2, 4.0
+    25, rank   , True        , average        ,   10, Lindsey Stirling     ,                3, 4.5
+    26, percent, False       ,                ,    4, Tonya Harding        ,                1, 0.6857627903857426
+    26, percent, False       ,                ,    4, Josh Norman          ,                2, 0.672036071618398
+    26, percent, False       ,                ,    4, Adam Rippon          ,                3, 0.6422008995772801
+    26, percent, True        ,                ,    4, Tonya Harding        ,                1, 0.6857627903857426
+    26, percent, True        ,                ,    4, Josh Norman          ,                2, 0.672036071618398
+    26, percent, True        ,                ,    4, Adam Rippon          ,                3, 0.6422008995772801
+    26, rank   , False       , min            ,    4, Tonya Harding        ,                1, 4.0
+    26, rank   , False       , min            ,    4, Josh Norman          ,                2, 4.0
+    26, rank   , False       , min            ,    4, Adam Rippon          ,                3, 4.0
+    26, rank   , True        , min            ,    4, Tonya Harding        ,                1, 4.0
+    26, rank   , True        , min            ,    4, Josh Norman          ,                2, 4.0
+    26, rank   , True        , min            ,    4, Adam Rippon          ,                3, 4.0
+    26, rank   , False       , average        ,    4, Tonya Harding        ,                1, 4.0
+    26, rank   , False       , average        ,    4, Josh Norman          ,                2, 4.0
+    26, rank   , False       , average        ,    4, Adam Rippon          ,                3, 4.0
+    26, rank   , True        , average        ,    4, Tonya Harding        ,                1, 4.0
+    26, rank   , True        , average        ,    4, Josh Norman          ,                2, 4.0
+    26, rank   , True        , average        ,    4, Adam Rippon          ,                3, 4.0
+    27, percent, False       ,                ,    9, Bobby Bones          ,                1, 0.5218253193737624
+    27, percent, False       ,                ,    9, Evanna Lynch         ,                2, 0.5077939445709253
+    27, percent, False       ,                ,    9, Milo Manheim         ,                3, 0.4859593028759027
+    27, percent, False       ,                ,    9, Alexis Ren           ,                4, 0.4844215821910214
+    27, percent, True        ,                ,    9, Evanna Lynch         ,                1, 0.5870367356781232
+    27, percent, True        ,                ,    9, Milo Manheim         ,                2, 0.5652020939831006
+    27, percent, True        ,                ,    9, Alexis Ren           ,                3, 0.5597022337428593
+    27, percent, True        ,                ,    9, Juan Pablo Di Pace   ,                4, 0.25
+    27, rank   , False       , min            ,    9, Evanna Lynch         ,                1, 3.0
+    27, rank   , False       , min            ,    9, Bobby Bones          ,                2, 5.0
+    27, rank   , False       , min            ,    9, Milo Manheim         ,                3, 5.0
+    27, rank   , False       , min            ,    9, Alexis Ren           ,                4, 6.0
+    27, rank   , True        , min            ,    9, Bobby Bones          ,                1, 4.0
+    27, rank   , True        , min            ,    9, Alexis Ren           ,                2, 5.0
+    27, rank   , True        , min            ,    9, Milo Manheim         ,                3, 5.0
+    27, rank   , True        , min            ,    9, Juan Pablo Di Pace   ,                4, 6.0
+    27, rank   , False       , average        ,    9, Evanna Lynch         ,                1, 3.5
+    27, rank   , False       , average        ,    9, Bobby Bones          ,                2, 5.0
+    27, rank   , False       , average        ,    9, Milo Manheim         ,                3, 5.5
+    27, rank   , False       , average        ,    9, Alexis Ren           ,                4, 6.0
+    27, rank   , True        , average        ,    9, Bobby Bones          ,                1, 4.0
+    27, rank   , True        , average        ,    9, Alexis Ren           ,                2, 5.0
+    27, rank   , True        , average        ,    9, Milo Manheim         ,                3, 5.0
+    27, rank   , True        , average        ,    9, Juan Pablo Di Pace   ,                4, 6.0
+    28, percent, False       ,                ,   11, Lauren Alaina        ,                1, 0.6029912080520239
+    28, percent, False       ,                ,   11, Ally Brooke          ,                2, 0.5372946415192041
+    28, percent, False       ,                ,   11, Hannah Brown         ,                3, 0.4401879011311083
+    28, percent, False       ,                ,   11, Kel Mitchell         ,                4, 0.41952608538489056
+    28, percent, False       ,                ,   11, James Van Der Beek   ,                5, 0.2
+    28, percent, True        ,                ,   11, Lauren Alaina        ,                1, 0.6029912080520239
+    28, percent, True        ,                ,   11, Ally Brooke          ,                2, 0.5372946415192041
+    28, percent, True        ,                ,   11, Hannah Brown         ,                3, 0.4401879011311083
+    28, percent, True        ,                ,   11, Kel Mitchell         ,                4, 0.41952608538489056
+    28, percent, True        ,                ,   11, James Van Der Beek   ,                5, 0.2
+    28, rank   , False       , min            ,   11, Ally Brooke          ,                1, 3.0
+    28, rank   , False       , min            ,   11, Lauren Alaina        ,                2, 4.0
+    28, rank   , False       , min            ,   11, Kate Flannery        ,                3, 7.0
+    28, rank   , False       , min            ,   11, Sailor Brinkley-Cook ,                4, 7.0
+    28, rank   , False       , min            ,   11, Kel Mitchell         ,                5, 7.0
+    28, rank   , True        , min            ,   11, Ally Brooke          ,                1, 3.0
+    28, rank   , True        , min            ,   11, Lauren Alaina        ,                2, 5.0
+    28, rank   , True        , min            ,   11, Hannah Brown         ,                3, 7.0
+    28, rank   , True        , min            ,   11, Kel Mitchell         ,                4, 7.0
+    28, rank   , True        , min            ,   11, James Van Der Beek   ,                5, 8.0
+    28, rank   , False       , average        ,   11, Ally Brooke          ,                1, 3.0
+    28, rank   , False       , average        ,   11, Lauren Alaina        ,                2, 4.0
+    28, rank   , False       , average        ,   11, Kel Mitchell         ,                3, 7.0
+    28, rank   , False       , average        ,   11, Kate Flannery        ,                4, 8.0
+    28, rank   , False       , average        ,   11, Sailor Brinkley-Cook ,                5, 8.0
+    28, rank   , True        , average        ,   11, Ally Brooke          ,                1, 3.0
+    28, rank   , True        , average        ,   11, Lauren Alaina        ,                2, 5.0
+    28, rank   , True        , average        ,   11, Hannah Brown         ,                3, 7.0
+    28, rank   , True        , average        ,   11, Kel Mitchell         ,                4, 7.0
+    28, rank   , True        , average        ,   11, James Van Der Beek   ,                5, 8.0
+    29, percent, False       ,                ,   11, Nelly                ,                1, 0.6640084167070026
+    29, percent, False       ,                ,   11, Justina Machado      ,                2, 0.49149530861951124
+    29, percent, False       ,                ,   11, Kaitlyn Bristowe     ,                3, 0.4397076788959623
+    29, percent, False       ,                ,   11, Nev Schulman         ,                4, 0.4047886106786848
+    29, percent, False       ,                ,   11, Skai Jackson         ,                5, 0.2
+    29, percent, True        ,                ,   11, Nelly                ,                1, 0.6640084167070026
+    29, percent, True        ,                ,   11, Justina Machado      ,                2, 0.49149530861951124
+    29, percent, True        ,                ,   11, Kaitlyn Bristowe     ,                3, 0.4397076788959623
+    29, percent, True        ,                ,   11, Nev Schulman         ,                4, 0.4047886106786848
+    29, percent, True        ,                ,   11, Skai Jackson         ,                5, 0.2
+    29, rank   , False       , min            ,   11, Justina Machado      ,                1, 3.0
+    29, rank   , False       , min            ,   11, Nelly                ,                2, 5.0
+    29, rank   , False       , min            ,   11, Kaitlyn Bristowe     ,                3, 5.0
+    29, rank   , False       , min            ,   11, Nev Schulman         ,                4, 6.0
+    29, rank   , False       , min            ,   11, Skai Jackson         ,                5, 8.0
+    29, rank   , True        , min            ,   11, Justina Machado      ,                1, 3.0
+    29, rank   , True        , min            ,   11, Nelly                ,                2, 5.0
+    29, rank   , True        , min            ,   11, Kaitlyn Bristowe     ,                3, 5.0
+    29, rank   , True        , min            ,   11, Nev Schulman         ,                4, 6.0
+    29, rank   , True        , min            ,   11, Skai Jackson         ,                5, 8.0
+    29, rank   , False       , average        ,   11, Justina Machado      ,                1, 4.0
+    29, rank   , False       , average        ,   11, Nelly                ,                2, 5.0
+    29, rank   , False       , average        ,   11, Kaitlyn Bristowe     ,                3, 6.0
+    29, rank   , False       , average        ,   11, Nev Schulman         ,                4, 7.0
+    29, rank   , False       , average        ,   11, Skai Jackson         ,                5, 8.0
+    29, rank   , True        , average        ,   11, Justina Machado      ,                1, 4.0
+    29, rank   , True        , average        ,   11, Nelly                ,                2, 5.0
+    29, rank   , True        , average        ,   11, Kaitlyn Bristowe     ,                3, 6.0
+    29, rank   , True        , average        ,   11, Nev Schulman         ,                4, 7.0
+    29, rank   , True        , average        ,   11, Skai Jackson         ,                5, 8.0
+    30, percent, False       ,                ,   10, Cody Rigsby          ,                1, 0.7162123286420372
+    30, percent, False       ,                ,   10, Iman Shumpert        ,                2, 0.5488006732646067
+    30, percent, False       ,                ,   10, JoJo Siwa            ,                3, 0.36967356868420437
+    30, percent, False       ,                ,   10, Amanda Kloots        ,                4, 0.365313459211474
+    30, percent, True        ,                ,   10, Cody Rigsby          ,                1, 0.7162123286420372
+    30, percent, True        ,                ,   10, Iman Shumpert        ,                2, 0.5488006732646067
+    30, percent, True        ,                ,   10, JoJo Siwa            ,                3, 0.36967356868420437
+    30, percent, True        ,                ,   10, Amanda Kloots        ,                4, 0.365313459211474
+    30, rank   , False       , min            ,   10, Iman Shumpert        ,                1, 3.0
+    30, rank   , False       , min            ,   10, Cody Rigsby          ,                2, 5.0
+    30, rank   , False       , min            ,   10, JoJo Siwa            ,                3, 5.0
+    30, rank   , False       , min            ,   10, Amanda Kloots        ,                4, 6.0
+    30, rank   , True        , min            ,   10, Cody Rigsby          ,                1, 4.0
+    30, rank   , True        , min            ,   10, Amanda Kloots        ,                2, 5.0
+    30, rank   , True        , min            ,   10, JoJo Siwa            ,                3, 5.0
+    30, rank   , True        , min            ,   10, Suni Lee             ,                4, 6.0
+    30, rank   , False       , average        ,   10, Iman Shumpert        ,                1, 3.5
+    30, rank   , False       , average        ,   10, Cody Rigsby          ,                2, 5.0
+    30, rank   , False       , average        ,   10, JoJo Siwa            ,                3, 5.5
+    30, rank   , False       , average        ,   10, Amanda Kloots        ,                4, 6.0
+    30, rank   , True        , average        ,   10, Iman Shumpert        ,                1, 2.5
+    30, rank   , True        , average        ,   10, JoJo Siwa            ,                2, 5.5
+    30, rank   , True        , average        ,   10, Suni Lee             ,                3, 6.0
+    30, rank   , True        , average        ,   10, Amanda Kloots        ,                4, 6.0
+    31, percent, False       ,                ,   10, Shangela             ,                1, 0.6028922345393742
+    31, percent, False       ,                ,   10, Wayne Brady          ,                2, 0.5406431700938786
+    31, percent, False       ,                ,   10, Gabby Windey         ,                3, 0.4371426407343302
+    31, percent, False       ,                ,   10, Charli D'Amelio      ,                4, 0.4193219397312555
+    31, percent, False       ,                ,   10, Daniel Durant        ,                5, 0.2
+    31, percent, True        ,                ,   10, Shangela             ,                1, 0.6028922345393742
+    31, percent, True        ,                ,   10, Wayne Brady          ,                2, 0.5406431700938786
+    31, percent, True        ,                ,   10, Gabby Windey         ,                3, 0.4371426407343302
+    31, percent, True        ,                ,   10, Charli D'Amelio      ,                4, 0.4193219397312555
+    31, percent, True        ,                ,   10, Daniel Durant        ,                5, 0.2
+    31, rank   , False       , min            ,   10, Shangela             ,                1, 4.0
+    31, rank   , False       , min            ,   10, Wayne Brady          ,                2, 5.0
+    31, rank   , False       , min            ,   10, Gabby Windey         ,                3, 5.0
+    31, rank   , False       , min            ,   10, Charli D'Amelio      ,                4, 6.0
+    31, rank   , False       , min            ,   10, Selma Blair          ,                5, 8.0
+    31, rank   , True        , min            ,   10, Shangela             ,                1, 4.0
+    31, rank   , True        , min            ,   10, Wayne Brady          ,                2, 5.0
+    31, rank   , True        , min            ,   10, Gabby Windey         ,                3, 5.0
+    31, rank   , True        , min            ,   10, Charli D'Amelio      ,                4, 6.0
+    31, rank   , True        , min            ,   10, Daniel Durant        ,                5, 8.0
+    31, rank   , False       , average        ,   10, Shangela             ,                1, 4.5
+    31, rank   , False       , average        ,   10, Wayne Brady          ,                2, 5.5
+    31, rank   , False       , average        ,   10, Gabby Windey         ,                3, 5.5
+    31, rank   , False       , average        ,   10, Charli D'Amelio      ,                4, 6.5
+    31, rank   , False       , average        ,   10, Selma Blair          ,                5, 8.0
+    31, rank   , True        , average        ,   10, Shangela             ,                1, 4.5
+    31, rank   , True        , average        ,   10, Wayne Brady          ,                2, 5.5
+    31, rank   , True        , average        ,   10, Gabby Windey         ,                3, 5.5
+    31, rank   , True        , average        ,   10, Charli D'Amelio      ,                4, 6.5
+    31, rank   , True        , average        ,   10, Daniel Durant        ,                5, 8.0
+    32, percent, False       ,                ,   11, Jason Mraz           ,                1, 0.48810227476444434
+    32, percent, False       ,                ,   11, Alyson Hannigan      ,                2, 0.470395484638378
+    32, percent, False       ,                ,   11, Ariana Madix         ,                3, 0.3921235281577225
+    32, percent, False       ,                ,   11, Charity Lawson       ,                4, 0.34367854181433866
+    32, percent, False       ,                ,   11, Xochitl Gomez        ,                5, 0.3057002004274388
+    32, percent, True        ,                ,   11, Jason Mraz           ,                1, 0.48810227476444434
+    32, percent, True        ,                ,   11, Alyson Hannigan      ,                2, 0.470395484638378
+    32, percent, True        ,                ,   11, Ariana Madix         ,                3, 0.3921235281577225
+    32, percent, True        ,                ,   11, Charity Lawson       ,                4, 0.34367854181433866
+    32, percent, True        ,                ,   11, Xochitl Gomez        ,                5, 0.3057002004274388
+    32, rank   , False       , min            ,   11, Jason Mraz           ,                1, 3.0
+    32, rank   , False       , min            ,   11, Alyson Hannigan      ,                2, 6.0
+    32, rank   , False       , min            ,   11, Ariana Madix         ,                3, 6.0
+    32, rank   , False       , min            ,   11, Xochitl Gomez        ,                4, 6.0
+    32, rank   , False       , min            ,   11, Charity Lawson       ,                5, 7.0
+    32, rank   , True        , min            ,   11, Jason Mraz           ,                1, 3.0
+    32, rank   , True        , min            ,   11, Alyson Hannigan      ,                2, 5.0
+    32, rank   , True        , min            ,   11, Xochitl Gomez        ,                3, 6.0
+    32, rank   , True        , min            ,   11, Ariana Madix         ,                4, 7.0
+    32, rank   , True        , min            ,   11, Harry Jowsey         ,                5, 8.0
+    32, rank   , False       , average        ,   11, Jason Mraz           ,                1, 3.5
+    32, rank   , False       , average        ,   11, Alyson Hannigan      ,                2, 6.0
+    32, rank   , False       , average        ,   11, Ariana Madix         ,                3, 6.5
+    32, rank   , False       , average        ,   11, Xochitl Gomez        ,                4, 6.5
+    32, rank   , False       , average        ,   11, Charity Lawson       ,                5, 7.5
+    32, rank   , True        , average        ,   11, Jason Mraz           ,                1, 3.5
+    32, rank   , True        , average        ,   11, Alyson Hannigan      ,                2, 5.0
+    32, rank   , True        , average        ,   11, Xochitl Gomez        ,                3, 6.5
+    32, rank   , True        , average        ,   11, Ariana Madix         ,                4, 7.0
+    32, rank   , True        , average        ,   11, Harry Jowsey         ,                5, 8.0
+    33, percent, False       ,                ,    9, Ilona Maher          ,                1, 0.5900889881725969
+    33, percent, False       ,                ,    9, Danny Amendola       ,                2, 0.49588729903615747
+    33, percent, False       ,                ,    9, Stephen Nedoroscik   ,                3, 0.4814060381774244
+    33, percent, False       ,                ,    9, Chandler Kinney      ,                4, 0.35696385338388636
+    33, percent, False       ,                ,    9, Dwight Howard        ,                5, 0.2
+    33, percent, True        ,                ,    9, Ilona Maher          ,                1, 0.5402756216599769
+    33, percent, True        ,                ,    9, Danny Amendola       ,                2, 0.44694785123428526
+    33, percent, True        ,                ,    9, Stephen Nedoroscik   ,                3, 0.429844834243309
+    33, percent, True        ,                ,    9, Chandler Kinney      ,                4, 0.3045287307390232
+    33, percent, True        ,                ,    9, Joey Graziadei       ,                5, 0.2784031781902428
+    33, rank   , False       , min            ,    9, Ilona Maher          ,                1, 5.0
+    33, rank   , False       , min            ,    9, Stephen Nedoroscik   ,                2, 5.0
+    33, rank   , False       , min            ,    9, Chandler Kinney      ,                3, 5.0
+    33, rank   , False       , min            ,    9, Danny Amendola       ,                4, 7.0
+    33, rank   , False       , min            ,    9, Joey Graziadei       ,                5, 7.0
+    33, rank   , True        , min            ,    9, Stephen Nedoroscik   ,                1, 4.0
+    33, rank   , True        , min            ,    9, Ilona Maher          ,                2, 5.0
+    33, rank   , True        , min            ,    9, Chandler Kinney      ,                3, 5.0
+    33, rank   , True        , min            ,    9, Joey Graziadei       ,                4, 7.0
+    33, rank   , True        , min            ,    9, Dwight Howard        ,                5, 8.0
+    33, rank   , False       , average        ,    9, Ilona Maher          ,                1, 5.0
+    33, rank   , False       , average        ,    9, Chandler Kinney      ,                2, 5.0
+    33, rank   , False       , average        ,    9, Stephen Nedoroscik   ,                3, 5.5
+    33, rank   , False       , average        ,    9, Danny Amendola       ,                4, 7.0
+    33, rank   , False       , average        ,    9, Joey Graziadei       ,                5, 7.5
+    33, rank   , True        , average        ,    9, Stephen Nedoroscik   ,                1, 4.5
+    33, rank   , True        , average        ,    9, Ilona Maher          ,                2, 5.0
+    33, rank   , True        , average        ,    9, Chandler Kinney      ,                3, 5.0
+    33, rank   , True        , average        ,    9, Joey Graziadei       ,                4, 7.5
+    33, rank   , True        , average        ,    9, Dwight Howard        ,                5, 8.0
+    34, percent, False       ,                ,   11, Dylan Efron          ,                1, 0.537354647630936
+    34, percent, False       ,                ,   11, Elaine Hendrix       ,                2, 0.45723879208693513
+    34, percent, False       ,                ,   11, Jordan Chiles        ,                3, 0.4335437271234155
+    34, percent, False       ,                ,   11, Alix Earle           ,                4, 0.2930441435504614
+    34, percent, False       ,                ,   11, Robert Irwin         ,                5, 0.27881859275070425
+    34, percent, True        ,                ,   11, Dylan Efron          ,                1, 0.537354647630936
+    34, percent, True        ,                ,   11, Elaine Hendrix       ,                2, 0.45723879208693513
+    34, percent, True        ,                ,   11, Jordan Chiles        ,                3, 0.4335437271234155
+    34, percent, True        ,                ,   11, Alix Earle           ,                4, 0.2930441435504614
+    34, percent, True        ,                ,   11, Robert Irwin         ,                5, 0.27881859275070425
+    34, rank   , False       , min            ,   11, Dylan Efron          ,                1, 5.0
+    34, rank   , False       , min            ,   11, Jordan Chiles        ,                2, 5.0
+    34, rank   , False       , min            ,   11, Alix Earle           ,                3, 5.0
+    34, rank   , False       , min            ,   11, Elaine Hendrix       ,                4, 7.0
+    34, rank   , False       , min            ,   11, Robert Irwin         ,                5, 7.0
+    34, rank   , True        , min            ,   11, Dylan Efron          ,                1, 4.0
+    34, rank   , True        , min            ,   11, Alix Earle           ,                2, 5.0
+    34, rank   , True        , min            ,   11, Elaine Hendrix       ,                3, 6.0
+    34, rank   , True        , min            ,   11, Robert Irwin         ,                4, 7.0
+    34, rank   , True        , min            ,   11, Whitney Leavitt      ,                5, 8.0
+    34, rank   , False       , average        ,   11, Dylan Efron          ,                1, 5.0
+    34, rank   , False       , average        ,   11, Alix Earle           ,                2, 5.0
+    34, rank   , False       , average        ,   11, Jordan Chiles        ,                3, 5.5
+    34, rank   , False       , average        ,   11, Elaine Hendrix       ,                4, 7.0
+    34, rank   , False       , average        ,   11, Robert Irwin         ,                5, 7.5
+    34, rank   , True        , average        ,   11, Dylan Efron          ,                1, 4.0
+    34, rank   , True        , average        ,   11, Alix Earle           ,                2, 5.0
+    34, rank   , True        , average        ,   11, Elaine Hendrix       ,                3, 6.0
+    34, rank   , True        , average        ,   11, Robert Irwin         ,                4, 7.0
+    34, rank   , True        , average        ,   11, Whitney Leavitt      ,                5, 8.0

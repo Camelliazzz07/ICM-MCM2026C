@@ -1,0 +1,2011 @@
+season, week, method , bottom2_save, rank_tie_method, k_official, n_active_before, eliminated_pred
+     1,    1, percent, False       ,                ,          0,               6, 
+     1,    2, percent, False       ,                ,          1,               6, Trista Sutter
+     1,    3, percent, False       ,                ,          1,               5, Evander Holyfield
+     1,    4, percent, False       ,                ,          1,               4, Rachel Hunter
+     1,    5, percent, False       ,                ,          0,               3, 
+     1,    6, percent, False       ,                ,          0,               3, 
+     1,    1, percent, True        ,                ,          0,               6, 
+     1,    2, percent, True        ,                ,          1,               6, Trista Sutter
+     1,    3, percent, True        ,                ,          1,               5, Evander Holyfield
+     1,    4, percent, True        ,                ,          1,               4, Rachel Hunter
+     1,    5, percent, True        ,                ,          0,               3, 
+     1,    6, percent, True        ,                ,          0,               3, 
+     1,    1, rank   , False       , min            ,          0,               6, 
+     1,    2, rank   , False       , min            ,          1,               6, Trista Sutter
+     1,    3, rank   , False       , min            ,          1,               5, Evander Holyfield
+     1,    4, rank   , False       , min            ,          1,               4, Rachel Hunter
+     1,    5, rank   , False       , min            ,          0,               3, 
+     1,    6, rank   , False       , min            ,          0,               3, 
+     1,    1, rank   , True        , min            ,          0,               6, 
+     1,    2, rank   , True        , min            ,          1,               6, Kelly Monaco
+     1,    3, rank   , True        , min            ,          1,               5, Trista Sutter
+     1,    4, rank   , True        , min            ,          1,               4, Evander Holyfield
+     1,    5, rank   , True        , min            ,          0,               3, 
+     1,    6, rank   , True        , min            ,          0,               3, 
+     1,    1, rank   , False       , average        ,          0,               6, 
+     1,    2, rank   , False       , average        ,          1,               6, Trista Sutter
+     1,    3, rank   , False       , average        ,          1,               5, Evander Holyfield
+     1,    4, rank   , False       , average        ,          1,               4, Rachel Hunter
+     1,    5, rank   , False       , average        ,          0,               3, 
+     1,    6, rank   , False       , average        ,          0,               3, 
+     1,    1, rank   , True        , average        ,          0,               6, 
+     1,    2, rank   , True        , average        ,          1,               6, Kelly Monaco
+     1,    3, rank   , True        , average        ,          1,               5, Trista Sutter
+     1,    4, rank   , True        , average        ,          1,               4, Evander Holyfield
+     1,    5, rank   , True        , average        ,          0,               3, 
+     1,    6, rank   , True        , average        ,          0,               3, 
+     2,    1, percent, False       ,                ,          1,              10, Kenny Mayne
+     2,    2, percent, False       ,                ,          1,               9, Tatum O'Neal
+     2,    3, percent, False       ,                ,          1,               8, Giselle Fernandez
+     2,    4, percent, False       ,                ,          1,               7, Master P
+     2,    5, percent, False       ,                ,          1,               6, Tia Carrere
+     2,    6, percent, False       ,                ,          1,               5, George Hamilton
+     2,    7, percent, False       ,                ,          1,               4, Lisa Rinna
+     2,    8, percent, False       ,                ,          0,               3, 
+     2,    1, percent, True        ,                ,          1,              10, Kenny Mayne
+     2,    2, percent, True        ,                ,          1,               9, Tatum O'Neal
+     2,    3, percent, True        ,                ,          1,               8, Giselle Fernandez
+     2,    4, percent, True        ,                ,          1,               7, Master P
+     2,    5, percent, True        ,                ,          1,               6, Tia Carrere
+     2,    6, percent, True        ,                ,          1,               5, George Hamilton
+     2,    7, percent, True        ,                ,          1,               4, Lisa Rinna
+     2,    8, percent, True        ,                ,          0,               3, 
+     2,    1, rank   , False       , min            ,          1,              10, Kenny Mayne
+     2,    2, rank   , False       , min            ,          1,               9, Tatum O'Neal
+     2,    3, rank   , False       , min            ,          1,               8, Giselle Fernandez
+     2,    4, rank   , False       , min            ,          1,               7, Master P
+     2,    5, rank   , False       , min            ,          1,               6, Tia Carrere
+     2,    6, rank   , False       , min            ,          1,               5, George Hamilton
+     2,    7, rank   , False       , min            ,          1,               4, Lisa Rinna
+     2,    8, rank   , False       , min            ,          0,               3, 
+     2,    1, rank   , True        , min            ,          1,              10, Kenny Mayne
+     2,    2, rank   , True        , min            ,          1,               9, Tatum O'Neal
+     2,    3, rank   , True        , min            ,          1,               8, Giselle Fernandez
+     2,    4, rank   , True        , min            ,          1,               7, Master P
+     2,    5, rank   , True        , min            ,          1,               6, Tia Carrere
+     2,    6, rank   , True        , min            ,          1,               5, George Hamilton
+     2,    7, rank   , True        , min            ,          1,               4, Jerry Rice
+     2,    8, rank   , True        , min            ,          0,               3, 
+     2,    1, rank   , False       , average        ,          1,              10, Kenny Mayne
+     2,    2, rank   , False       , average        ,          1,               9, Tatum O'Neal
+     2,    3, rank   , False       , average        ,          1,               8, Giselle Fernandez
+     2,    4, rank   , False       , average        ,          1,               7, Master P
+     2,    5, rank   , False       , average        ,          1,               6, Tia Carrere
+     2,    6, rank   , False       , average        ,          1,               5, George Hamilton
+     2,    7, rank   , False       , average        ,          1,               4, Lisa Rinna
+     2,    8, rank   , False       , average        ,          0,               3, 
+     2,    1, rank   , True        , average        ,          1,              10, Kenny Mayne
+     2,    2, rank   , True        , average        ,          1,               9, Tatum O'Neal
+     2,    3, rank   , True        , average        ,          1,               8, Giselle Fernandez
+     2,    4, rank   , True        , average        ,          1,               7, Master P
+     2,    5, rank   , True        , average        ,          1,               6, Tia Carrere
+     2,    6, rank   , True        , average        ,          1,               5, George Hamilton
+     2,    7, rank   , True        , average        ,          1,               4, Jerry Rice
+     2,    8, rank   , True        , average        ,          0,               3, 
+     3,    1, percent, False       ,                ,          1,              11, Tucker Carlson
+     3,    2, percent, False       ,                ,          1,              10, Shanna Moakler
+     3,    3, percent, False       ,                ,          1,               9, Harry Hamlin
+     3,    4, percent, False       ,                ,          1,               8, Vivica A. Fox
+     3,    5, percent, False       ,                ,          1,               7, Willa Ford
+     3,    6, percent, False       ,                ,          0,               6, 
+     3,    7, percent, False       ,                ,          1,               6, Sara Evans
+     3,    8, percent, False       ,                ,          1,               5, Jerry Springer
+     3,    9, percent, False       ,                ,          0,               4, 
+     3,   10, percent, False       ,                ,          0,               4, 
+     3,    1, percent, True        ,                ,          1,              11, Tucker Carlson
+     3,    2, percent, True        ,                ,          1,              10, Harry Hamlin
+     3,    3, percent, True        ,                ,          1,               9, Shanna Moakler
+     3,    4, percent, True        ,                ,          1,               8, Vivica A. Fox
+     3,    5, percent, True        ,                ,          1,               7, Jerry Springer
+     3,    6, percent, True        ,                ,          0,               6, 
+     3,    7, percent, True        ,                ,          1,               6, Sara Evans
+     3,    8, percent, True        ,                ,          1,               5, Willa Ford
+     3,    9, percent, True        ,                ,          0,               4, 
+     3,   10, percent, True        ,                ,          0,               4, 
+     3,    1, rank   , False       , min            ,          1,              11, Tucker Carlson
+     3,    2, rank   , False       , min            ,          1,              10, Shanna Moakler
+     3,    3, rank   , False       , min            ,          1,               9, Jerry Springer
+     3,    4, rank   , False       , min            ,          1,               8, Harry Hamlin
+     3,    5, rank   , False       , min            ,          1,               7, Vivica A. Fox
+     3,    6, rank   , False       , min            ,          0,               6, 
+     3,    7, rank   , False       , min            ,          1,               6, Monique Coleman
+     3,    8, rank   , False       , min            ,          1,               5, Sara Evans
+     3,    9, rank   , False       , min            ,          0,               4, 
+     3,   10, rank   , False       , min            ,          0,               4, 
+     3,    1, rank   , True        , min            ,          1,              11, Tucker Carlson
+     3,    2, rank   , True        , min            ,          1,              10, Harry Hamlin
+     3,    3, rank   , True        , min            ,          1,               9, Shanna Moakler
+     3,    4, rank   , True        , min            ,          1,               8, Jerry Springer
+     3,    5, rank   , True        , min            ,          1,               7, Vivica A. Fox
+     3,    6, rank   , True        , min            ,          0,               6, 
+     3,    7, rank   , True        , min            ,          1,               6, Sara Evans
+     3,    8, rank   , True        , min            ,          1,               5, Willa Ford
+     3,    9, rank   , True        , min            ,          0,               4, 
+     3,   10, rank   , True        , min            ,          0,               4, 
+     3,    1, rank   , False       , average        ,          1,              11, Tucker Carlson
+     3,    2, rank   , False       , average        ,          1,              10, Harry Hamlin
+     3,    3, rank   , False       , average        ,          1,               9, Shanna Moakler
+     3,    4, rank   , False       , average        ,          1,               8, Vivica A. Fox
+     3,    5, rank   , False       , average        ,          1,               7, Jerry Springer
+     3,    6, rank   , False       , average        ,          0,               6, 
+     3,    7, rank   , False       , average        ,          1,               6, Monique Coleman
+     3,    8, rank   , False       , average        ,          1,               5, Sara Evans
+     3,    9, rank   , False       , average        ,          0,               4, 
+     3,   10, rank   , False       , average        ,          0,               4, 
+     3,    1, rank   , True        , average        ,          1,              11, Tucker Carlson
+     3,    2, rank   , True        , average        ,          1,              10, Harry Hamlin
+     3,    3, rank   , True        , average        ,          1,               9, Shanna Moakler
+     3,    4, rank   , True        , average        ,          1,               8, Jerry Springer
+     3,    5, rank   , True        , average        ,          1,               7, Vivica A. Fox
+     3,    6, rank   , True        , average        ,          0,               6, 
+     3,    7, rank   , True        , average        ,          1,               6, Sara Evans
+     3,    8, rank   , True        , average        ,          1,               5, Willa Ford
+     3,    9, rank   , True        , average        ,          0,               4, 
+     3,   10, rank   , True        , average        ,          0,               4, 
+     4,    1, percent, False       ,                ,          0,              11, 
+     4,    2, percent, False       ,                ,          1,              11, Paulina Porizkova
+     4,    3, percent, False       ,                ,          1,              10, Shandi Finnessey
+     4,    4, percent, False       ,                ,          1,               9, Leeza Gibbons
+     4,    5, percent, False       ,                ,          1,               8, Clyde Drexler
+     4,    6, percent, False       ,                ,          1,               7, Heather Mills
+     4,    7, percent, False       ,                ,          1,               6, John Ratzenberger
+     4,    8, percent, False       ,                ,          1,               5, Billy Ray Cyrus
+     4,    9, percent, False       ,                ,          1,               4, Ian Ziering
+     4,   10, percent, False       ,                ,          0,               3, 
+     4,    1, percent, True        ,                ,          0,              11, 
+     4,    2, percent, True        ,                ,          1,              11, Shandi Finnessey
+     4,    3, percent, True        ,                ,          1,              10, Paulina Porizkova
+     4,    4, percent, True        ,                ,          1,               9, Clyde Drexler
+     4,    5, percent, True        ,                ,          1,               8, Leeza Gibbons
+     4,    6, percent, True        ,                ,          1,               7, John Ratzenberger
+     4,    7, percent, True        ,                ,          1,               6, Heather Mills
+     4,    8, percent, True        ,                ,          1,               5, Billy Ray Cyrus
+     4,    9, percent, True        ,                ,          1,               4, Ian Ziering
+     4,   10, percent, True        ,                ,          0,               3, 
+     4,    1, rank   , False       , min            ,          0,              11, 
+     4,    2, rank   , False       , min            ,          1,              11, Shandi Finnessey
+     4,    3, rank   , False       , min            ,          1,              10, Clyde Drexler
+     4,    4, rank   , False       , min            ,          1,               9, Leeza Gibbons
+     4,    5, rank   , False       , min            ,          1,               8, Paulina Porizkova
+     4,    6, rank   , False       , min            ,          1,               7, John Ratzenberger
+     4,    7, rank   , False       , min            ,          1,               6, Billy Ray Cyrus
+     4,    8, rank   , False       , min            ,          1,               5, Ian Ziering
+     4,    9, rank   , False       , min            ,          1,               4, Heather Mills
+     4,   10, rank   , False       , min            ,          0,               3, 
+     4,    1, rank   , True        , min            ,          0,              11, 
+     4,    2, rank   , True        , min            ,          1,              11, Clyde Drexler
+     4,    3, rank   , True        , min            ,          1,              10, Paulina Porizkova
+     4,    4, rank   , True        , min            ,          1,               9, Shandi Finnessey
+     4,    5, rank   , True        , min            ,          1,               8, Leeza Gibbons
+     4,    6, rank   , True        , min            ,          1,               7, John Ratzenberger
+     4,    7, rank   , True        , min            ,          1,               6, Heather Mills
+     4,    8, rank   , True        , min            ,          1,               5, Billy Ray Cyrus
+     4,    9, rank   , True        , min            ,          1,               4, Ian Ziering
+     4,   10, rank   , True        , min            ,          0,               3, 
+     4,    1, rank   , False       , average        ,          0,              11, 
+     4,    2, rank   , False       , average        ,          1,              11, Shandi Finnessey
+     4,    3, rank   , False       , average        ,          1,              10, Clyde Drexler
+     4,    4, rank   , False       , average        ,          1,               9, Leeza Gibbons
+     4,    5, rank   , False       , average        ,          1,               8, Paulina Porizkova
+     4,    6, rank   , False       , average        ,          1,               7, John Ratzenberger
+     4,    7, rank   , False       , average        ,          1,               6, Billy Ray Cyrus
+     4,    8, rank   , False       , average        ,          1,               5, Ian Ziering
+     4,    9, rank   , False       , average        ,          1,               4, Heather Mills
+     4,   10, rank   , False       , average        ,          0,               3, 
+     4,    1, rank   , True        , average        ,          0,              11, 
+     4,    2, rank   , True        , average        ,          1,              11, Shandi Finnessey
+     4,    3, rank   , True        , average        ,          1,              10, Paulina Porizkova
+     4,    4, rank   , True        , average        ,          1,               9, Clyde Drexler
+     4,    5, rank   , True        , average        ,          1,               8, Leeza Gibbons
+     4,    6, rank   , True        , average        ,          1,               7, John Ratzenberger
+     4,    7, rank   , True        , average        ,          1,               6, Heather Mills
+     4,    8, rank   , True        , average        ,          1,               5, Billy Ray Cyrus
+     4,    9, rank   , True        , average        ,          1,               4, Ian Ziering
+     4,   10, rank   , True        , average        ,          0,               3, 
+     5,    1, percent, False       ,                ,          1,              12, Josie Maran
+     5,    2, percent, False       ,                ,          1,              11, Wayne Newton
+     5,    3, percent, False       ,                ,          1,              10, Albert Reed
+     5,    4, percent, False       ,                ,          1,               9, Floyd Mayweather Jr.
+     5,    5, percent, False       ,                ,          1,               8, Mark Cuban
+     5,    6, percent, False       ,                ,          1,               7, Sabrina Bryan
+     5,    7, percent, False       ,                ,          1,               6, Jane Seymour
+     5,    8, percent, False       ,                ,          1,               5, Cameron Mathison
+     5,    9, percent, False       ,                ,          1,               4, Jennie Garth
+     5,   10, percent, False       ,                ,          0,               3, 
+     5,    1, percent, True        ,                ,          1,              12, Josie Maran
+     5,    2, percent, True        ,                ,          1,              11, Wayne Newton
+     5,    3, percent, True        ,                ,          1,              10, Albert Reed
+     5,    4, percent, True        ,                ,          1,               9, Mark Cuban
+     5,    5, percent, True        ,                ,          1,               8, Floyd Mayweather Jr.
+     5,    6, percent, True        ,                ,          1,               7, Jane Seymour
+     5,    7, percent, True        ,                ,          1,               6, Sabrina Bryan
+     5,    8, percent, True        ,                ,          1,               5, Jennie Garth
+     5,    9, percent, True        ,                ,          1,               4, Cameron Mathison
+     5,   10, percent, True        ,                ,          0,               3, 
+     5,    1, rank   , False       , min            ,          1,              12, Josie Maran
+     5,    2, rank   , False       , min            ,          1,              11, Wayne Newton
+     5,    3, rank   , False       , min            ,          1,              10, Floyd Mayweather Jr.
+     5,    4, rank   , False       , min            ,          1,               9, Mark Cuban
+     5,    5, rank   , False       , min            ,          1,               8, Albert Reed
+     5,    6, rank   , False       , min            ,          1,               7, Jane Seymour
+     5,    7, rank   , False       , min            ,          1,               6, Cameron Mathison
+     5,    8, rank   , False       , min            ,          1,               5, Sabrina Bryan
+     5,    9, rank   , False       , min            ,          1,               4, Jennie Garth
+     5,   10, rank   , False       , min            ,          0,               3, 
+     5,    1, rank   , True        , min            ,          1,              12, Josie Maran
+     5,    2, rank   , True        , min            ,          1,              11, Wayne Newton
+     5,    3, rank   , True        , min            ,          1,              10, Mark Cuban
+     5,    4, rank   , True        , min            ,          1,               9, Albert Reed
+     5,    5, rank   , True        , min            ,          1,               8, Floyd Mayweather Jr.
+     5,    6, rank   , True        , min            ,          1,               7, Jane Seymour
+     5,    7, rank   , True        , min            ,          1,               6, Sabrina Bryan
+     5,    8, rank   , True        , min            ,          1,               5, Jennie Garth
+     5,    9, rank   , True        , min            ,          1,               4, Cameron Mathison
+     5,   10, rank   , True        , min            ,          0,               3, 
+     5,    1, rank   , False       , average        ,          1,              12, Josie Maran
+     5,    2, rank   , False       , average        ,          1,              11, Wayne Newton
+     5,    3, rank   , False       , average        ,          1,              10, Floyd Mayweather Jr.
+     5,    4, rank   , False       , average        ,          1,               9, Mark Cuban
+     5,    5, rank   , False       , average        ,          1,               8, Albert Reed
+     5,    6, rank   , False       , average        ,          1,               7, Jane Seymour
+     5,    7, rank   , False       , average        ,          1,               6, Cameron Mathison
+     5,    8, rank   , False       , average        ,          1,               5, Sabrina Bryan
+     5,    9, rank   , False       , average        ,          1,               4, Jennie Garth
+     5,   10, rank   , False       , average        ,          0,               3, 
+     5,    1, rank   , True        , average        ,          1,              12, Josie Maran
+     5,    2, rank   , True        , average        ,          1,              11, Wayne Newton
+     5,    3, rank   , True        , average        ,          1,              10, Mark Cuban
+     5,    4, rank   , True        , average        ,          1,               9, Albert Reed
+     5,    5, rank   , True        , average        ,          1,               8, Floyd Mayweather Jr.
+     5,    6, rank   , True        , average        ,          1,               7, Jane Seymour
+     5,    7, rank   , True        , average        ,          1,               6, Sabrina Bryan
+     5,    8, rank   , True        , average        ,          1,               5, Jennie Garth
+     5,    9, rank   , True        , average        ,          1,               4, Cameron Mathison
+     5,   10, rank   , True        , average        ,          0,               3, 
+     6,    1, percent, False       ,                ,          0,              12, 
+     6,    2, percent, False       ,                ,          2,              12, Monica Seles; Penn Jillette
+     6,    3, percent, False       ,                ,          1,              10, Steve Guttenberg
+     6,    4, percent, False       ,                ,          1,               9, Adam Carolla
+     6,    5, percent, False       ,                ,          1,               8, Priscilla Presley
+     6,    6, percent, False       ,                ,          1,               7, Marlee Matlin
+     6,    7, percent, False       ,                ,          1,               6, Shannon Elizabeth
+     6,    8, percent, False       ,                ,          1,               5, Mario
+     6,    9, percent, False       ,                ,          1,               4, Marissa Jaret Winokur
+     6,   10, percent, False       ,                ,          0,               3, 
+     6,    1, percent, True        ,                ,          0,              12, 
+     6,    2, percent, True        ,                ,          2,              12, Monica Seles; Steve Guttenberg
+     6,    3, percent, True        ,                ,          1,              10, Penn Jillette
+     6,    4, percent, True        ,                ,          1,               9, Adam Carolla
+     6,    5, percent, True        ,                ,          1,               8, Priscilla Presley
+     6,    6, percent, True        ,                ,          1,               7, Marlee Matlin
+     6,    7, percent, True        ,                ,          1,               6, Shannon Elizabeth
+     6,    8, percent, True        ,                ,          1,               5, Marissa Jaret Winokur
+     6,    9, percent, True        ,                ,          1,               4, Mario
+     6,   10, percent, True        ,                ,          0,               3, 
+     6,    1, rank   , False       , min            ,          0,              12, 
+     6,    2, rank   , False       , min            ,          2,              12, Monica Seles; Penn Jillette
+     6,    3, rank   , False       , min            ,          1,              10, Steve Guttenberg
+     6,    4, rank   , False       , min            ,          1,               9, Adam Carolla
+     6,    5, rank   , False       , min            ,          1,               8, Priscilla Presley
+     6,    6, rank   , False       , min            ,          1,               7, Marlee Matlin
+     6,    7, rank   , False       , min            ,          1,               6, Shannon Elizabeth
+     6,    8, rank   , False       , min            ,          1,               5, Marissa Jaret Winokur
+     6,    9, rank   , False       , min            ,          1,               4, Mario
+     6,   10, rank   , False       , min            ,          0,               3, 
+     6,    1, rank   , True        , min            ,          0,              12, 
+     6,    2, rank   , True        , min            ,          2,              12, Monica Seles; Steve Guttenberg
+     6,    3, rank   , True        , min            ,          1,              10, Penn Jillette
+     6,    4, rank   , True        , min            ,          1,               9, Adam Carolla
+     6,    5, rank   , True        , min            ,          1,               8, Priscilla Presley
+     6,    6, rank   , True        , min            ,          1,               7, Marlee Matlin
+     6,    7, rank   , True        , min            ,          1,               6, Shannon Elizabeth
+     6,    8, rank   , True        , min            ,          1,               5, Marissa Jaret Winokur
+     6,    9, rank   , True        , min            ,          1,               4, Mario
+     6,   10, rank   , True        , min            ,          0,               3, 
+     6,    1, rank   , False       , average        ,          0,              12, 
+     6,    2, rank   , False       , average        ,          2,              12, Monica Seles; Penn Jillette
+     6,    3, rank   , False       , average        ,          1,              10, Steve Guttenberg
+     6,    4, rank   , False       , average        ,          1,               9, Adam Carolla
+     6,    5, rank   , False       , average        ,          1,               8, Priscilla Presley
+     6,    6, rank   , False       , average        ,          1,               7, Marlee Matlin
+     6,    7, rank   , False       , average        ,          1,               6, Shannon Elizabeth
+     6,    8, rank   , False       , average        ,          1,               5, Marissa Jaret Winokur
+     6,    9, rank   , False       , average        ,          1,               4, Mario
+     6,   10, rank   , False       , average        ,          0,               3, 
+     6,    1, rank   , True        , average        ,          0,              12, 
+     6,    2, rank   , True        , average        ,          2,              12, Monica Seles; Steve Guttenberg
+     6,    3, rank   , True        , average        ,          1,              10, Penn Jillette
+     6,    4, rank   , True        , average        ,          1,               9, Adam Carolla
+     6,    5, rank   , True        , average        ,          1,               8, Priscilla Presley
+     6,    6, rank   , True        , average        ,          1,               7, Marlee Matlin
+     6,    7, rank   , True        , average        ,          1,               6, Shannon Elizabeth
+     6,    8, rank   , True        , average        ,          1,               5, Marissa Jaret Winokur
+     6,    9, rank   , True        , average        ,          1,               4, Mario
+     6,   10, rank   , True        , average        ,          0,               3, 
+     7,    1, percent, False       ,                ,          2,              13, Jeffrey Ross; Ted McGinley
+     7,    2, percent, False       ,                ,          1,              11, Kim Kardashian
+     7,    3, percent, False       ,                ,          0,              10, 
+     7,    4, percent, False       ,                ,          1,              10, Rocco DiSpirito
+     7,    5, percent, False       ,                ,          1,               9, Misty May-Treanor
+     7,    6, percent, False       ,                ,          1,               8, Cloris Leachman
+     7,    7, percent, False       ,                ,          1,               7, Toni Braxton
+     7,    8, percent, False       ,                ,          1,               6, Susan Lucci
+     7,    9, percent, False       ,                ,          1,               5, Maurice Greene
+     7,   10, percent, False       ,                ,          0,               4, 
+     7,    1, percent, True        ,                ,          2,              13, Jeffrey Ross; Ted McGinley
+     7,    2, percent, True        ,                ,          1,              11, Rocco DiSpirito
+     7,    3, percent, True        ,                ,          0,              10, 
+     7,    4, percent, True        ,                ,          1,              10, Kim Kardashian
+     7,    5, percent, True        ,                ,          1,               9, Misty May-Treanor
+     7,    6, percent, True        ,                ,          1,               8, Toni Braxton
+     7,    7, percent, True        ,                ,          1,               7, Cloris Leachman
+     7,    8, percent, True        ,                ,          1,               6, Susan Lucci
+     7,    9, percent, True        ,                ,          1,               5, Maurice Greene
+     7,   10, percent, True        ,                ,          0,               4, 
+     7,    1, rank   , False       , min            ,          2,              13, Jeffrey Ross; Ted McGinley
+     7,    2, rank   , False       , min            ,          1,              11, Kim Kardashian
+     7,    3, rank   , False       , min            ,          0,              10, 
+     7,    4, rank   , False       , min            ,          1,              10, Rocco DiSpirito
+     7,    5, rank   , False       , min            ,          1,               9, Misty May-Treanor
+     7,    6, rank   , False       , min            ,          1,               8, Cloris Leachman
+     7,    7, rank   , False       , min            ,          1,               7, Toni Braxton
+     7,    8, rank   , False       , min            ,          1,               6, Susan Lucci
+     7,    9, rank   , False       , min            ,          1,               5, Cody Linley
+     7,   10, rank   , False       , min            ,          0,               4, 
+     7,    1, rank   , True        , min            ,          2,              13, Jeffrey Ross; Rocco DiSpirito
+     7,    2, rank   , True        , min            ,          1,              11, Ted McGinley
+     7,    3, rank   , True        , min            ,          0,              10, 
+     7,    4, rank   , True        , min            ,          1,              10, Kim Kardashian
+     7,    5, rank   , True        , min            ,          1,               9, Misty May-Treanor
+     7,    6, rank   , True        , min            ,          1,               8, Toni Braxton
+     7,    7, rank   , True        , min            ,          1,               7, Cloris Leachman
+     7,    8, rank   , True        , min            ,          1,               6, Susan Lucci
+     7,    9, rank   , True        , min            ,          1,               5, Maurice Greene
+     7,   10, rank   , True        , min            ,          0,               4, 
+     7,    1, rank   , False       , average        ,          2,              13, Jeffrey Ross; Ted McGinley
+     7,    2, rank   , False       , average        ,          1,              11, Kim Kardashian
+     7,    3, rank   , False       , average        ,          0,              10, 
+     7,    4, rank   , False       , average        ,          1,              10, Rocco DiSpirito
+     7,    5, rank   , False       , average        ,          1,               9, Misty May-Treanor
+     7,    6, rank   , False       , average        ,          1,               8, Cloris Leachman
+     7,    7, rank   , False       , average        ,          1,               7, Toni Braxton
+     7,    8, rank   , False       , average        ,          1,               6, Susan Lucci
+     7,    9, rank   , False       , average        ,          1,               5, Cody Linley
+     7,   10, rank   , False       , average        ,          0,               4, 
+     7,    1, rank   , True        , average        ,          2,              13, Jeffrey Ross; Ted McGinley
+     7,    2, rank   , True        , average        ,          1,              11, Rocco DiSpirito
+     7,    3, rank   , True        , average        ,          0,              10, 
+     7,    4, rank   , True        , average        ,          1,              10, Kim Kardashian
+     7,    5, rank   , True        , average        ,          1,               9, Misty May-Treanor
+     7,    6, rank   , True        , average        ,          1,               8, Toni Braxton
+     7,    7, rank   , True        , average        ,          1,               7, Cloris Leachman
+     7,    8, rank   , True        , average        ,          1,               6, Susan Lucci
+     7,    9, rank   , True        , average        ,          1,               5, Maurice Greene
+     7,   10, rank   , True        , average        ,          0,               4, 
+     8,    1, percent, False       ,                ,          0,              13, 
+     8,    2, percent, False       ,                ,          1,              13, Belinda Carlisle
+     8,    3, percent, False       ,                ,          1,              12, Denise Richards
+     8,    4, percent, False       ,                ,          2,              11, Steve Wozniak; Holly Madison
+     8,    5, percent, False       ,                ,          1,               9, David Alan Grier
+     8,    6, percent, False       ,                ,          1,               8, Steve-O
+     8,    7, percent, False       ,                ,          1,               7, Lawrence Taylor
+     8,    8, percent, False       ,                ,          1,               6, Chuck Wicks
+     8,    9, percent, False       ,                ,          1,               5, Lil' Kim
+     8,   10, percent, False       ,                ,          1,               4, Ty Murray
+     8,   11, percent, False       ,                ,          0,               3, 
+     8,    1, percent, True        ,                ,          0,              13, 
+     8,    2, percent, True        ,                ,          1,              13, Belinda Carlisle
+     8,    3, percent, True        ,                ,          1,              12, Steve Wozniak
+     8,    4, percent, True        ,                ,          2,              11, Denise Richards; Holly Madison
+     8,    5, percent, True        ,                ,          1,               9, Steve-O
+     8,    6, percent, True        ,                ,          1,               8, David Alan Grier
+     8,    7, percent, True        ,                ,          1,               7, Lawrence Taylor
+     8,    8, percent, True        ,                ,          1,               6, Chuck Wicks
+     8,    9, percent, True        ,                ,          1,               5, Ty Murray
+     8,   10, percent, True        ,                ,          1,               4, Lil' Kim
+     8,   11, percent, True        ,                ,          0,               3, 
+     8,    1, rank   , False       , min            ,          0,              13, 
+     8,    2, rank   , False       , min            ,          1,              13, Belinda Carlisle
+     8,    3, rank   , False       , min            ,          1,              12, Denise Richards
+     8,    4, rank   , False       , min            ,          2,              11, Steve Wozniak; Holly Madison
+     8,    5, rank   , False       , min            ,          1,               9, Steve-O
+     8,    6, rank   , False       , min            ,          1,               8, Lawrence Taylor
+     8,    7, rank   , False       , min            ,          1,               7, David Alan Grier
+     8,    8, rank   , False       , min            ,          1,               6, Chuck Wicks
+     8,    9, rank   , False       , min            ,          1,               5, Lil' Kim
+     8,   10, rank   , False       , min            ,          1,               4, Ty Murray
+     8,   11, rank   , False       , min            ,          0,               3, 
+     8,    1, rank   , True        , min            ,          0,              13, 
+     8,    2, rank   , True        , min            ,          1,              13, David Alan Grier
+     8,    3, rank   , True        , min            ,          1,              12, Steve Wozniak
+     8,    4, rank   , True        , min            ,          2,              11, Belinda Carlisle; Denise Richards
+     8,    5, rank   , True        , min            ,          1,               9, Holly Madison
+     8,    6, rank   , True        , min            ,          1,               8, Steve-O
+     8,    7, rank   , True        , min            ,          1,               7, Lawrence Taylor
+     8,    8, rank   , True        , min            ,          1,               6, Chuck Wicks
+     8,    9, rank   , True        , min            ,          1,               5, Ty Murray
+     8,   10, rank   , True        , min            ,          1,               4, Lil' Kim
+     8,   11, rank   , True        , min            ,          0,               3, 
+     8,    1, rank   , False       , average        ,          0,              13, 
+     8,    2, rank   , False       , average        ,          1,              13, Belinda Carlisle
+     8,    3, rank   , False       , average        ,          1,              12, Denise Richards
+     8,    4, rank   , False       , average        ,          2,              11, Steve Wozniak; Holly Madison
+     8,    5, rank   , False       , average        ,          1,               9, Steve-O
+     8,    6, rank   , False       , average        ,          1,               8, Lawrence Taylor
+     8,    7, rank   , False       , average        ,          1,               7, David Alan Grier
+     8,    8, rank   , False       , average        ,          1,               6, Chuck Wicks
+     8,    9, rank   , False       , average        ,          1,               5, Lil' Kim
+     8,   10, rank   , False       , average        ,          1,               4, Ty Murray
+     8,   11, rank   , False       , average        ,          0,               3, 
+     8,    1, rank   , True        , average        ,          0,              13, 
+     8,    2, rank   , True        , average        ,          1,              13, David Alan Grier
+     8,    3, rank   , True        , average        ,          1,              12, Steve Wozniak
+     8,    4, rank   , True        , average        ,          2,              11, Belinda Carlisle; Denise Richards
+     8,    5, rank   , True        , average        ,          1,               9, Holly Madison
+     8,    6, rank   , True        , average        ,          1,               8, Steve-O
+     8,    7, rank   , True        , average        ,          1,               7, Lawrence Taylor
+     8,    8, rank   , True        , average        ,          1,               6, Chuck Wicks
+     8,    9, rank   , True        , average        ,          1,               5, Ty Murray
+     8,   10, rank   , True        , average        ,          1,               4, Lil' Kim
+     8,   11, rank   , True        , average        ,          0,               3, 
+     9,    1, percent, False       ,                ,          2,              16, Macy Gray; Ashley Hamiliton
+     9,    2, percent, False       ,                ,          1,              14, Kathy Ireland
+     9,    3, percent, False       ,                ,          1,              13, Debi Mazar
+     9,    4, percent, False       ,                ,          1,              12, Chuck Liddell
+     9,    5, percent, False       ,                ,          1,              11, Tom DeLay
+     9,    6, percent, False       ,                ,          2,              10, Natalie Coughlin; Melissa Joan Hart
+     9,    7, percent, False       ,                ,          2,               8, Louie Vito; Mark Dacascos
+     9,    8, percent, False       ,                ,          1,               6, Michael Irvin
+     9,    9, percent, False       ,                ,          1,               5, Aaron Carter
+     9,   10, percent, False       ,                ,          0,               4, 
+     9,    1, percent, True        ,                ,          2,              16, Macy Gray; Ashley Hamiliton
+     9,    2, percent, True        ,                ,          1,              14, Kathy Ireland
+     9,    3, percent, True        ,                ,          1,              13, Debi Mazar
+     9,    4, percent, True        ,                ,          1,              12, Tom DeLay
+     9,    5, percent, True        ,                ,          1,              11, Chuck Liddell
+     9,    6, percent, True        ,                ,          2,              10, Natalie Coughlin; Melissa Joan Hart
+     9,    7, percent, True        ,                ,          2,               8, Louie Vito; Mark Dacascos
+     9,    8, percent, True        ,                ,          1,               6, Michael Irvin
+     9,    9, percent, True        ,                ,          1,               5, Aaron Carter
+     9,   10, percent, True        ,                ,          0,               4, 
+     9,    1, rank   , False       , min            ,          2,              16, Macy Gray; Ashley Hamiliton
+     9,    2, rank   , False       , min            ,          1,              14, Kathy Ireland
+     9,    3, rank   , False       , min            ,          1,              13, Debi Mazar
+     9,    4, rank   , False       , min            ,          1,              12, Chuck Liddell
+     9,    5, rank   , False       , min            ,          1,              11, Natalie Coughlin
+     9,    6, rank   , False       , min            ,          2,              10, Melissa Joan Hart; Louie Vito
+     9,    7, rank   , False       , min            ,          2,               8, Mark Dacascos; Michael Irvin
+     9,    8, rank   , False       , min            ,          1,               6, Tom DeLay
+     9,    9, rank   , False       , min            ,          1,               5, Aaron Carter
+     9,   10, rank   , False       , min            ,          0,               4, 
+     9,    1, rank   , True        , min            ,          2,              16, Macy Gray; Ashley Hamiliton
+     9,    2, rank   , True        , min            ,          1,              14, Kathy Ireland
+     9,    3, rank   , True        , min            ,          1,              13, Debi Mazar
+     9,    4, rank   , True        , min            ,          1,              12, Tom DeLay
+     9,    5, rank   , True        , min            ,          1,              11, Chuck Liddell
+     9,    6, rank   , True        , min            ,          2,              10, Melissa Joan Hart; Michael Irvin
+     9,    7, rank   , True        , min            ,          2,               8, Louie Vito; Natalie Coughlin
+     9,    8, rank   , True        , min            ,          1,               6, Mark Dacascos
+     9,    9, rank   , True        , min            ,          1,               5, Aaron Carter
+     9,   10, rank   , True        , min            ,          0,               4, 
+     9,    1, rank   , False       , average        ,          2,              16, Macy Gray; Ashley Hamiliton
+     9,    2, rank   , False       , average        ,          1,              14, Kathy Ireland
+     9,    3, rank   , False       , average        ,          1,              13, Debi Mazar
+     9,    4, rank   , False       , average        ,          1,              12, Chuck Liddell
+     9,    5, rank   , False       , average        ,          1,              11, Natalie Coughlin
+     9,    6, rank   , False       , average        ,          2,              10, Melissa Joan Hart; Louie Vito
+     9,    7, rank   , False       , average        ,          2,               8, Mark Dacascos; Michael Irvin
+     9,    8, rank   , False       , average        ,          1,               6, Tom DeLay
+     9,    9, rank   , False       , average        ,          1,               5, Aaron Carter
+     9,   10, rank   , False       , average        ,          0,               4, 
+     9,    1, rank   , True        , average        ,          2,              16, Macy Gray; Ashley Hamiliton
+     9,    2, rank   , True        , average        ,          1,              14, Kathy Ireland
+     9,    3, rank   , True        , average        ,          1,              13, Debi Mazar
+     9,    4, rank   , True        , average        ,          1,              12, Tom DeLay
+     9,    5, rank   , True        , average        ,          1,              11, Chuck Liddell
+     9,    6, rank   , True        , average        ,          2,              10, Melissa Joan Hart; Michael Irvin
+     9,    7, rank   , True        , average        ,          2,               8, Louie Vito; Natalie Coughlin
+     9,    8, rank   , True        , average        ,          1,               6, Mark Dacascos
+     9,    9, rank   , True        , average        ,          1,               5, Aaron Carter
+     9,   10, rank   , True        , average        ,          0,               4, 
+    10,    1, percent, False       ,                ,          0,              11, 
+    10,    2, percent, False       ,                ,          1,              11, Buzz Aldrin
+    10,    3, percent, False       ,                ,          1,              10, Shannen Doherty
+    10,    4, percent, False       ,                ,          1,               9, Aiden Turner
+    10,    5, percent, False       ,                ,          1,               8, Kate Gosselin
+    10,    6, percent, False       ,                ,          1,               7, Jake Pavelka
+    10,    7, percent, False       ,                ,          1,               6, Pamela Anderson
+    10,    8, percent, False       ,                ,          1,               5, Niecy Nash
+    10,    9, percent, False       ,                ,          1,               4, Chad Ochocinco
+    10,   10, percent, False       ,                ,          0,               3, 
+    10,    1, percent, True        ,                ,          0,              11, 
+    10,    2, percent, True        ,                ,          1,              11, Buzz Aldrin
+    10,    3, percent, True        ,                ,          1,              10, Shannen Doherty
+    10,    4, percent, True        ,                ,          1,               9, Kate Gosselin
+    10,    5, percent, True        ,                ,          1,               8, Aiden Turner
+    10,    6, percent, True        ,                ,          1,               7, Jake Pavelka
+    10,    7, percent, True        ,                ,          1,               6, Niecy Nash
+    10,    8, percent, True        ,                ,          1,               5, Pamela Anderson
+    10,    9, percent, True        ,                ,          1,               4, Chad Ochocinco
+    10,   10, percent, True        ,                ,          0,               3, 
+    10,    1, rank   , False       , min            ,          0,              11, 
+    10,    2, rank   , False       , min            ,          1,              11, Buzz Aldrin
+    10,    3, rank   , False       , min            ,          1,              10, Kate Gosselin
+    10,    4, rank   , False       , min            ,          1,               9, Aiden Turner
+    10,    5, rank   , False       , min            ,          1,               8, Shannen Doherty
+    10,    6, rank   , False       , min            ,          1,               7, Jake Pavelka
+    10,    7, rank   , False       , min            ,          1,               6, Niecy Nash
+    10,    8, rank   , False       , min            ,          1,               5, Chad Ochocinco
+    10,    9, rank   , False       , min            ,          1,               4, Pamela Anderson
+    10,   10, rank   , False       , min            ,          0,               3, 
+    10,    1, rank   , True        , min            ,          0,              11, 
+    10,    2, rank   , True        , min            ,          1,              11, Buzz Aldrin
+    10,    3, rank   , True        , min            ,          1,              10, Shannen Doherty
+    10,    4, rank   , True        , min            ,          1,               9, Kate Gosselin
+    10,    5, rank   , True        , min            ,          1,               8, Aiden Turner
+    10,    6, rank   , True        , min            ,          1,               7, Jake Pavelka
+    10,    7, rank   , True        , min            ,          1,               6, Niecy Nash
+    10,    8, rank   , True        , min            ,          1,               5, Pamela Anderson
+    10,    9, rank   , True        , min            ,          1,               4, Chad Ochocinco
+    10,   10, rank   , True        , min            ,          0,               3, 
+    10,    1, rank   , False       , average        ,          0,              11, 
+    10,    2, rank   , False       , average        ,          1,              11, Buzz Aldrin
+    10,    3, rank   , False       , average        ,          1,              10, Kate Gosselin
+    10,    4, rank   , False       , average        ,          1,               9, Aiden Turner
+    10,    5, rank   , False       , average        ,          1,               8, Shannen Doherty
+    10,    6, rank   , False       , average        ,          1,               7, Jake Pavelka
+    10,    7, rank   , False       , average        ,          1,               6, Niecy Nash
+    10,    8, rank   , False       , average        ,          1,               5, Chad Ochocinco
+    10,    9, rank   , False       , average        ,          1,               4, Pamela Anderson
+    10,   10, rank   , False       , average        ,          0,               3, 
+    10,    1, rank   , True        , average        ,          0,              11, 
+    10,    2, rank   , True        , average        ,          1,              11, Buzz Aldrin
+    10,    3, rank   , True        , average        ,          1,              10, Shannen Doherty
+    10,    4, rank   , True        , average        ,          1,               9, Kate Gosselin
+    10,    5, rank   , True        , average        ,          1,               8, Aiden Turner
+    10,    6, rank   , True        , average        ,          1,               7, Jake Pavelka
+    10,    7, rank   , True        , average        ,          1,               6, Niecy Nash
+    10,    8, rank   , True        , average        ,          1,               5, Pamela Anderson
+    10,    9, rank   , True        , average        ,          1,               4, Chad Ochocinco
+    10,   10, rank   , True        , average        ,          0,               3, 
+    11,    1, percent, False       ,                ,          1,              12, David Hasselhoff
+    11,    2, percent, False       ,                ,          1,              11, Michael Bolton
+    11,    3, percent, False       ,                ,          1,              10, Margaret Cho
+    11,    4, percent, False       ,                ,          1,               9, The Situation
+    11,    5, percent, False       ,                ,          1,               8, Florence Henderson
+    11,    6, percent, False       ,                ,          1,               7, Audrina Patridge
+    11,    7, percent, False       ,                ,          1,               6, Rick Fox
+    11,    8, percent, False       ,                ,          1,               5, Kurt Warner
+    11,    9, percent, False       ,                ,          1,               4, Brandy
+    11,   10, percent, False       ,                ,          0,               3, 
+    11,    1, percent, True        ,                ,          1,              12, David Hasselhoff
+    11,    2, percent, True        ,                ,          1,              11, Michael Bolton
+    11,    3, percent, True        ,                ,          1,              10, Margaret Cho
+    11,    4, percent, True        ,                ,          1,               9, The Situation
+    11,    5, percent, True        ,                ,          1,               8, Florence Henderson
+    11,    6, percent, True        ,                ,          1,               7, Rick Fox
+    11,    7, percent, True        ,                ,          1,               6, Audrina Patridge
+    11,    8, percent, True        ,                ,          1,               5, Kurt Warner
+    11,    9, percent, True        ,                ,          1,               4, Bristol Palin
+    11,   10, percent, True        ,                ,          0,               3, 
+    11,    1, rank   , False       , min            ,          1,              12, David Hasselhoff
+    11,    2, rank   , False       , min            ,          1,              11, Michael Bolton
+    11,    3, rank   , False       , min            ,          1,              10, Margaret Cho
+    11,    4, rank   , False       , min            ,          1,               9, The Situation
+    11,    5, rank   , False       , min            ,          1,               8, Florence Henderson
+    11,    6, rank   , False       , min            ,          1,               7, Kurt Warner
+    11,    7, rank   , False       , min            ,          1,               6, Audrina Patridge
+    11,    8, rank   , False       , min            ,          1,               5, Rick Fox
+    11,    9, rank   , False       , min            ,          1,               4, Brandy
+    11,   10, rank   , False       , min            ,          0,               3, 
+    11,    1, rank   , True        , min            ,          1,              12, David Hasselhoff
+    11,    2, rank   , True        , min            ,          1,              11, Michael Bolton
+    11,    3, rank   , True        , min            ,          1,              10, Margaret Cho
+    11,    4, rank   , True        , min            ,          1,               9, The Situation
+    11,    5, rank   , True        , min            ,          1,               8, Florence Henderson
+    11,    6, rank   , True        , min            ,          1,               7, Kurt Warner
+    11,    7, rank   , True        , min            ,          1,               6, Audrina Patridge
+    11,    8, rank   , True        , min            ,          1,               5, Rick Fox
+    11,    9, rank   , True        , min            ,          1,               4, Bristol Palin
+    11,   10, rank   , True        , min            ,          0,               3, 
+    11,    1, rank   , False       , average        ,          1,              12, David Hasselhoff
+    11,    2, rank   , False       , average        ,          1,              11, Michael Bolton
+    11,    3, rank   , False       , average        ,          1,              10, Margaret Cho
+    11,    4, rank   , False       , average        ,          1,               9, The Situation
+    11,    5, rank   , False       , average        ,          1,               8, Florence Henderson
+    11,    6, rank   , False       , average        ,          1,               7, Kurt Warner
+    11,    7, rank   , False       , average        ,          1,               6, Audrina Patridge
+    11,    8, rank   , False       , average        ,          1,               5, Rick Fox
+    11,    9, rank   , False       , average        ,          1,               4, Brandy
+    11,   10, rank   , False       , average        ,          0,               3, 
+    11,    1, rank   , True        , average        ,          1,              12, David Hasselhoff
+    11,    2, rank   , True        , average        ,          1,              11, Michael Bolton
+    11,    3, rank   , True        , average        ,          1,              10, Margaret Cho
+    11,    4, rank   , True        , average        ,          1,               9, The Situation
+    11,    5, rank   , True        , average        ,          1,               8, Florence Henderson
+    11,    6, rank   , True        , average        ,          1,               7, Kurt Warner
+    11,    7, rank   , True        , average        ,          1,               6, Audrina Patridge
+    11,    8, rank   , True        , average        ,          1,               5, Rick Fox
+    11,    9, rank   , True        , average        ,          1,               4, Bristol Palin
+    11,   10, rank   , True        , average        ,          0,               3, 
+    12,    1, percent, False       ,                ,          0,              11, 
+    12,    2, percent, False       ,                ,          1,              11, Mike Catherwood
+    12,    3, percent, False       ,                ,          1,              10, Wendy Williams
+    12,    4, percent, False       ,                ,          1,               9, Sugar Ray Leonard
+    12,    5, percent, False       ,                ,          1,               8, Petra Nemcova
+    12,    6, percent, False       ,                ,          1,               7, Chris Jericho
+    12,    7, percent, False       ,                ,          1,               6, Kendra Wilkinson
+    12,    8, percent, False       ,                ,          1,               5, Romeo
+    12,    9, percent, False       ,                ,          1,               4, Ralph Macchio
+    12,   10, percent, False       ,                ,          0,               3, 
+    12,    1, percent, True        ,                ,          0,              11, 
+    12,    2, percent, True        ,                ,          1,              11, Mike Catherwood
+    12,    3, percent, True        ,                ,          1,              10, Wendy Williams
+    12,    4, percent, True        ,                ,          1,               9, Sugar Ray Leonard
+    12,    5, percent, True        ,                ,          1,               8, Petra Nemcova
+    12,    6, percent, True        ,                ,          1,               7, Chris Jericho
+    12,    7, percent, True        ,                ,          1,               6, Romeo
+    12,    8, percent, True        ,                ,          1,               5, Kendra Wilkinson
+    12,    9, percent, True        ,                ,          1,               4, Ralph Macchio
+    12,   10, percent, True        ,                ,          0,               3, 
+    12,    1, rank   , False       , min            ,          0,              11, 
+    12,    2, rank   , False       , min            ,          1,              11, Mike Catherwood
+    12,    3, rank   , False       , min            ,          1,              10, Wendy Williams
+    12,    4, rank   , False       , min            ,          1,               9, Sugar Ray Leonard
+    12,    5, rank   , False       , min            ,          1,               8, Petra Nemcova
+    12,    6, rank   , False       , min            ,          1,               7, Chris Jericho
+    12,    7, rank   , False       , min            ,          1,               6, Kendra Wilkinson
+    12,    8, rank   , False       , min            ,          1,               5, Romeo
+    12,    9, rank   , False       , min            ,          1,               4, Ralph Macchio
+    12,   10, rank   , False       , min            ,          0,               3, 
+    12,    1, rank   , True        , min            ,          0,              11, 
+    12,    2, rank   , True        , min            ,          1,              11, Mike Catherwood
+    12,    3, rank   , True        , min            ,          1,              10, Wendy Williams
+    12,    4, rank   , True        , min            ,          1,               9, Kendra Wilkinson
+    12,    5, rank   , True        , min            ,          1,               8, Sugar Ray Leonard
+    12,    6, rank   , True        , min            ,          1,               7, Petra Nemcova
+    12,    7, rank   , True        , min            ,          1,               6, Chris Jericho
+    12,    8, rank   , True        , min            ,          1,               5, Ralph Macchio
+    12,    9, rank   , True        , min            ,          1,               4, Romeo
+    12,   10, rank   , True        , min            ,          0,               3, 
+    12,    1, rank   , False       , average        ,          0,              11, 
+    12,    2, rank   , False       , average        ,          1,              11, Mike Catherwood
+    12,    3, rank   , False       , average        ,          1,              10, Wendy Williams
+    12,    4, rank   , False       , average        ,          1,               9, Sugar Ray Leonard
+    12,    5, rank   , False       , average        ,          1,               8, Petra Nemcova
+    12,    6, rank   , False       , average        ,          1,               7, Chris Jericho
+    12,    7, rank   , False       , average        ,          1,               6, Romeo
+    12,    8, rank   , False       , average        ,          1,               5, Kendra Wilkinson
+    12,    9, rank   , False       , average        ,          1,               4, Ralph Macchio
+    12,   10, rank   , False       , average        ,          0,               3, 
+    12,    1, rank   , True        , average        ,          0,              11, 
+    12,    2, rank   , True        , average        ,          1,              11, Mike Catherwood
+    12,    3, rank   , True        , average        ,          1,              10, Wendy Williams
+    12,    4, rank   , True        , average        ,          1,               9, Sugar Ray Leonard
+    12,    5, rank   , True        , average        ,          1,               8, Petra Nemcova
+    12,    6, rank   , True        , average        ,          1,               7, Chris Jericho
+    12,    7, rank   , True        , average        ,          1,               6, Romeo
+    12,    8, rank   , True        , average        ,          1,               5, Kendra Wilkinson
+    12,    9, rank   , True        , average        ,          1,               4, Ralph Macchio
+    12,   10, rank   , True        , average        ,          0,               3, 
+    13,    1, percent, False       ,                ,          1,              12, Metta World Peace (Ron)
+    13,    2, percent, False       ,                ,          1,              11, Elisabetta Canalis
+    13,    3, percent, False       ,                ,          1,              10, Kristin Cavallari
+    13,    4, percent, False       ,                ,          1,               9, Chynna Phillips
+    13,    5, percent, False       ,                ,          1,               8, Carson Kressley
+    13,    6, percent, False       ,                ,          1,               7, Chaz Bono
+    13,    7, percent, False       ,                ,          1,               6, David Arquette
+    13,    8, percent, False       ,                ,          1,               5, Nancy Grace
+    13,    9, percent, False       ,                ,          1,               4, Hope Solo
+    13,   10, percent, False       ,                ,          0,               3, 
+    13,    1, percent, True        ,                ,          1,              12, Metta World Peace (Ron)
+    13,    2, percent, True        ,                ,          1,              11, Elisabetta Canalis
+    13,    3, percent, True        ,                ,          1,              10, Kristin Cavallari
+    13,    4, percent, True        ,                ,          1,               9, Carson Kressley
+    13,    5, percent, True        ,                ,          1,               8, Chynna Phillips
+    13,    6, percent, True        ,                ,          1,               7, Chaz Bono
+    13,    7, percent, True        ,                ,          1,               6, Nancy Grace
+    13,    8, percent, True        ,                ,          1,               5, David Arquette
+    13,    9, percent, True        ,                ,          1,               4, Hope Solo
+    13,   10, percent, True        ,                ,          0,               3, 
+    13,    1, rank   , False       , min            ,          1,              12, Metta World Peace (Ron)
+    13,    2, rank   , False       , min            ,          1,              11, Carson Kressley
+    13,    3, rank   , False       , min            ,          1,              10, Elisabetta Canalis
+    13,    4, rank   , False       , min            ,          1,               9, Kristin Cavallari
+    13,    5, rank   , False       , min            ,          1,               8, Chaz Bono
+    13,    6, rank   , False       , min            ,          1,               7, Chynna Phillips
+    13,    7, rank   , False       , min            ,          1,               6, David Arquette
+    13,    8, rank   , False       , min            ,          1,               5, Nancy Grace
+    13,    9, rank   , False       , min            ,          1,               4, Hope Solo
+    13,   10, rank   , False       , min            ,          0,               3, 
+    13,    1, rank   , True        , min            ,          1,              12, Metta World Peace (Ron)
+    13,    2, rank   , True        , min            ,          1,              11, Carson Kressley
+    13,    3, rank   , True        , min            ,          1,              10, Elisabetta Canalis
+    13,    4, rank   , True        , min            ,          1,               9, Kristin Cavallari
+    13,    5, rank   , True        , min            ,          1,               8, Chynna Phillips
+    13,    6, rank   , True        , min            ,          1,               7, Chaz Bono
+    13,    7, rank   , True        , min            ,          1,               6, Nancy Grace
+    13,    8, rank   , True        , min            ,          1,               5, David Arquette
+    13,    9, rank   , True        , min            ,          1,               4, Hope Solo
+    13,   10, rank   , True        , min            ,          0,               3, 
+    13,    1, rank   , False       , average        ,          1,              12, Metta World Peace (Ron)
+    13,    2, rank   , False       , average        ,          1,              11, Carson Kressley
+    13,    3, rank   , False       , average        ,          1,              10, Elisabetta Canalis
+    13,    4, rank   , False       , average        ,          1,               9, Chynna Phillips
+    13,    5, rank   , False       , average        ,          1,               8, Chaz Bono
+    13,    6, rank   , False       , average        ,          1,               7, Kristin Cavallari
+    13,    7, rank   , False       , average        ,          1,               6, David Arquette
+    13,    8, rank   , False       , average        ,          1,               5, Nancy Grace
+    13,    9, rank   , False       , average        ,          1,               4, Hope Solo
+    13,   10, rank   , False       , average        ,          0,               3, 
+    13,    1, rank   , True        , average        ,          1,              12, Metta World Peace (Ron)
+    13,    2, rank   , True        , average        ,          1,              11, Carson Kressley
+    13,    3, rank   , True        , average        ,          1,              10, Elisabetta Canalis
+    13,    4, rank   , True        , average        ,          1,               9, Kristin Cavallari
+    13,    5, rank   , True        , average        ,          1,               8, Chynna Phillips
+    13,    6, rank   , True        , average        ,          1,               7, Chaz Bono
+    13,    7, rank   , True        , average        ,          1,               6, Nancy Grace
+    13,    8, rank   , True        , average        ,          1,               5, David Arquette
+    13,    9, rank   , True        , average        ,          1,               4, Hope Solo
+    13,   10, rank   , True        , average        ,          0,               3, 
+    14,    1, percent, False       ,                ,          0,              12, 
+    14,    2, percent, False       ,                ,          1,              12, Martina Navratilova
+    14,    3, percent, False       ,                ,          1,              11, Jack Wagner
+    14,    4, percent, False       ,                ,          1,              10, Sherri Sheperd
+    14,    5, percent, False       ,                ,          1,               9, Gavin DeGraw
+    14,    6, percent, False       ,                ,          1,               8, Gladys Knight
+    14,    7, percent, False       ,                ,          1,               7, Jaleel White
+    14,    8, percent, False       ,                ,          2,               6, Melissa Gilbert; Roshon Fegan
+    14,    9, percent, False       ,                ,          1,               4, Maria Menounos
+    14,   10, percent, False       ,                ,          0,               3, 
+    14,    1, percent, True        ,                ,          0,              12, 
+    14,    2, percent, True        ,                ,          1,              12, Martina Navratilova
+    14,    3, percent, True        ,                ,          1,              11, Jack Wagner
+    14,    4, percent, True        ,                ,          1,              10, Sherri Sheperd
+    14,    5, percent, True        ,                ,          1,               9, Gavin DeGraw
+    14,    6, percent, True        ,                ,          1,               8, Gladys Knight
+    14,    7, percent, True        ,                ,          1,               7, Melissa Gilbert
+    14,    8, percent, True        ,                ,          2,               6, Jaleel White; Maria Menounos
+    14,    9, percent, True        ,                ,          1,               4, Roshon Fegan
+    14,   10, percent, True        ,                ,          0,               3, 
+    14,    1, rank   , False       , min            ,          0,              12, 
+    14,    2, rank   , False       , min            ,          1,              12, Martina Navratilova
+    14,    3, rank   , False       , min            ,          1,              11, Jack Wagner
+    14,    4, rank   , False       , min            ,          1,              10, Sherri Sheperd
+    14,    5, rank   , False       , min            ,          1,               9, Gavin DeGraw
+    14,    6, rank   , False       , min            ,          1,               8, Gladys Knight
+    14,    7, rank   , False       , min            ,          1,               7, Jaleel White
+    14,    8, rank   , False       , min            ,          2,               6, Melissa Gilbert; Maria Menounos
+    14,    9, rank   , False       , min            ,          1,               4, Roshon Fegan
+    14,   10, rank   , False       , min            ,          0,               3, 
+    14,    1, rank   , True        , min            ,          0,              12, 
+    14,    2, rank   , True        , min            ,          1,              12, Martina Navratilova
+    14,    3, rank   , True        , min            ,          1,              11, Jack Wagner
+    14,    4, rank   , True        , min            ,          1,              10, Gladys Knight
+    14,    5, rank   , True        , min            ,          1,               9, Sherri Sheperd
+    14,    6, rank   , True        , min            ,          1,               8, Gavin DeGraw
+    14,    7, rank   , True        , min            ,          1,               7, Melissa Gilbert
+    14,    8, rank   , True        , min            ,          2,               6, Jaleel White; Maria Menounos
+    14,    9, rank   , True        , min            ,          1,               4, Roshon Fegan
+    14,   10, rank   , True        , min            ,          0,               3, 
+    14,    1, rank   , False       , average        ,          0,              12, 
+    14,    2, rank   , False       , average        ,          1,              12, Martina Navratilova
+    14,    3, rank   , False       , average        ,          1,              11, Jack Wagner
+    14,    4, rank   , False       , average        ,          1,              10, Sherri Sheperd
+    14,    5, rank   , False       , average        ,          1,               9, Gavin DeGraw
+    14,    6, rank   , False       , average        ,          1,               8, Gladys Knight
+    14,    7, rank   , False       , average        ,          1,               7, Jaleel White
+    14,    8, rank   , False       , average        ,          2,               6, Melissa Gilbert; Maria Menounos
+    14,    9, rank   , False       , average        ,          1,               4, Roshon Fegan
+    14,   10, rank   , False       , average        ,          0,               3, 
+    14,    1, rank   , True        , average        ,          0,              12, 
+    14,    2, rank   , True        , average        ,          1,              12, Martina Navratilova
+    14,    3, rank   , True        , average        ,          1,              11, Jack Wagner
+    14,    4, rank   , True        , average        ,          1,              10, Gladys Knight
+    14,    5, rank   , True        , average        ,          1,               9, Sherri Sheperd
+    14,    6, rank   , True        , average        ,          1,               8, Gavin DeGraw
+    14,    7, rank   , True        , average        ,          1,               7, Melissa Gilbert
+    14,    8, rank   , True        , average        ,          2,               6, Jaleel White; Maria Menounos
+    14,    9, rank   , True        , average        ,          1,               4, Roshon Fegan
+    14,   10, rank   , True        , average        ,          0,               3, 
+    15,    1, percent, False       ,                ,          1,              13, Pamela Anderson
+    15,    2, percent, False       ,                ,          1,              12, Joey Fatone
+    15,    3, percent, False       ,                ,          2,              11, Drew Lachey; Helio Castroneves
+    15,    4, percent, False       ,                ,          1,               9, Bristol Palin
+    15,    5, percent, False       ,                ,          0,               8, 
+    15,    6, percent, False       ,                ,          1,               8, Sabrina Bryan
+    15,    7, percent, False       ,                ,          0,               7, 
+    15,    8, percent, False       ,                ,          2,               7, Kirstie Alley; Gilles Marini
+    15,    9, percent, False       ,                ,          2,               5, Emmitt Smith; Apolo Anton Ohno
+    15,   10, percent, False       ,                ,          0,               3, 
+    15,    1, percent, True        ,                ,          1,              13, Pamela Anderson
+    15,    2, percent, True        ,                ,          1,              12, Bristol Palin
+    15,    3, percent, True        ,                ,          2,              11, Joey Fatone; Drew Lachey
+    15,    4, percent, True        ,                ,          1,               9, Helio Castroneves
+    15,    5, percent, True        ,                ,          0,               8, 
+    15,    6, percent, True        ,                ,          1,               8, Gilles Marini
+    15,    7, percent, True        ,                ,          0,               7, 
+    15,    8, percent, True        ,                ,          2,               7, Sabrina Bryan; Kirstie Alley
+    15,    9, percent, True        ,                ,          2,               5, Emmitt Smith; Apolo Anton Ohno
+    15,   10, percent, True        ,                ,          0,               3, 
+    15,    1, rank   , False       , min            ,          1,              13, Pamela Anderson
+    15,    2, rank   , False       , min            ,          1,              12, Bristol Palin
+    15,    3, rank   , False       , min            ,          2,              11, Drew Lachey; Joey Fatone
+    15,    4, rank   , False       , min            ,          1,               9, Helio Castroneves
+    15,    5, rank   , False       , min            ,          0,               8, 
+    15,    6, rank   , False       , min            ,          1,               8, Gilles Marini
+    15,    7, rank   , False       , min            ,          0,               7, 
+    15,    8, rank   , False       , min            ,          2,               7, Kirstie Alley; Sabrina Bryan
+    15,    9, rank   , False       , min            ,          2,               5, Emmitt Smith; Apolo Anton Ohno
+    15,   10, rank   , False       , min            ,          0,               3, 
+    15,    1, rank   , True        , min            ,          1,              13, Pamela Anderson
+    15,    2, rank   , True        , min            ,          1,              12, Bristol Palin
+    15,    3, rank   , True        , min            ,          2,              11, Joey Fatone; Drew Lachey
+    15,    4, rank   , True        , min            ,          1,               9, Helio Castroneves
+    15,    5, rank   , True        , min            ,          0,               8, 
+    15,    6, rank   , True        , min            ,          1,               8, Emmitt Smith
+    15,    7, rank   , True        , min            ,          0,               7, 
+    15,    8, rank   , True        , min            ,          2,               7, Sabrina Bryan; Kirstie Alley
+    15,    9, rank   , True        , min            ,          2,               5, Gilles Marini; Apolo Anton Ohno
+    15,   10, rank   , True        , min            ,          0,               3, 
+    15,    1, rank   , False       , average        ,          1,              13, Pamela Anderson
+    15,    2, rank   , False       , average        ,          1,              12, Bristol Palin
+    15,    3, rank   , False       , average        ,          2,              11, Drew Lachey; Joey Fatone
+    15,    4, rank   , False       , average        ,          1,               9, Helio Castroneves
+    15,    5, rank   , False       , average        ,          0,               8, 
+    15,    6, rank   , False       , average        ,          1,               8, Gilles Marini
+    15,    7, rank   , False       , average        ,          0,               7, 
+    15,    8, rank   , False       , average        ,          2,               7, Kirstie Alley; Sabrina Bryan
+    15,    9, rank   , False       , average        ,          2,               5, Emmitt Smith; Apolo Anton Ohno
+    15,   10, rank   , False       , average        ,          0,               3, 
+    15,    1, rank   , True        , average        ,          1,              13, Pamela Anderson
+    15,    2, rank   , True        , average        ,          1,              12, Bristol Palin
+    15,    3, rank   , True        , average        ,          2,              11, Joey Fatone; Drew Lachey
+    15,    4, rank   , True        , average        ,          1,               9, Helio Castroneves
+    15,    5, rank   , True        , average        ,          0,               8, 
+    15,    6, rank   , True        , average        ,          1,               8, Emmitt Smith
+    15,    7, rank   , True        , average        ,          0,               7, 
+    15,    8, rank   , True        , average        ,          2,               7, Sabrina Bryan; Kirstie Alley
+    15,    9, rank   , True        , average        ,          2,               5, Gilles Marini; Apolo Anton Ohno
+    15,   10, rank   , True        , average        ,          0,               3, 
+    16,    1, percent, False       ,                ,          0,              12, 
+    16,    2, percent, False       ,                ,          0,              12, 
+    16,    3, percent, False       ,                ,          1,              12, Wynonna Judd
+    16,    4, percent, False       ,                ,          1,              11, Lisa Vanderpump
+    16,    5, percent, False       ,                ,          1,              10, D. L. Hughley
+    16,    6, percent, False       ,                ,          1,               9, Dorothy Hamill
+    16,    7, percent, False       ,                ,          1,               8, Andy Dick
+    16,    8, percent, False       ,                ,          1,               7, Victor Ortiz
+    16,    9, percent, False       ,                ,          1,               6, Sean Lowe
+    16,   10, percent, False       ,                ,          1,               5, Ingo Rademacher
+    16,    1, percent, True        ,                ,          0,              12, 
+    16,    2, percent, True        ,                ,          0,              12, 
+    16,    3, percent, True        ,                ,          1,              12, Dorothy Hamill
+    16,    4, percent, True        ,                ,          1,              11, Wynonna Judd
+    16,    5, percent, True        ,                ,          1,              10, Lisa Vanderpump
+    16,    6, percent, True        ,                ,          1,               9, D. L. Hughley
+    16,    7, percent, True        ,                ,          1,               8, Victor Ortiz
+    16,    8, percent, True        ,                ,          1,               7, Andy Dick
+    16,    9, percent, True        ,                ,          1,               6, Sean Lowe
+    16,   10, percent, True        ,                ,          1,               5, Ingo Rademacher
+    16,    1, rank   , False       , min            ,          0,              12, 
+    16,    2, rank   , False       , min            ,          0,              12, 
+    16,    3, rank   , False       , min            ,          1,              12, Wynonna Judd
+    16,    4, rank   , False       , min            ,          1,              11, Lisa Vanderpump
+    16,    5, rank   , False       , min            ,          1,              10, D. L. Hughley
+    16,    6, rank   , False       , min            ,          1,               9, Victor Ortiz
+    16,    7, rank   , False       , min            ,          1,               8, Andy Dick
+    16,    8, rank   , False       , min            ,          1,               7, Sean Lowe
+    16,    9, rank   , False       , min            ,          1,               6, Ingo Rademacher
+    16,   10, rank   , False       , min            ,          1,               5, Dorothy Hamill
+    16,    1, rank   , True        , min            ,          0,              12, 
+    16,    2, rank   , True        , min            ,          0,              12, 
+    16,    3, rank   , True        , min            ,          1,              12, Wynonna Judd
+    16,    4, rank   , True        , min            ,          1,              11, Dorothy Hamill
+    16,    5, rank   , True        , min            ,          1,              10, Lisa Vanderpump
+    16,    6, rank   , True        , min            ,          1,               9, D. L. Hughley
+    16,    7, rank   , True        , min            ,          1,               8, Victor Ortiz
+    16,    8, rank   , True        , min            ,          1,               7, Andy Dick
+    16,    9, rank   , True        , min            ,          1,               6, Sean Lowe
+    16,   10, rank   , True        , min            ,          1,               5, Ingo Rademacher
+    16,    1, rank   , False       , average        ,          0,              12, 
+    16,    2, rank   , False       , average        ,          0,              12, 
+    16,    3, rank   , False       , average        ,          1,              12, Wynonna Judd
+    16,    4, rank   , False       , average        ,          1,              11, Lisa Vanderpump
+    16,    5, rank   , False       , average        ,          1,              10, D. L. Hughley
+    16,    6, rank   , False       , average        ,          1,               9, Victor Ortiz
+    16,    7, rank   , False       , average        ,          1,               8, Andy Dick
+    16,    8, rank   , False       , average        ,          1,               7, Sean Lowe
+    16,    9, rank   , False       , average        ,          1,               6, Ingo Rademacher
+    16,   10, rank   , False       , average        ,          1,               5, Dorothy Hamill
+    16,    1, rank   , True        , average        ,          0,              12, 
+    16,    2, rank   , True        , average        ,          0,              12, 
+    16,    3, rank   , True        , average        ,          1,              12, Wynonna Judd
+    16,    4, rank   , True        , average        ,          1,              11, Dorothy Hamill
+    16,    5, rank   , True        , average        ,          1,              10, Lisa Vanderpump
+    16,    6, rank   , True        , average        ,          1,               9, D. L. Hughley
+    16,    7, rank   , True        , average        ,          1,               8, Victor Ortiz
+    16,    8, rank   , True        , average        ,          1,               7, Andy Dick
+    16,    9, rank   , True        , average        ,          1,               6, Sean Lowe
+    16,   10, rank   , True        , average        ,          1,               5, Ingo Rademacher
+    17,    1, percent, False       ,                ,          0,              12, 
+    17,    2, percent, False       ,                ,          1,              12, Keyshawn Johnson
+    17,    3, percent, False       ,                ,          1,              11, Bill Nye
+    17,    4, percent, False       ,                ,          1,              10, Valerie Harper
+    17,    5, percent, False       ,                ,          1,               9, Christina Milian
+    17,    6, percent, False       ,                ,          0,               8, 
+    17,    7, percent, False       ,                ,          1,               8, "Nicole ""Snooki"" Polizzi"
+    17,    8, percent, False       ,                ,          1,               7, Brant Daugherty
+    17,    9, percent, False       ,                ,          1,               6, Elizabeth Berkley Lauren
+    17,   10, percent, False       ,                ,          1,               5, Leah Remini
+    17,   11, percent, False       ,                ,          1,               4, Bill Engvall
+    17,    1, percent, True        ,                ,          0,              12, 
+    17,    2, percent, True        ,                ,          1,              12, Bill Nye
+    17,    3, percent, True        ,                ,          1,              11, Keyshawn Johnson
+    17,    4, percent, True        ,                ,          1,              10, Valerie Harper
+    17,    5, percent, True        ,                ,          1,               9, "Nicole ""Snooki"" Polizzi"
+    17,    6, percent, True        ,                ,          0,               8, 
+    17,    7, percent, True        ,                ,          1,               8, Christina Milian
+    17,    8, percent, True        ,                ,          1,               7, Elizabeth Berkley Lauren
+    17,    9, percent, True        ,                ,          1,               6, Brant Daugherty
+    17,   10, percent, True        ,                ,          1,               5, Bill Engvall
+    17,   11, percent, True        ,                ,          1,               4, Leah Remini
+    17,    1, rank   , False       , min            ,          0,              12, 
+    17,    2, rank   , False       , min            ,          1,              12, Keyshawn Johnson
+    17,    3, rank   , False       , min            ,          1,              11, Bill Nye
+    17,    4, rank   , False       , min            ,          1,              10, Valerie Harper
+    17,    5, rank   , False       , min            ,          1,               9, Elizabeth Berkley Lauren
+    17,    6, rank   , False       , min            ,          0,               8, 
+    17,    7, rank   , False       , min            ,          1,               8, Christina Milian
+    17,    8, rank   , False       , min            ,          1,               7, "Nicole ""Snooki"" Polizzi"
+    17,    9, rank   , False       , min            ,          1,               6, Brant Daugherty
+    17,   10, rank   , False       , min            ,          1,               5, Leah Remini
+    17,   11, rank   , False       , min            ,          1,               4, Bill Engvall
+    17,    1, rank   , True        , min            ,          0,              12, 
+    17,    2, rank   , True        , min            ,          1,              12, Bill Nye
+    17,    3, rank   , True        , min            ,          1,              11, Keyshawn Johnson
+    17,    4, rank   , True        , min            ,          1,              10, Valerie Harper
+    17,    5, rank   , True        , min            ,          1,               9, Elizabeth Berkley Lauren
+    17,    6, rank   , True        , min            ,          0,               8, 
+    17,    7, rank   , True        , min            ,          1,               8, Christina Milian
+    17,    8, rank   , True        , min            ,          1,               7, "Nicole ""Snooki"" Polizzi"
+    17,    9, rank   , True        , min            ,          1,               6, Brant Daugherty
+    17,   10, rank   , True        , min            ,          1,               5, Bill Engvall
+    17,   11, rank   , True        , min            ,          1,               4, Leah Remini
+    17,    1, rank   , False       , average        ,          0,              12, 
+    17,    2, rank   , False       , average        ,          1,              12, Keyshawn Johnson
+    17,    3, rank   , False       , average        ,          1,              11, Bill Nye
+    17,    4, rank   , False       , average        ,          1,              10, Valerie Harper
+    17,    5, rank   , False       , average        ,          1,               9, Elizabeth Berkley Lauren
+    17,    6, rank   , False       , average        ,          0,               8, 
+    17,    7, rank   , False       , average        ,          1,               8, Christina Milian
+    17,    8, rank   , False       , average        ,          1,               7, "Nicole ""Snooki"" Polizzi"
+    17,    9, rank   , False       , average        ,          1,               6, Brant Daugherty
+    17,   10, rank   , False       , average        ,          1,               5, Leah Remini
+    17,   11, rank   , False       , average        ,          1,               4, Bill Engvall
+    17,    1, rank   , True        , average        ,          0,              12, 
+    17,    2, rank   , True        , average        ,          1,              12, Bill Nye
+    17,    3, rank   , True        , average        ,          1,              11, Keyshawn Johnson
+    17,    4, rank   , True        , average        ,          1,              10, Valerie Harper
+    17,    5, rank   , True        , average        ,          1,               9, Elizabeth Berkley Lauren
+    17,    6, rank   , True        , average        ,          0,               8, 
+    17,    7, rank   , True        , average        ,          1,               8, Christina Milian
+    17,    8, rank   , True        , average        ,          1,               7, "Nicole ""Snooki"" Polizzi"
+    17,    9, rank   , True        , average        ,          1,               6, Brant Daugherty
+    17,   10, rank   , True        , average        ,          1,               5, Bill Engvall
+    17,   11, rank   , True        , average        ,          1,               4, Leah Remini
+    18,    1, percent, False       ,                ,          0,              12, 
+    18,    2, percent, False       ,                ,          2,              12, Diana Nyad; Sean Avery
+    18,    3, percent, False       ,                ,          0,              10, 
+    18,    4, percent, False       ,                ,          0,              10, 
+    18,    5, percent, False       ,                ,          1,              10, Billy Dee Williams
+    18,    6, percent, False       ,                ,          1,               9, Cody Simpson
+    18,    7, percent, False       ,                ,          1,               8, Drew Carey
+    18,    8, percent, False       ,                ,          1,               7, NeNe Leakes
+    18,    9, percent, False       ,                ,          1,               6, Danica McKellar
+    18,   10, percent, False       ,                ,          1,               5, Charlie White
+    18,    1, percent, True        ,                ,          0,              12, 
+    18,    2, percent, True        ,                ,          2,              12, Diana Nyad; Sean Avery
+    18,    3, percent, True        ,                ,          0,              10, 
+    18,    4, percent, True        ,                ,          0,              10, 
+    18,    5, percent, True        ,                ,          1,              10, Billy Dee Williams
+    18,    6, percent, True        ,                ,          1,               9, Cody Simpson
+    18,    7, percent, True        ,                ,          1,               8, Drew Carey
+    18,    8, percent, True        ,                ,          1,               7, NeNe Leakes
+    18,    9, percent, True        ,                ,          1,               6, Danica McKellar
+    18,   10, percent, True        ,                ,          1,               5, Charlie White
+    18,    1, rank   , False       , min            ,          0,              12, 
+    18,    2, rank   , False       , min            ,          2,              12, Diana Nyad; Sean Avery
+    18,    3, rank   , False       , min            ,          0,              10, 
+    18,    4, rank   , False       , min            ,          0,              10, 
+    18,    5, rank   , False       , min            ,          1,              10, Cody Simpson
+    18,    6, rank   , False       , min            ,          1,               9, Drew Carey
+    18,    7, rank   , False       , min            ,          1,               8, NeNe Leakes
+    18,    8, rank   , False       , min            ,          1,               7, Billy Dee Williams
+    18,    9, rank   , False       , min            ,          1,               6, Danica McKellar
+    18,   10, rank   , False       , min            ,          1,               5, Charlie White
+    18,    1, rank   , True        , min            ,          0,              12, 
+    18,    2, rank   , True        , min            ,          2,              12, Diana Nyad; Sean Avery
+    18,    3, rank   , True        , min            ,          0,              10, 
+    18,    4, rank   , True        , min            ,          0,              10, 
+    18,    5, rank   , True        , min            ,          1,              10, Drew Carey
+    18,    6, rank   , True        , min            ,          1,               9, Billy Dee Williams
+    18,    7, rank   , True        , min            ,          1,               8, Cody Simpson
+    18,    8, rank   , True        , min            ,          1,               7, NeNe Leakes
+    18,    9, rank   , True        , min            ,          1,               6, Danica McKellar
+    18,   10, rank   , True        , min            ,          1,               5, Charlie White
+    18,    1, rank   , False       , average        ,          0,              12, 
+    18,    2, rank   , False       , average        ,          2,              12, Diana Nyad; Sean Avery
+    18,    3, rank   , False       , average        ,          0,              10, 
+    18,    4, rank   , False       , average        ,          0,              10, 
+    18,    5, rank   , False       , average        ,          1,              10, Cody Simpson
+    18,    6, rank   , False       , average        ,          1,               9, Drew Carey
+    18,    7, rank   , False       , average        ,          1,               8, NeNe Leakes
+    18,    8, rank   , False       , average        ,          1,               7, Billy Dee Williams
+    18,    9, rank   , False       , average        ,          1,               6, Danica McKellar
+    18,   10, rank   , False       , average        ,          1,               5, Charlie White
+    18,    1, rank   , True        , average        ,          0,              12, 
+    18,    2, rank   , True        , average        ,          2,              12, Diana Nyad; Sean Avery
+    18,    3, rank   , True        , average        ,          0,              10, 
+    18,    4, rank   , True        , average        ,          0,              10, 
+    18,    5, rank   , True        , average        ,          1,              10, Drew Carey
+    18,    6, rank   , True        , average        ,          1,               9, Billy Dee Williams
+    18,    7, rank   , True        , average        ,          1,               8, Cody Simpson
+    18,    8, rank   , True        , average        ,          1,               7, NeNe Leakes
+    18,    9, rank   , True        , average        ,          1,               6, Danica McKellar
+    18,   10, rank   , True        , average        ,          1,               5, Charlie White
+    19,    1, percent, False       ,                ,          1,              13, Lolo Jones
+    19,    2, percent, False       ,                ,          1,              12, Tavis Smiley
+    19,    3, percent, False       ,                ,          1,              11, Randy Couture
+    19,    4, percent, False       ,                ,          1,              10, Betsey Johnson
+    19,    5, percent, False       ,                ,          0,               9, 
+    19,    6, percent, False       ,                ,          1,               9, Jonathan Bennett
+    19,    7, percent, False       ,                ,          1,               8, Antonio Sabato Jr.
+    19,    8, percent, False       ,                ,          1,               7, Michael Waltrip
+    19,    9, percent, False       ,                ,          1,               6, Lea Thompson
+    19,   10, percent, False       ,                ,          1,               5, Tommy Chong
+    19,   11, percent, False       ,                ,          1,               4, Bethany Mota
+    19,    1, percent, True        ,                ,          1,              13, Lolo Jones
+    19,    2, percent, True        ,                ,          1,              12, Tavis Smiley
+    19,    3, percent, True        ,                ,          1,              11, Randy Couture
+    19,    4, percent, True        ,                ,          1,              10, Jonathan Bennett
+    19,    5, percent, True        ,                ,          0,               9, 
+    19,    6, percent, True        ,                ,          1,               9, Betsey Johnson
+    19,    7, percent, True        ,                ,          1,               8, Michael Waltrip
+    19,    8, percent, True        ,                ,          1,               7, Antonio Sabato Jr.
+    19,    9, percent, True        ,                ,          1,               6, Tommy Chong
+    19,   10, percent, True        ,                ,          1,               5, Lea Thompson
+    19,   11, percent, True        ,                ,          1,               4, Bethany Mota
+    19,    1, rank   , False       , min            ,          1,              13, Lolo Jones
+    19,    2, rank   , False       , min            ,          1,              12, Tavis Smiley
+    19,    3, rank   , False       , min            ,          1,              11, Randy Couture
+    19,    4, rank   , False       , min            ,          1,              10, Jonathan Bennett
+    19,    5, rank   , False       , min            ,          0,               9, 
+    19,    6, rank   , False       , min            ,          1,               9, Antonio Sabato Jr.
+    19,    7, rank   , False       , min            ,          1,               8, Michael Waltrip
+    19,    8, rank   , False       , min            ,          1,               7, Betsey Johnson
+    19,    9, rank   , False       , min            ,          1,               6, Lea Thompson
+    19,   10, rank   , False       , min            ,          1,               5, Tommy Chong
+    19,   11, rank   , False       , min            ,          1,               4, Bethany Mota
+    19,    1, rank   , True        , min            ,          1,              13, Betsey Johnson
+    19,    2, rank   , True        , min            ,          1,              12, Lolo Jones
+    19,    3, rank   , True        , min            ,          1,              11, Tavis Smiley
+    19,    4, rank   , True        , min            ,          1,              10, Randy Couture
+    19,    5, rank   , True        , min            ,          0,               9, 
+    19,    6, rank   , True        , min            ,          1,               9, Antonio Sabato Jr.
+    19,    7, rank   , True        , min            ,          1,               8, Jonathan Bennett
+    19,    8, rank   , True        , min            ,          1,               7, Michael Waltrip
+    19,    9, rank   , True        , min            ,          1,               6, Tommy Chong
+    19,   10, rank   , True        , min            ,          1,               5, Lea Thompson
+    19,   11, rank   , True        , min            ,          1,               4, Bethany Mota
+    19,    1, rank   , False       , average        ,          1,              13, Lolo Jones
+    19,    2, rank   , False       , average        ,          1,              12, Tavis Smiley
+    19,    3, rank   , False       , average        ,          1,              11, Randy Couture
+    19,    4, rank   , False       , average        ,          1,              10, Jonathan Bennett
+    19,    5, rank   , False       , average        ,          0,               9, 
+    19,    6, rank   , False       , average        ,          1,               9, Antonio Sabato Jr.
+    19,    7, rank   , False       , average        ,          1,               8, Michael Waltrip
+    19,    8, rank   , False       , average        ,          1,               7, Betsey Johnson
+    19,    9, rank   , False       , average        ,          1,               6, Lea Thompson
+    19,   10, rank   , False       , average        ,          1,               5, Tommy Chong
+    19,   11, rank   , False       , average        ,          1,               4, Bethany Mota
+    19,    1, rank   , True        , average        ,          1,              13, Betsey Johnson
+    19,    2, rank   , True        , average        ,          1,              12, Lolo Jones
+    19,    3, rank   , True        , average        ,          1,              11, Tavis Smiley
+    19,    4, rank   , True        , average        ,          1,              10, Randy Couture
+    19,    5, rank   , True        , average        ,          0,               9, 
+    19,    6, rank   , True        , average        ,          1,               9, Antonio Sabato Jr.
+    19,    7, rank   , True        , average        ,          1,               8, Jonathan Bennett
+    19,    8, rank   , True        , average        ,          1,               7, Michael Waltrip
+    19,    9, rank   , True        , average        ,          1,               6, Tommy Chong
+    19,   10, rank   , True        , average        ,          1,               5, Lea Thompson
+    19,   11, rank   , True        , average        ,          1,               4, Bethany Mota
+    20,    1, percent, False       ,                ,          0,              12, 
+    20,    2, percent, False       ,                ,          1,              12, Redfoo
+    20,    3, percent, False       ,                ,          1,              11, Charlotte McKinney
+    20,    4, percent, False       ,                ,          1,              10, Michael Sam
+    20,    5, percent, False       ,                ,          1,               9, Suzanne Somers
+    20,    6, percent, False       ,                ,          1,               8, Patti LaBelle
+    20,    7, percent, False       ,                ,          1,               7, Willow Shields
+    20,    8, percent, False       ,                ,          2,               6, Robert Herjavec; Chris Soules
+    20,    9, percent, False       ,                ,          1,               4, Nastia Liukin
+    20,   10, percent, False       ,                ,          0,               3, 
+    20,    1, percent, True        ,                ,          0,              12, 
+    20,    2, percent, True        ,                ,          1,              12, Charlotte McKinney
+    20,    3, percent, True        ,                ,          1,              11, Redfoo
+    20,    4, percent, True        ,                ,          1,              10, Suzanne Somers
+    20,    5, percent, True        ,                ,          1,               9, Michael Sam
+    20,    6, percent, True        ,                ,          1,               8, Patti LaBelle
+    20,    7, percent, True        ,                ,          1,               7, Robert Herjavec
+    20,    8, percent, True        ,                ,          2,               6, Willow Shields; Chris Soules
+    20,    9, percent, True        ,                ,          1,               4, Noah Galloway
+    20,   10, percent, True        ,                ,          0,               3, 
+    20,    1, rank   , False       , min            ,          0,              12, 
+    20,    2, rank   , False       , min            ,          1,              12, Charlotte McKinney
+    20,    3, rank   , False       , min            ,          1,              11, Michael Sam
+    20,    4, rank   , False       , min            ,          1,              10, Suzanne Somers
+    20,    5, rank   , False       , min            ,          1,               9, Redfoo
+    20,    6, rank   , False       , min            ,          1,               8, Patti LaBelle
+    20,    7, rank   , False       , min            ,          1,               7, Robert Herjavec
+    20,    8, rank   , False       , min            ,          2,               6, Chris Soules; Willow Shields
+    20,    9, rank   , False       , min            ,          1,               4, Noah Galloway
+    20,   10, rank   , False       , min            ,          0,               3, 
+    20,    1, rank   , True        , min            ,          0,              12, 
+    20,    2, rank   , True        , min            ,          1,              12, Charlotte McKinney
+    20,    3, rank   , True        , min            ,          1,              11, Patti LaBelle
+    20,    4, rank   , True        , min            ,          1,              10, Suzanne Somers
+    20,    5, rank   , True        , min            ,          1,               9, Michael Sam
+    20,    6, rank   , True        , min            ,          1,               8, Redfoo
+    20,    7, rank   , True        , min            ,          1,               7, Robert Herjavec
+    20,    8, rank   , True        , min            ,          2,               6, Willow Shields; Chris Soules
+    20,    9, rank   , True        , min            ,          1,               4, Noah Galloway
+    20,   10, rank   , True        , min            ,          0,               3, 
+    20,    1, rank   , False       , average        ,          0,              12, 
+    20,    2, rank   , False       , average        ,          1,              12, Charlotte McKinney
+    20,    3, rank   , False       , average        ,          1,              11, Michael Sam
+    20,    4, rank   , False       , average        ,          1,              10, Suzanne Somers
+    20,    5, rank   , False       , average        ,          1,               9, Redfoo
+    20,    6, rank   , False       , average        ,          1,               8, Patti LaBelle
+    20,    7, rank   , False       , average        ,          1,               7, Robert Herjavec
+    20,    8, rank   , False       , average        ,          2,               6, Chris Soules; Willow Shields
+    20,    9, rank   , False       , average        ,          1,               4, Noah Galloway
+    20,   10, rank   , False       , average        ,          0,               3, 
+    20,    1, rank   , True        , average        ,          0,              12, 
+    20,    2, rank   , True        , average        ,          1,              12, Charlotte McKinney
+    20,    3, rank   , True        , average        ,          1,              11, Patti LaBelle
+    20,    4, rank   , True        , average        ,          1,              10, Suzanne Somers
+    20,    5, rank   , True        , average        ,          1,               9, Michael Sam
+    20,    6, rank   , True        , average        ,          1,               8, Redfoo
+    20,    7, rank   , True        , average        ,          1,               7, Robert Herjavec
+    20,    8, rank   , True        , average        ,          2,               6, Willow Shields; Chris Soules
+    20,    9, rank   , True        , average        ,          1,               4, Noah Galloway
+    20,   10, rank   , True        , average        ,          0,               3, 
+    21,    1, percent, False       ,                ,          0,              13, 
+    21,    2, percent, False       ,                ,          2,              13, Chaka Khan; Victor Espinoza
+    21,    3, percent, False       ,                ,          0,              11, 
+    21,    4, percent, False       ,                ,          1,              11, Gary Busey
+    21,    5, percent, False       ,                ,          0,              10, 
+    21,    6, percent, False       ,                ,          1,              10, Paula Deen
+    21,    7, percent, False       ,                ,          1,               9, Kim Zolciak-Biermann
+    21,    8, percent, False       ,                ,          1,               8, Hayes Grier
+    21,    9, percent, False       ,                ,          1,               7, Andy Grammer
+    21,   10, percent, False       ,                ,          0,               6, 
+    21,   11, percent, False       ,                ,          1,               6, Alexa PenaVega
+    21,    1, percent, True        ,                ,          0,              13, 
+    21,    2, percent, True        ,                ,          2,              13, Chaka Khan; Gary Busey
+    21,    3, percent, True        ,                ,          0,              11, 
+    21,    4, percent, True        ,                ,          1,              11, Kim Zolciak-Biermann
+    21,    5, percent, True        ,                ,          0,              10, 
+    21,    6, percent, True        ,                ,          1,              10, Victor Espinoza
+    21,    7, percent, True        ,                ,          1,               9, Paula Deen
+    21,    8, percent, True        ,                ,          1,               8, Hayes Grier
+    21,    9, percent, True        ,                ,          1,               7, Andy Grammer
+    21,   10, percent, True        ,                ,          0,               6, 
+    21,   11, percent, True        ,                ,          1,               6, Alexa PenaVega
+    21,    1, rank   , False       , min            ,          0,              13, 
+    21,    2, rank   , False       , min            ,          2,              13, Chaka Khan; Gary Busey
+    21,    3, rank   , False       , min            ,          0,              11, 
+    21,    4, rank   , False       , min            ,          1,              11, Paula Deen
+    21,    5, rank   , False       , min            ,          0,              10, 
+    21,    6, rank   , False       , min            ,          1,              10, Hayes Grier
+    21,    7, rank   , False       , min            ,          1,               9, Kim Zolciak-Biermann
+    21,    8, rank   , False       , min            ,          1,               8, Andy Grammer
+    21,    9, rank   , False       , min            ,          1,               7, Victor Espinoza
+    21,   10, rank   , False       , min            ,          0,               6, 
+    21,   11, rank   , False       , min            ,          1,               6, Alexa PenaVega
+    21,    1, rank   , True        , min            ,          0,              13, 
+    21,    2, rank   , True        , min            ,          2,              13, Chaka Khan; Gary Busey
+    21,    3, rank   , True        , min            ,          0,              11, 
+    21,    4, rank   , True        , min            ,          1,              11, Kim Zolciak-Biermann
+    21,    5, rank   , True        , min            ,          0,              10, 
+    21,    6, rank   , True        , min            ,          1,              10, Victor Espinoza
+    21,    7, rank   , True        , min            ,          1,               9, Paula Deen
+    21,    8, rank   , True        , min            ,          1,               8, Hayes Grier
+    21,    9, rank   , True        , min            ,          1,               7, Andy Grammer
+    21,   10, rank   , True        , min            ,          0,               6, 
+    21,   11, rank   , True        , min            ,          1,               6, Alexa PenaVega
+    21,    1, rank   , False       , average        ,          0,              13, 
+    21,    2, rank   , False       , average        ,          2,              13, Chaka Khan; Victor Espinoza
+    21,    3, rank   , False       , average        ,          0,              11, 
+    21,    4, rank   , False       , average        ,          1,              11, Gary Busey
+    21,    5, rank   , False       , average        ,          0,              10, 
+    21,    6, rank   , False       , average        ,          1,              10, Paula Deen
+    21,    7, rank   , False       , average        ,          1,               9, Kim Zolciak-Biermann
+    21,    8, rank   , False       , average        ,          1,               8, Andy Grammer
+    21,    9, rank   , False       , average        ,          1,               7, Hayes Grier
+    21,   10, rank   , False       , average        ,          0,               6, 
+    21,   11, rank   , False       , average        ,          1,               6, Alexa PenaVega
+    21,    1, rank   , True        , average        ,          0,              13, 
+    21,    2, rank   , True        , average        ,          2,              13, Chaka Khan; Gary Busey
+    21,    3, rank   , True        , average        ,          0,              11, 
+    21,    4, rank   , True        , average        ,          1,              11, Kim Zolciak-Biermann
+    21,    5, rank   , True        , average        ,          0,              10, 
+    21,    6, rank   , True        , average        ,          1,              10, Victor Espinoza
+    21,    7, rank   , True        , average        ,          1,               9, Paula Deen
+    21,    8, rank   , True        , average        ,          1,               8, Hayes Grier
+    21,    9, rank   , True        , average        ,          1,               7, Andy Grammer
+    21,   10, rank   , True        , average        ,          0,               6, 
+    21,   11, rank   , True        , average        ,          1,               6, Alexa PenaVega
+    22,    1, percent, False       ,                ,          0,              12, 
+    22,    2, percent, False       ,                ,          1,              12, Geraldo Rivera
+    22,    3, percent, False       ,                ,          1,              11, Mischa Barton
+    22,    4, percent, False       ,                ,          1,              10, Marla Maples
+    22,    5, percent, False       ,                ,          0,               9, 
+    22,    6, percent, False       ,                ,          1,               9, Doug Flutie
+    22,    7, percent, False       ,                ,          2,               8, Von Miller; Kim Fields
+    22,    8, percent, False       ,                ,          1,               6, Jodie Sweetin
+    22,    9, percent, False       ,                ,          2,               5, Antonio Brown; Wanya Morris
+    22,   10, percent, False       ,                ,          0,               3, 
+    22,    1, percent, True        ,                ,          0,              12, 
+    22,    2, percent, True        ,                ,          1,              12, Geraldo Rivera
+    22,    3, percent, True        ,                ,          1,              11, Mischa Barton
+    22,    4, percent, True        ,                ,          1,              10, Doug Flutie
+    22,    5, percent, True        ,                ,          0,               9, 
+    22,    6, percent, True        ,                ,          1,               9, Marla Maples
+    22,    7, percent, True        ,                ,          2,               8, Von Miller; Jodie Sweetin
+    22,    8, percent, True        ,                ,          1,               6, Kim Fields
+    22,    9, percent, True        ,                ,          2,               5, Antonio Brown; Ginger Zee
+    22,   10, percent, True        ,                ,          0,               3, 
+    22,    1, rank   , False       , min            ,          0,              12, 
+    22,    2, rank   , False       , min            ,          1,              12, Geraldo Rivera
+    22,    3, rank   , False       , min            ,          1,              11, Mischa Barton
+    22,    4, rank   , False       , min            ,          1,              10, Doug Flutie
+    22,    5, rank   , False       , min            ,          0,               9, 
+    22,    6, rank   , False       , min            ,          1,               9, Kim Fields
+    22,    7, rank   , False       , min            ,          2,               8, Jodie Sweetin; Marla Maples
+    22,    8, rank   , False       , min            ,          1,               6, Antonio Brown
+    22,    9, rank   , False       , min            ,          2,               5, Von Miller; Ginger Zee
+    22,   10, rank   , False       , min            ,          0,               3, 
+    22,    1, rank   , True        , min            ,          0,              12, 
+    22,    2, rank   , True        , min            ,          1,              12, Geraldo Rivera
+    22,    3, rank   , True        , min            ,          1,              11, Mischa Barton
+    22,    4, rank   , True        , min            ,          1,              10, Doug Flutie
+    22,    5, rank   , True        , min            ,          0,               9, 
+    22,    6, rank   , True        , min            ,          1,               9, Marla Maples
+    22,    7, rank   , True        , min            ,          2,               8, Jodie Sweetin; Von Miller
+    22,    8, rank   , True        , min            ,          1,               6, Wanya Morris
+    22,    9, rank   , True        , min            ,          2,               5, Kim Fields; Antonio Brown
+    22,   10, rank   , True        , min            ,          0,               3, 
+    22,    1, rank   , False       , average        ,          0,              12, 
+    22,    2, rank   , False       , average        ,          1,              12, Geraldo Rivera
+    22,    3, rank   , False       , average        ,          1,              11, Mischa Barton
+    22,    4, rank   , False       , average        ,          1,              10, Doug Flutie
+    22,    5, rank   , False       , average        ,          0,               9, 
+    22,    6, rank   , False       , average        ,          1,               9, Kim Fields
+    22,    7, rank   , False       , average        ,          2,               8, Jodie Sweetin; Marla Maples
+    22,    8, rank   , False       , average        ,          1,               6, Antonio Brown
+    22,    9, rank   , False       , average        ,          2,               5, Von Miller; Ginger Zee
+    22,   10, rank   , False       , average        ,          0,               3, 
+    22,    1, rank   , True        , average        ,          0,              12, 
+    22,    2, rank   , True        , average        ,          1,              12, Geraldo Rivera
+    22,    3, rank   , True        , average        ,          1,              11, Mischa Barton
+    22,    4, rank   , True        , average        ,          1,              10, Doug Flutie
+    22,    5, rank   , True        , average        ,          0,               9, 
+    22,    6, rank   , True        , average        ,          1,               9, Kim Fields
+    22,    7, rank   , True        , average        ,          2,               8, Marla Maples; Jodie Sweetin
+    22,    8, rank   , True        , average        ,          1,               6, Wanya Morris
+    22,    9, rank   , True        , average        ,          2,               5, Von Miller; Antonio Brown
+    22,   10, rank   , True        , average        ,          0,               3, 
+    23,    1, percent, False       ,                ,          0,              13, 
+    23,    2, percent, False       ,                ,          1,              13, Jake T. Austin
+    23,    3, percent, False       ,                ,          1,              12, Rick Perry
+    23,    4, percent, False       ,                ,          2,              11, Babyface; Vanilla Ice
+    23,    5, percent, False       ,                ,          0,               9, 
+    23,    6, percent, False       ,                ,          1,               9, Amber Rose
+    23,    7, percent, False       ,                ,          1,               8, Maureen McCormick
+    23,    8, percent, False       ,                ,          1,               7, Ryan Lochte
+    23,    9, percent, False       ,                ,          1,               6, Marilu Henner
+    23,   10, percent, False       ,                ,          1,               5, Terra Jole
+    23,   11, percent, False       ,                ,          1,               4, Jana Kramer
+    23,    1, percent, True        ,                ,          0,              13, 
+    23,    2, percent, True        ,                ,          1,              13, Rick Perry
+    23,    3, percent, True        ,                ,          1,              12, Jake T. Austin
+    23,    4, percent, True        ,                ,          2,              11, Babyface; Vanilla Ice
+    23,    5, percent, True        ,                ,          0,               9, 
+    23,    6, percent, True        ,                ,          1,               9, Amber Rose
+    23,    7, percent, True        ,                ,          1,               8, Maureen McCormick
+    23,    8, percent, True        ,                ,          1,               7, Marilu Henner
+    23,    9, percent, True        ,                ,          1,               6, Ryan Lochte
+    23,   10, percent, True        ,                ,          1,               5, Jana Kramer
+    23,   11, percent, True        ,                ,          1,               4, Terra Jole
+    23,    1, rank   , False       , min            ,          0,              13, 
+    23,    2, rank   , False       , min            ,          1,              13, Rick Perry
+    23,    3, rank   , False       , min            ,          1,              12, Vanilla Ice
+    23,    4, rank   , False       , min            ,          2,              11, Babyface; Jake T. Austin
+    23,    5, rank   , False       , min            ,          0,               9, 
+    23,    6, rank   , False       , min            ,          1,               9, Amber Rose
+    23,    7, rank   , False       , min            ,          1,               8, Maureen McCormick
+    23,    8, rank   , False       , min            ,          1,               7, Marilu Henner
+    23,    9, rank   , False       , min            ,          1,               6, Ryan Lochte
+    23,   10, rank   , False       , min            ,          1,               5, Jana Kramer
+    23,   11, rank   , False       , min            ,          1,               4, Terra Jole
+    23,    1, rank   , True        , min            ,          0,              13, 
+    23,    2, rank   , True        , min            ,          1,              13, Rick Perry
+    23,    3, rank   , True        , min            ,          1,              12, Jake T. Austin
+    23,    4, rank   , True        , min            ,          2,              11, Babyface; Ryan Lochte
+    23,    5, rank   , True        , min            ,          0,               9, 
+    23,    6, rank   , True        , min            ,          1,               9, Vanilla Ice
+    23,    7, rank   , True        , min            ,          1,               8, Amber Rose
+    23,    8, rank   , True        , min            ,          1,               7, Maureen McCormick
+    23,    9, rank   , True        , min            ,          1,               6, Marilu Henner
+    23,   10, rank   , True        , min            ,          1,               5, Calvin Johnson Jr.
+    23,   11, rank   , True        , min            ,          1,               4, Terra Jole
+    23,    1, rank   , False       , average        ,          0,              13, 
+    23,    2, rank   , False       , average        ,          1,              13, Rick Perry
+    23,    3, rank   , False       , average        ,          1,              12, Vanilla Ice
+    23,    4, rank   , False       , average        ,          2,              11, Babyface; Jake T. Austin
+    23,    5, rank   , False       , average        ,          0,               9, 
+    23,    6, rank   , False       , average        ,          1,               9, Amber Rose
+    23,    7, rank   , False       , average        ,          1,               8, Maureen McCormick
+    23,    8, rank   , False       , average        ,          1,               7, Marilu Henner
+    23,    9, rank   , False       , average        ,          1,               6, Ryan Lochte
+    23,   10, rank   , False       , average        ,          1,               5, Jana Kramer
+    23,   11, rank   , False       , average        ,          1,               4, Terra Jole
+    23,    1, rank   , True        , average        ,          0,              13, 
+    23,    2, rank   , True        , average        ,          1,              13, Rick Perry
+    23,    3, rank   , True        , average        ,          1,              12, Vanilla Ice
+    23,    4, rank   , True        , average        ,          2,              11, Jake T. Austin; Babyface
+    23,    5, rank   , True        , average        ,          0,               9, 
+    23,    6, rank   , True        , average        ,          1,               9, Amber Rose
+    23,    7, rank   , True        , average        ,          1,               8, Marilu Henner
+    23,    8, rank   , True        , average        ,          1,               7, Maureen McCormick
+    23,    9, rank   , True        , average        ,          1,               6, Ryan Lochte
+    23,   10, rank   , True        , average        ,          1,               5, Calvin Johnson Jr.
+    23,   11, rank   , True        , average        ,          1,               4, Terra Jole
+    24,    1, percent, False       ,                ,          0,              12, 
+    24,    2, percent, False       ,                ,          1,              12, Chris Kattan
+    24,    3, percent, False       ,                ,          1,              11, Charo
+    24,    4, percent, False       ,                ,          1,              10, Mr. T
+    24,    5, percent, False       ,                ,          1,               9, Erika Jayne
+    24,    6, percent, False       ,                ,          1,               8, Heather Morris
+    24,    7, percent, False       ,                ,          2,               7, Nick Viall; Nancy Kerrigan
+    24,    8, percent, False       ,                ,          1,               5, Bonner Bolton
+    24,    9, percent, False       ,                ,          1,               4, Simone Biles
+    24,   10, percent, False       ,                ,          0,               3, 
+    24,    1, percent, True        ,                ,          0,              12, 
+    24,    2, percent, True        ,                ,          1,              12, Chris Kattan
+    24,    3, percent, True        ,                ,          1,              11, Charo
+    24,    4, percent, True        ,                ,          1,              10, Mr. T
+    24,    5, percent, True        ,                ,          1,               9, Erika Jayne
+    24,    6, percent, True        ,                ,          1,               8, Nick Viall
+    24,    7, percent, True        ,                ,          2,               7, Heather Morris; Bonner Bolton
+    24,    8, percent, True        ,                ,          1,               5, Nancy Kerrigan
+    24,    9, percent, True        ,                ,          1,               4, David Ross
+    24,   10, percent, True        ,                ,          0,               3, 
+    24,    1, rank   , False       , min            ,          0,              12, 
+    24,    2, rank   , False       , min            ,          1,              12, Chris Kattan
+    24,    3, rank   , False       , min            ,          1,              11, Charo
+    24,    4, rank   , False       , min            ,          1,              10, Mr. T
+    24,    5, rank   , False       , min            ,          1,               9, Erika Jayne
+    24,    6, rank   , False       , min            ,          1,               8, Nick Viall
+    24,    7, rank   , False       , min            ,          2,               7, Bonner Bolton; Heather Morris
+    24,    8, rank   , False       , min            ,          1,               5, Nancy Kerrigan
+    24,    9, rank   , False       , min            ,          1,               4, Simone Biles
+    24,   10, rank   , False       , min            ,          0,               3, 
+    24,    1, rank   , True        , min            ,          0,              12, 
+    24,    2, rank   , True        , min            ,          1,              12, Chris Kattan
+    24,    3, rank   , True        , min            ,          1,              11, Charo
+    24,    4, rank   , True        , min            ,          1,              10, Mr. T
+    24,    5, rank   , True        , min            ,          1,               9, Erika Jayne
+    24,    6, rank   , True        , min            ,          1,               8, Nick Viall
+    24,    7, rank   , True        , min            ,          2,               7, Heather Morris; Bonner Bolton
+    24,    8, rank   , True        , min            ,          1,               5, Nancy Kerrigan
+    24,    9, rank   , True        , min            ,          1,               4, Rashad Jennings
+    24,   10, rank   , True        , min            ,          0,               3, 
+    24,    1, rank   , False       , average        ,          0,              12, 
+    24,    2, rank   , False       , average        ,          1,              12, Chris Kattan
+    24,    3, rank   , False       , average        ,          1,              11, Charo
+    24,    4, rank   , False       , average        ,          1,              10, Mr. T
+    24,    5, rank   , False       , average        ,          1,               9, Erika Jayne
+    24,    6, rank   , False       , average        ,          1,               8, Nick Viall
+    24,    7, rank   , False       , average        ,          2,               7, Bonner Bolton; Heather Morris
+    24,    8, rank   , False       , average        ,          1,               5, Nancy Kerrigan
+    24,    9, rank   , False       , average        ,          1,               4, Simone Biles
+    24,   10, rank   , False       , average        ,          0,               3, 
+    24,    1, rank   , True        , average        ,          0,              12, 
+    24,    2, rank   , True        , average        ,          1,              12, Chris Kattan
+    24,    3, rank   , True        , average        ,          1,              11, Charo
+    24,    4, rank   , True        , average        ,          1,              10, Mr. T
+    24,    5, rank   , True        , average        ,          1,               9, Erika Jayne
+    24,    6, rank   , True        , average        ,          1,               8, Nick Viall
+    24,    7, rank   , True        , average        ,          2,               7, Heather Morris; Bonner Bolton
+    24,    8, rank   , True        , average        ,          1,               5, Nancy Kerrigan
+    24,    9, rank   , True        , average        ,          1,               4, Rashad Jennings
+    24,   10, rank   , True        , average        ,          0,               3, 
+    25,    1, percent, False       ,                ,          0,              13, 
+    25,    2, percent, False       ,                ,          2,              13, Barbara Corcoran; Debbie Gibson
+    25,    3, percent, False       ,                ,          0,              11, 
+    25,    4, percent, False       ,                ,          1,              11, Derek Fisher
+    25,    5, percent, False       ,                ,          1,              10, Sasha Pieterse
+    25,    6, percent, False       ,                ,          1,               9, Nick Lachey
+    25,    7, percent, False       ,                ,          2,               8, Nikki Bella; Vanessa Lachey
+    25,    8, percent, False       ,                ,          1,               6, Terrell Owens
+    25,    9, percent, False       ,                ,          1,               5, Victoria Arlen
+    25,   10, percent, False       ,                ,          1,               4, Drew Scott
+    25,    1, percent, True        ,                ,          0,              13, 
+    25,    2, percent, True        ,                ,          2,              13, Barbara Corcoran; Derek Fisher
+    25,    3, percent, True        ,                ,          0,              11, 
+    25,    4, percent, True        ,                ,          1,              11, Debbie Gibson
+    25,    5, percent, True        ,                ,          1,              10, Nick Lachey
+    25,    6, percent, True        ,                ,          1,               9, Sasha Pieterse
+    25,    7, percent, True        ,                ,          2,               8, Nikki Bella; Terrell Owens
+    25,    8, percent, True        ,                ,          1,               6, Vanessa Lachey
+    25,    9, percent, True        ,                ,          1,               5, Drew Scott
+    25,   10, percent, True        ,                ,          1,               4, Victoria Arlen
+    25,    1, rank   , False       , min            ,          0,              13, 
+    25,    2, rank   , False       , min            ,          2,              13, Barbara Corcoran; Derek Fisher
+    25,    3, rank   , False       , min            ,          0,              11, 
+    25,    4, rank   , False       , min            ,          1,              11, Nick Lachey
+    25,    5, rank   , False       , min            ,          1,              10, Sasha Pieterse
+    25,    6, rank   , False       , min            ,          1,               9, Debbie Gibson
+    25,    7, rank   , False       , min            ,          2,               8, Nikki Bella; Terrell Owens
+    25,    8, rank   , False       , min            ,          1,               6, Vanessa Lachey
+    25,    9, rank   , False       , min            ,          1,               5, Drew Scott
+    25,   10, rank   , False       , min            ,          1,               4, Victoria Arlen
+    25,    1, rank   , True        , min            ,          0,              13, 
+    25,    2, rank   , True        , min            ,          2,              13, Barbara Corcoran; Derek Fisher
+    25,    3, rank   , True        , min            ,          0,              11, 
+    25,    4, rank   , True        , min            ,          1,              11, Debbie Gibson
+    25,    5, rank   , True        , min            ,          1,              10, Nick Lachey
+    25,    6, rank   , True        , min            ,          1,               9, Sasha Pieterse
+    25,    7, rank   , True        , min            ,          2,               8, Nikki Bella; Terrell Owens
+    25,    8, rank   , True        , min            ,          1,               6, Vanessa Lachey
+    25,    9, rank   , True        , min            ,          1,               5, Drew Scott
+    25,   10, rank   , True        , min            ,          1,               4, Victoria Arlen
+    25,    1, rank   , False       , average        ,          0,              13, 
+    25,    2, rank   , False       , average        ,          2,              13, Barbara Corcoran; Derek Fisher
+    25,    3, rank   , False       , average        ,          0,              11, 
+    25,    4, rank   , False       , average        ,          1,              11, Nick Lachey
+    25,    5, rank   , False       , average        ,          1,              10, Sasha Pieterse
+    25,    6, rank   , False       , average        ,          1,               9, Debbie Gibson
+    25,    7, rank   , False       , average        ,          2,               8, Nikki Bella; Terrell Owens
+    25,    8, rank   , False       , average        ,          1,               6, Vanessa Lachey
+    25,    9, rank   , False       , average        ,          1,               5, Drew Scott
+    25,   10, rank   , False       , average        ,          1,               4, Victoria Arlen
+    25,    1, rank   , True        , average        ,          0,              13, 
+    25,    2, rank   , True        , average        ,          2,              13, Barbara Corcoran; Derek Fisher
+    25,    3, rank   , True        , average        ,          0,              11, 
+    25,    4, rank   , True        , average        ,          1,              11, Debbie Gibson
+    25,    5, rank   , True        , average        ,          1,              10, Nick Lachey
+    25,    6, rank   , True        , average        ,          1,               9, Sasha Pieterse
+    25,    7, rank   , True        , average        ,          2,               8, Nikki Bella; Terrell Owens
+    25,    8, rank   , True        , average        ,          1,               6, Vanessa Lachey
+    25,    9, rank   , True        , average        ,          1,               5, Drew Scott
+    25,   10, rank   , True        , average        ,          1,               4, Victoria Arlen
+    26,    1, percent, False       ,                ,          2,              10, Johnny Damon; Jamie Anderson
+    26,    2, percent, False       ,                ,          2,               8, Kareem Abdul-Jabbar; Arike Ogunbowale
+    26,    3, percent, False       ,                ,          3,               6, Jennie Finch Daigle; Mirai Nagasu; Chris Mazdzer
+    26,    4, percent, False       ,                ,          0,               3, 
+    26,    1, percent, True        ,                ,          2,              10, Johnny Damon; Kareem Abdul-Jabbar
+    26,    2, percent, True        ,                ,          2,               8, Jamie Anderson; Jennie Finch Daigle
+    26,    3, percent, True        ,                ,          3,               6, Arike Ogunbowale; Chris Mazdzer; Mirai Nagasu
+    26,    4, percent, True        ,                ,          0,               3, 
+    26,    1, rank   , False       , min            ,          2,              10, Jamie Anderson; Johnny Damon
+    26,    2, rank   , False       , min            ,          2,               8, Kareem Abdul-Jabbar; Arike Ogunbowale
+    26,    3, rank   , False       , min            ,          3,               6, Chris Mazdzer; Jennie Finch Daigle; Mirai Nagasu
+    26,    4, rank   , False       , min            ,          0,               3, 
+    26,    1, rank   , True        , min            ,          2,              10, Johnny Damon; Kareem Abdul-Jabbar
+    26,    2, rank   , True        , min            ,          2,               8, Jamie Anderson; Jennie Finch Daigle
+    26,    3, rank   , True        , min            ,          3,               6, Arike Ogunbowale; Chris Mazdzer; Mirai Nagasu
+    26,    4, rank   , True        , min            ,          0,               3, 
+    26,    1, rank   , False       , average        ,          2,              10, Jamie Anderson; Johnny Damon
+    26,    2, rank   , False       , average        ,          2,               8, Kareem Abdul-Jabbar; Arike Ogunbowale
+    26,    3, rank   , False       , average        ,          3,               6, Chris Mazdzer; Jennie Finch Daigle; Mirai Nagasu
+    26,    4, rank   , False       , average        ,          0,               3, 
+    26,    1, rank   , True        , average        ,          2,              10, Johnny Damon; Kareem Abdul-Jabbar
+    26,    2, rank   , True        , average        ,          2,               8, Jamie Anderson; Jennie Finch Daigle
+    26,    3, rank   , True        , average        ,          3,               6, Arike Ogunbowale; Chris Mazdzer; Mirai Nagasu
+    26,    4, rank   , True        , average        ,          0,               3, 
+    27,    1, percent, False       ,                ,          1,              13, Nikki Glaser
+    27,    2, percent, False       ,                ,          1,              12, Danelle Umstead
+    27,    3, percent, False       ,                ,          1,              11, Nancy McKeon
+    27,    4, percent, False       ,                ,          1,              10, Tinashe
+    27,    5, percent, False       ,                ,          0,               9, 
+    27,    6, percent, False       ,                ,          1,               9, Mary Lou Retton
+    27,    7, percent, False       ,                ,          2,               8, DeMarcus Ware; John Schneider
+    27,    8, percent, False       ,                ,          2,               6, Joe Amabile; Juan Pablo Di Pace
+    27,    9, percent, False       ,                ,          0,               4, 
+    27,    1, percent, True        ,                ,          1,              13, Nikki Glaser
+    27,    2, percent, True        ,                ,          1,              12, Danelle Umstead
+    27,    3, percent, True        ,                ,          1,              11, Nancy McKeon
+    27,    4, percent, True        ,                ,          1,              10, Tinashe
+    27,    5, percent, True        ,                ,          0,               9, 
+    27,    6, percent, True        ,                ,          1,               9, John Schneider
+    27,    7, percent, True        ,                ,          2,               8, Mary Lou Retton; DeMarcus Ware
+    27,    8, percent, True        ,                ,          2,               6, Joe Amabile; Bobby Bones
+    27,    9, percent, True        ,                ,          0,               4, 
+    27,    1, rank   , False       , min            ,          1,              13, Nikki Glaser
+    27,    2, rank   , False       , min            ,          1,              12, Danelle Umstead
+    27,    3, rank   , False       , min            ,          1,              11, Nancy McKeon
+    27,    4, rank   , False       , min            ,          1,              10, DeMarcus Ware
+    27,    5, rank   , False       , min            ,          0,               9, 
+    27,    6, rank   , False       , min            ,          1,               9, John Schneider
+    27,    7, rank   , False       , min            ,          2,               8, Joe Amabile; Mary Lou Retton
+    27,    8, rank   , False       , min            ,          2,               6, Tinashe; Juan Pablo Di Pace
+    27,    9, rank   , False       , min            ,          0,               4, 
+    27,    1, rank   , True        , min            ,          1,              13, Nikki Glaser
+    27,    2, rank   , True        , min            ,          1,              12, Danelle Umstead
+    27,    3, rank   , True        , min            ,          1,              11, Nancy McKeon
+    27,    4, rank   , True        , min            ,          1,              10, John Schneider
+    27,    5, rank   , True        , min            ,          0,               9, 
+    27,    6, rank   , True        , min            ,          1,               9, Tinashe
+    27,    7, rank   , True        , min            ,          2,               8, Joe Amabile; Mary Lou Retton
+    27,    8, rank   , True        , min            ,          2,               6, DeMarcus Ware; Evanna Lynch
+    27,    9, rank   , True        , min            ,          0,               4, 
+    27,    1, rank   , False       , average        ,          1,              13, Nikki Glaser
+    27,    2, rank   , False       , average        ,          1,              12, Danelle Umstead
+    27,    3, rank   , False       , average        ,          1,              11, Nancy McKeon
+    27,    4, rank   , False       , average        ,          1,              10, DeMarcus Ware
+    27,    5, rank   , False       , average        ,          0,               9, 
+    27,    6, rank   , False       , average        ,          1,               9, John Schneider
+    27,    7, rank   , False       , average        ,          2,               8, Joe Amabile; Mary Lou Retton
+    27,    8, rank   , False       , average        ,          2,               6, Tinashe; Juan Pablo Di Pace
+    27,    9, rank   , False       , average        ,          0,               4, 
+    27,    1, rank   , True        , average        ,          1,              13, Nikki Glaser
+    27,    2, rank   , True        , average        ,          1,              12, Danelle Umstead
+    27,    3, rank   , True        , average        ,          1,              11, Nancy McKeon
+    27,    4, rank   , True        , average        ,          1,              10, John Schneider
+    27,    5, rank   , True        , average        ,          0,               9, 
+    27,    6, rank   , True        , average        ,          1,               9, Tinashe
+    27,    7, rank   , True        , average        ,          2,               8, Joe Amabile; Mary Lou Retton
+    27,    8, rank   , True        , average        ,          2,               6, DeMarcus Ware; Evanna Lynch
+    27,    9, rank   , True        , average        ,          0,               4, 
+    28,    1, percent, False       ,                ,          0,              12, 
+    28,    2, percent, False       ,                ,          1,              12, Mary Wilson
+    28,    3, percent, False       ,                ,          0,              11, 
+    28,    4, percent, False       ,                ,          1,              11, Ray Lewis
+    28,    5, percent, False       ,                ,          0,              10, 
+    28,    6, percent, False       ,                ,          1,              10, Lamar Odom
+    28,    7, percent, False       ,                ,          1,               9, Sailor Brinkley-Cook
+    28,    8, percent, False       ,                ,          1,               8, Karamo Brown
+    28,    9, percent, False       ,                ,          1,               7, Kate Flannery
+    28,   10, percent, False       ,                ,          1,               6, Sean Spicer
+    28,   11, percent, False       ,                ,          0,               5, 
+    28,    1, percent, True        ,                ,          0,              12, 
+    28,    2, percent, True        ,                ,          1,              12, Mary Wilson
+    28,    3, percent, True        ,                ,          0,              11, 
+    28,    4, percent, True        ,                ,          1,              11, Ray Lewis
+    28,    5, percent, True        ,                ,          0,              10, 
+    28,    6, percent, True        ,                ,          1,              10, Lamar Odom
+    28,    7, percent, True        ,                ,          1,               9, Sailor Brinkley-Cook
+    28,    8, percent, True        ,                ,          1,               8, Karamo Brown
+    28,    9, percent, True        ,                ,          1,               7, Kate Flannery
+    28,   10, percent, True        ,                ,          1,               6, Sean Spicer
+    28,   11, percent, True        ,                ,          0,               5, 
+    28,    1, rank   , False       , min            ,          0,              12, 
+    28,    2, rank   , False       , min            ,          1,              12, Mary Wilson
+    28,    3, rank   , False       , min            ,          0,              11, 
+    28,    4, rank   , False       , min            ,          1,              11, Lamar Odom
+    28,    5, rank   , False       , min            ,          0,              10, 
+    28,    6, rank   , False       , min            ,          1,              10, Hannah Brown
+    28,    7, rank   , False       , min            ,          1,               9, Karamo Brown
+    28,    8, rank   , False       , min            ,          1,               8, Ray Lewis
+    28,    9, rank   , False       , min            ,          1,               7, Sean Spicer
+    28,   10, rank   , False       , min            ,          1,               6, James Van Der Beek
+    28,   11, rank   , False       , min            ,          0,               5, 
+    28,    1, rank   , True        , min            ,          0,              12, 
+    28,    2, rank   , True        , min            ,          1,              12, Mary Wilson
+    28,    3, rank   , True        , min            ,          0,              11, 
+    28,    4, rank   , True        , min            ,          1,              11, Ray Lewis
+    28,    5, rank   , True        , min            ,          0,              10, 
+    28,    6, rank   , True        , min            ,          1,              10, Sean Spicer
+    28,    7, rank   , True        , min            ,          1,               9, Lamar Odom
+    28,    8, rank   , True        , min            ,          1,               8, Karamo Brown
+    28,    9, rank   , True        , min            ,          1,               7, Kate Flannery
+    28,   10, rank   , True        , min            ,          1,               6, Sailor Brinkley-Cook
+    28,   11, rank   , True        , min            ,          0,               5, 
+    28,    1, rank   , False       , average        ,          0,              12, 
+    28,    2, rank   , False       , average        ,          1,              12, Mary Wilson
+    28,    3, rank   , False       , average        ,          0,              11, 
+    28,    4, rank   , False       , average        ,          1,              11, Lamar Odom
+    28,    5, rank   , False       , average        ,          0,              10, 
+    28,    6, rank   , False       , average        ,          1,              10, Hannah Brown
+    28,    7, rank   , False       , average        ,          1,               9, Ray Lewis
+    28,    8, rank   , False       , average        ,          1,               8, Karamo Brown
+    28,    9, rank   , False       , average        ,          1,               7, Sean Spicer
+    28,   10, rank   , False       , average        ,          1,               6, James Van Der Beek
+    28,   11, rank   , False       , average        ,          0,               5, 
+    28,    1, rank   , True        , average        ,          0,              12, 
+    28,    2, rank   , True        , average        ,          1,              12, Mary Wilson
+    28,    3, rank   , True        , average        ,          0,              11, 
+    28,    4, rank   , True        , average        ,          1,              11, Ray Lewis
+    28,    5, rank   , True        , average        ,          0,              10, 
+    28,    6, rank   , True        , average        ,          1,              10, Sean Spicer
+    28,    7, rank   , True        , average        ,          1,               9, Lamar Odom
+    28,    8, rank   , True        , average        ,          1,               8, Karamo Brown
+    28,    9, rank   , True        , average        ,          1,               7, Kate Flannery
+    28,   10, rank   , True        , average        ,          1,               6, Sailor Brinkley-Cook
+    28,   11, rank   , True        , average        ,          0,               5, 
+    29,    1, percent, False       ,                ,          0,              15, 
+    29,    2, percent, False       ,                ,          1,              15, Charles Oakley
+    29,    3, percent, False       ,                ,          1,              14, Carole Baskin
+    29,    4, percent, False       ,                ,          1,              13, Anne Heche
+    29,    5, percent, False       ,                ,          1,              12, Jesse Metcalfe
+    29,    6, percent, False       ,                ,          1,              11, Veron Davis
+    29,    7, percent, False       ,                ,          1,              10, Monica Aldama
+    29,    8, percent, False       ,                ,          1,               9, Jeannie Mai
+    29,    9, percent, False       ,                ,          1,               8, Chrishell Stause
+    29,   10, percent, False       ,                ,          2,               7, AJ McLean; Johnny Weir
+    29,   11, percent, False       ,                ,          0,               5, 
+    29,    1, percent, True        ,                ,          0,              15, 
+    29,    2, percent, True        ,                ,          1,              15, Charles Oakley
+    29,    3, percent, True        ,                ,          1,              14, Carole Baskin
+    29,    4, percent, True        ,                ,          1,              13, Anne Heche
+    29,    5, percent, True        ,                ,          1,              12, Jesse Metcalfe
+    29,    6, percent, True        ,                ,          1,              11, Veron Davis
+    29,    7, percent, True        ,                ,          1,              10, Monica Aldama
+    29,    8, percent, True        ,                ,          1,               9, Jeannie Mai
+    29,    9, percent, True        ,                ,          1,               8, Chrishell Stause
+    29,   10, percent, True        ,                ,          2,               7, AJ McLean; Johnny Weir
+    29,   11, percent, True        ,                ,          0,               5, 
+    29,    1, rank   , False       , min            ,          0,              15, 
+    29,    2, rank   , False       , min            ,          1,              15, Charles Oakley
+    29,    3, rank   , False       , min            ,          1,              14, Carole Baskin
+    29,    4, rank   , False       , min            ,          1,              13, Anne Heche
+    29,    5, rank   , False       , min            ,          1,              12, Jesse Metcalfe
+    29,    6, rank   , False       , min            ,          1,              11, Veron Davis
+    29,    7, rank   , False       , min            ,          1,              10, Monica Aldama
+    29,    8, rank   , False       , min            ,          1,               9, Chrishell Stause
+    29,    9, rank   , False       , min            ,          1,               8, AJ McLean
+    29,   10, rank   , False       , min            ,          2,               7, Johnny Weir; Jeannie Mai
+    29,   11, rank   , False       , min            ,          0,               5, 
+    29,    1, rank   , True        , min            ,          0,              15, 
+    29,    2, rank   , True        , min            ,          1,              15, Charles Oakley
+    29,    3, rank   , True        , min            ,          1,              14, Carole Baskin
+    29,    4, rank   , True        , min            ,          1,              13, Anne Heche
+    29,    5, rank   , True        , min            ,          1,              12, Jesse Metcalfe
+    29,    6, rank   , True        , min            ,          1,              11, Veron Davis
+    29,    7, rank   , True        , min            ,          1,              10, Monica Aldama
+    29,    8, rank   , True        , min            ,          1,               9, Jeannie Mai
+    29,    9, rank   , True        , min            ,          1,               8, Chrishell Stause
+    29,   10, rank   , True        , min            ,          2,               7, AJ McLean; Johnny Weir
+    29,   11, rank   , True        , min            ,          0,               5, 
+    29,    1, rank   , False       , average        ,          0,              15, 
+    29,    2, rank   , False       , average        ,          1,              15, Charles Oakley
+    29,    3, rank   , False       , average        ,          1,              14, Carole Baskin
+    29,    4, rank   , False       , average        ,          1,              13, Anne Heche
+    29,    5, rank   , False       , average        ,          1,              12, Jesse Metcalfe
+    29,    6, rank   , False       , average        ,          1,              11, Veron Davis
+    29,    7, rank   , False       , average        ,          1,              10, Monica Aldama
+    29,    8, rank   , False       , average        ,          1,               9, Chrishell Stause
+    29,    9, rank   , False       , average        ,          1,               8, AJ McLean
+    29,   10, rank   , False       , average        ,          2,               7, Johnny Weir; Jeannie Mai
+    29,   11, rank   , False       , average        ,          0,               5, 
+    29,    1, rank   , True        , average        ,          0,              15, 
+    29,    2, rank   , True        , average        ,          1,              15, Charles Oakley
+    29,    3, rank   , True        , average        ,          1,              14, Carole Baskin
+    29,    4, rank   , True        , average        ,          1,              13, Anne Heche
+    29,    5, rank   , True        , average        ,          1,              12, Jesse Metcalfe
+    29,    6, rank   , True        , average        ,          1,              11, Veron Davis
+    29,    7, rank   , True        , average        ,          1,              10, Monica Aldama
+    29,    8, rank   , True        , average        ,          1,               9, Jeannie Mai
+    29,    9, rank   , True        , average        ,          1,               8, Chrishell Stause
+    29,   10, rank   , True        , average        ,          2,               7, AJ McLean; Johnny Weir
+    29,   11, rank   , True        , average        ,          0,               5, 
+    30,    1, percent, False       ,                ,          0,              15, 
+    30,    2, percent, False       ,                ,          1,              15, Martin Kove
+    30,    3, percent, False       ,                ,          1,              14, Christine Chiu
+    30,    4, percent, False       ,                ,          2,              13, Melanie C; Brian Austin Green
+    30,    5, percent, False       ,                ,          1,              11, Matt James
+    30,    6, percent, False       ,                ,          1,              10, Kenya Moore
+    30,    7, percent, False       ,                ,          1,               9, Suni Lee
+    30,    8, percent, False       ,                ,          2,               8, "Mike ""The Miz"" Mizanin; Olivia Jade"
+    30,    9, percent, False       ,                ,          2,               6, Jimmie Allen; Melora Hardin
+    30,   10, percent, False       ,                ,          0,               4, 
+    30,    1, percent, True        ,                ,          0,              15, 
+    30,    2, percent, True        ,                ,          1,              15, Martin Kove
+    30,    3, percent, True        ,                ,          1,              14, Christine Chiu
+    30,    4, percent, True        ,                ,          2,              13, Brian Austin Green; Melanie C
+    30,    5, percent, True        ,                ,          1,              11, Matt James
+    30,    6, percent, True        ,                ,          1,              10, Kenya Moore
+    30,    7, percent, True        ,                ,          1,               9, "Mike ""The Miz"" Mizanin"
+    30,    8, percent, True        ,                ,          2,               8, Olivia Jade; Suni Lee
+    30,    9, percent, True        ,                ,          2,               6, Jimmie Allen; Melora Hardin
+    30,   10, percent, True        ,                ,          0,               4, 
+    30,    1, rank   , False       , min            ,          0,              15, 
+    30,    2, rank   , False       , min            ,          1,              15, Martin Kove
+    30,    3, rank   , False       , min            ,          1,              14, Christine Chiu
+    30,    4, rank   , False       , min            ,          2,              13, Melanie C; Matt James
+    30,    5, rank   , False       , min            ,          1,              11, Brian Austin Green
+    30,    6, rank   , False       , min            ,          1,              10, Kenya Moore
+    30,    7, rank   , False       , min            ,          1,               9, "Mike ""The Miz"" Mizanin"
+    30,    8, rank   , False       , min            ,          2,               8, Olivia Jade; Jimmie Allen
+    30,    9, rank   , False       , min            ,          2,               6, Melora Hardin; Suni Lee
+    30,   10, rank   , False       , min            ,          0,               4, 
+    30,    1, rank   , True        , min            ,          0,              15, 
+    30,    2, rank   , True        , min            ,          1,              15, Martin Kove
+    30,    3, rank   , True        , min            ,          1,              14, Christine Chiu
+    30,    4, rank   , True        , min            ,          2,              13, Matt James; Brian Austin Green
+    30,    5, rank   , True        , min            ,          1,              11, Melanie C
+    30,    6, rank   , True        , min            ,          1,              10, Kenya Moore
+    30,    7, rank   , True        , min            ,          1,               9, "Mike ""The Miz"" Mizanin"
+    30,    8, rank   , True        , min            ,          2,               8, Jimmie Allen; Iman Shumpert
+    30,    9, rank   , True        , min            ,          2,               6, Melora Hardin; Olivia Jade
+    30,   10, rank   , True        , min            ,          0,               4, 
+    30,    1, rank   , False       , average        ,          0,              15, 
+    30,    2, rank   , False       , average        ,          1,              15, Martin Kove
+    30,    3, rank   , False       , average        ,          1,              14, Christine Chiu
+    30,    4, rank   , False       , average        ,          2,              13, Melanie C; Matt James
+    30,    5, rank   , False       , average        ,          1,              11, Brian Austin Green
+    30,    6, rank   , False       , average        ,          1,              10, Kenya Moore
+    30,    7, rank   , False       , average        ,          1,               9, "Mike ""The Miz"" Mizanin"
+    30,    8, rank   , False       , average        ,          2,               8, Olivia Jade; Jimmie Allen
+    30,    9, rank   , False       , average        ,          2,               6, Melora Hardin; Suni Lee
+    30,   10, rank   , False       , average        ,          0,               4, 
+    30,    1, rank   , True        , average        ,          0,              15, 
+    30,    2, rank   , True        , average        ,          1,              15, Martin Kove
+    30,    3, rank   , True        , average        ,          1,              14, Christine Chiu
+    30,    4, rank   , True        , average        ,          2,              13, Matt James; Brian Austin Green
+    30,    5, rank   , True        , average        ,          1,              11, Melanie C
+    30,    6, rank   , True        , average        ,          1,              10, Kenya Moore
+    30,    7, rank   , True        , average        ,          1,               9, "Mike ""The Miz"" Mizanin"
+    30,    8, rank   , True        , average        ,          2,               8, Jimmie Allen; Olivia Jade
+    30,    9, rank   , True        , average        ,          2,               6, Melora Hardin; Cody Rigsby
+    30,   10, rank   , True        , average        ,          0,               4, 
+    31,    1, percent, False       ,                ,          1,              16, Jason Lewis
+    31,    2, percent, False       ,                ,          1,              15, Teresa Giudice
+    31,    3, percent, False       ,                ,          1,              14, Cheryl Ladd
+    31,    4, percent, False       ,                ,          1,              13, Sam Champion
+    31,    5, percent, False       ,                ,          1,              12, Joseph Baena
+    31,    6, percent, False       ,                ,          1,              11, Selma Blair
+    31,    7, percent, False       ,                ,          1,              10, Jessie James Decker
+    31,    8, percent, False       ,                ,          2,               9, Jordin Sparks; Heidi D'Amelio
+    31,    9, percent, False       ,                ,          2,               7, Vinny Guadagnino; Trevor Donovan
+    31,   10, percent, False       ,                ,          0,               5, 
+    31,    1, percent, True        ,                ,          1,              16, Jason Lewis
+    31,    2, percent, True        ,                ,          1,              15, Teresa Giudice
+    31,    3, percent, True        ,                ,          1,              14, Cheryl Ladd
+    31,    4, percent, True        ,                ,          1,              13, Sam Champion
+    31,    5, percent, True        ,                ,          1,              12, Joseph Baena
+    31,    6, percent, True        ,                ,          1,              11, Selma Blair
+    31,    7, percent, True        ,                ,          1,              10, Jessie James Decker
+    31,    8, percent, True        ,                ,          2,               9, Jordin Sparks; Vinny Guadagnino
+    31,    9, percent, True        ,                ,          2,               7, Heidi D'Amelio; Trevor Donovan
+    31,   10, percent, True        ,                ,          0,               5, 
+    31,    1, rank   , False       , min            ,          1,              16, Jason Lewis
+    31,    2, rank   , False       , min            ,          1,              15, Teresa Giudice
+    31,    3, rank   , False       , min            ,          1,              14, Cheryl Ladd
+    31,    4, rank   , False       , min            ,          1,              13, Sam Champion
+    31,    5, rank   , False       , min            ,          1,              12, Joseph Baena
+    31,    6, rank   , False       , min            ,          1,              11, Jessie James Decker
+    31,    7, rank   , False       , min            ,          1,              10, Jordin Sparks
+    31,    8, rank   , False       , min            ,          2,               9, Heidi D'Amelio; Vinny Guadagnino
+    31,    9, rank   , False       , min            ,          2,               7, Trevor Donovan; Daniel Durant
+    31,   10, rank   , False       , min            ,          0,               5, 
+    31,    1, rank   , True        , min            ,          1,              16, Jason Lewis
+    31,    2, rank   , True        , min            ,          1,              15, Teresa Giudice
+    31,    3, rank   , True        , min            ,          1,              14, Cheryl Ladd
+    31,    4, rank   , True        , min            ,          1,              13, Sam Champion
+    31,    5, rank   , True        , min            ,          1,              12, Joseph Baena
+    31,    6, rank   , True        , min            ,          1,              11, Selma Blair
+    31,    7, rank   , True        , min            ,          1,              10, Jessie James Decker
+    31,    8, rank   , True        , min            ,          2,               9, Vinny Guadagnino; Jordin Sparks
+    31,    9, rank   , True        , min            ,          2,               7, Trevor Donovan; Heidi D'Amelio
+    31,   10, rank   , True        , min            ,          0,               5, 
+    31,    1, rank   , False       , average        ,          1,              16, Jason Lewis
+    31,    2, rank   , False       , average        ,          1,              15, Teresa Giudice
+    31,    3, rank   , False       , average        ,          1,              14, Cheryl Ladd
+    31,    4, rank   , False       , average        ,          1,              13, Sam Champion
+    31,    5, rank   , False       , average        ,          1,              12, Joseph Baena
+    31,    6, rank   , False       , average        ,          1,              11, Jessie James Decker
+    31,    7, rank   , False       , average        ,          1,              10, Jordin Sparks
+    31,    8, rank   , False       , average        ,          2,               9, Heidi D'Amelio; Vinny Guadagnino
+    31,    9, rank   , False       , average        ,          2,               7, Trevor Donovan; Daniel Durant
+    31,   10, rank   , False       , average        ,          0,               5, 
+    31,    1, rank   , True        , average        ,          1,              16, Jason Lewis
+    31,    2, rank   , True        , average        ,          1,              15, Teresa Giudice
+    31,    3, rank   , True        , average        ,          1,              14, Cheryl Ladd
+    31,    4, rank   , True        , average        ,          1,              13, Sam Champion
+    31,    5, rank   , True        , average        ,          1,              12, Joseph Baena
+    31,    6, rank   , True        , average        ,          1,              11, Selma Blair
+    31,    7, rank   , True        , average        ,          1,              10, Jessie James Decker
+    31,    8, rank   , True        , average        ,          2,               9, Vinny Guadagnino; Jordin Sparks
+    31,    9, rank   , True        , average        ,          2,               7, Trevor Donovan; Heidi D'Amelio
+    31,   10, rank   , True        , average        ,          0,               5, 
+    32,    1, percent, False       ,                ,          1,              14, Matt Walsh
+    32,    2, percent, False       ,                ,          1,              13, Jamie Lynn Spears
+    32,    3, percent, False       ,                ,          1,              12, Tyson Beckford
+    32,    4, percent, False       ,                ,          1,              11, Adrian Peterson
+    32,    5, percent, False       ,                ,          1,              10, Lele Pons
+    32,    6, percent, False       ,                ,          1,               9, Mira Sorvino
+    32,    7, percent, False       ,                ,          1,               8, Mauricio Umansky
+    32,    8, percent, False       ,                ,          1,               7, Barry Williams
+    32,    9, percent, False       ,                ,          1,               6, Harry Jowsey
+    32,   10, percent, False       ,                ,          0,               5, 
+    32,   11, percent, False       ,                ,          0,               5, 
+    32,    1, percent, True        ,                ,          1,              14, Matt Walsh
+    32,    2, percent, True        ,                ,          1,              13, Jamie Lynn Spears
+    32,    3, percent, True        ,                ,          1,              12, Tyson Beckford
+    32,    4, percent, True        ,                ,          1,              11, Adrian Peterson
+    32,    5, percent, True        ,                ,          1,              10, Mira Sorvino
+    32,    6, percent, True        ,                ,          1,               9, Mauricio Umansky
+    32,    7, percent, True        ,                ,          1,               8, Lele Pons
+    32,    8, percent, True        ,                ,          1,               7, Barry Williams
+    32,    9, percent, True        ,                ,          1,               6, Harry Jowsey
+    32,   10, percent, True        ,                ,          0,               5, 
+    32,   11, percent, True        ,                ,          0,               5, 
+    32,    1, rank   , False       , min            ,          1,              14, Matt Walsh
+    32,    2, rank   , False       , min            ,          1,              13, Jamie Lynn Spears
+    32,    3, rank   , False       , min            ,          1,              12, Tyson Beckford
+    32,    4, rank   , False       , min            ,          1,              11, Adrian Peterson
+    32,    5, rank   , False       , min            ,          1,              10, Mira Sorvino
+    32,    6, rank   , False       , min            ,          1,               9, Lele Pons
+    32,    7, rank   , False       , min            ,          1,               8, Mauricio Umansky
+    32,    8, rank   , False       , min            ,          1,               7, Barry Williams
+    32,    9, rank   , False       , min            ,          1,               6, Harry Jowsey
+    32,   10, rank   , False       , min            ,          0,               5, 
+    32,   11, rank   , False       , min            ,          0,               5, 
+    32,    1, rank   , True        , min            ,          1,              14, Matt Walsh
+    32,    2, rank   , True        , min            ,          1,              13, Jamie Lynn Spears
+    32,    3, rank   , True        , min            ,          1,              12, Tyson Beckford
+    32,    4, rank   , True        , min            ,          1,              11, Adrian Peterson
+    32,    5, rank   , True        , min            ,          1,              10, Mira Sorvino
+    32,    6, rank   , True        , min            ,          1,               9, Mauricio Umansky
+    32,    7, rank   , True        , min            ,          1,               8, Charity Lawson
+    32,    8, rank   , True        , min            ,          1,               7, Lele Pons
+    32,    9, rank   , True        , min            ,          1,               6, Barry Williams
+    32,   10, rank   , True        , min            ,          0,               5, 
+    32,   11, rank   , True        , min            ,          0,               5, 
+    32,    1, rank   , False       , average        ,          1,              14, Matt Walsh
+    32,    2, rank   , False       , average        ,          1,              13, Jamie Lynn Spears
+    32,    3, rank   , False       , average        ,          1,              12, Tyson Beckford
+    32,    4, rank   , False       , average        ,          1,              11, Adrian Peterson
+    32,    5, rank   , False       , average        ,          1,              10, Mira Sorvino
+    32,    6, rank   , False       , average        ,          1,               9, Lele Pons
+    32,    7, rank   , False       , average        ,          1,               8, Mauricio Umansky
+    32,    8, rank   , False       , average        ,          1,               7, Barry Williams
+    32,    9, rank   , False       , average        ,          1,               6, Harry Jowsey
+    32,   10, rank   , False       , average        ,          0,               5, 
+    32,   11, rank   , False       , average        ,          0,               5, 
+    32,    1, rank   , True        , average        ,          1,              14, Matt Walsh
+    32,    2, rank   , True        , average        ,          1,              13, Jamie Lynn Spears
+    32,    3, rank   , True        , average        ,          1,              12, Tyson Beckford
+    32,    4, rank   , True        , average        ,          1,              11, Adrian Peterson
+    32,    5, rank   , True        , average        ,          1,              10, Mira Sorvino
+    32,    6, rank   , True        , average        ,          1,               9, Mauricio Umansky
+    32,    7, rank   , True        , average        ,          1,               8, Charity Lawson
+    32,    8, rank   , True        , average        ,          1,               7, Lele Pons
+    32,    9, rank   , True        , average        ,          1,               6, Barry Williams
+    32,   10, rank   , True        , average        ,          0,               5, 
+    32,   11, rank   , True        , average        ,          0,               5, 
+    33,    1, percent, False       ,                ,          0,              13, 
+    33,    2, percent, False       ,                ,          2,              13, Tori Spelling; Anna Delvey
+    33,    3, percent, False       ,                ,          2,              11, Brooks Nader; Eric Roberts
+    33,    4, percent, False       ,                ,          1,               9, Reginald VelJohnson
+    33,    5, percent, False       ,                ,          1,               8, Phaedra Parks
+    33,    6, percent, False       ,                ,          1,               7, Jenn Tran
+    33,    7, percent, False       ,                ,          1,               6, Joey Graziadei
+    33,    8, percent, False       ,                ,          0,               5, 
+    33,    9, percent, False       ,                ,          0,               5, 
+    33,    1, percent, True        ,                ,          0,              13, 
+    33,    2, percent, True        ,                ,          2,              13, Anna Delvey; Tori Spelling
+    33,    3, percent, True        ,                ,          2,              11, Eric Roberts; Reginald VelJohnson
+    33,    4, percent, True        ,                ,          1,               9, Brooks Nader
+    33,    5, percent, True        ,                ,          1,               8, Phaedra Parks
+    33,    6, percent, True        ,                ,          1,               7, Jenn Tran
+    33,    7, percent, True        ,                ,          1,               6, Dwight Howard
+    33,    8, percent, True        ,                ,          0,               5, 
+    33,    9, percent, True        ,                ,          0,               5, 
+    33,    1, rank   , False       , min            ,          0,              13, 
+    33,    2, rank   , False       , min            ,          2,              13, Anna Delvey; Tori Spelling
+    33,    3, rank   , False       , min            ,          2,              11, Eric Roberts; Brooks Nader
+    33,    4, rank   , False       , min            ,          1,               9, Reginald VelJohnson
+    33,    5, rank   , False       , min            ,          1,               8, Phaedra Parks
+    33,    6, rank   , False       , min            ,          1,               7, Jenn Tran
+    33,    7, rank   , False       , min            ,          1,               6, Dwight Howard
+    33,    8, rank   , False       , min            ,          0,               5, 
+    33,    9, rank   , False       , min            ,          0,               5, 
+    33,    1, rank   , True        , min            ,          0,              13, 
+    33,    2, rank   , True        , min            ,          2,              13, Anna Delvey; Tori Spelling
+    33,    3, rank   , True        , min            ,          2,              11, Eric Roberts; Reginald VelJohnson
+    33,    4, rank   , True        , min            ,          1,               9, Brooks Nader
+    33,    5, rank   , True        , min            ,          1,               8, Phaedra Parks
+    33,    6, rank   , True        , min            ,          1,               7, Danny Amendola
+    33,    7, rank   , True        , min            ,          1,               6, Jenn Tran
+    33,    8, rank   , True        , min            ,          0,               5, 
+    33,    9, rank   , True        , min            ,          0,               5, 
+    33,    1, rank   , False       , average        ,          0,              13, 
+    33,    2, rank   , False       , average        ,          2,              13, Anna Delvey; Tori Spelling
+    33,    3, rank   , False       , average        ,          2,              11, Eric Roberts; Brooks Nader
+    33,    4, rank   , False       , average        ,          1,               9, Reginald VelJohnson
+    33,    5, rank   , False       , average        ,          1,               8, Phaedra Parks
+    33,    6, rank   , False       , average        ,          1,               7, Jenn Tran
+    33,    7, rank   , False       , average        ,          1,               6, Dwight Howard
+    33,    8, rank   , False       , average        ,          0,               5, 
+    33,    9, rank   , False       , average        ,          0,               5, 
+    33,    1, rank   , True        , average        ,          0,              13, 
+    33,    2, rank   , True        , average        ,          2,              13, Anna Delvey; Tori Spelling
+    33,    3, rank   , True        , average        ,          2,              11, Eric Roberts; Reginald VelJohnson
+    33,    4, rank   , True        , average        ,          1,               9, Brooks Nader
+    33,    5, rank   , True        , average        ,          1,               8, Phaedra Parks
+    33,    6, rank   , True        , average        ,          1,               7, Danny Amendola
+    33,    7, rank   , True        , average        ,          1,               6, Jenn Tran
+    33,    8, rank   , True        , average        ,          0,               5, 
+    33,    9, rank   , True        , average        ,          0,               5, 
+    34,    1, percent, False       ,                ,          0,              14, 
+    34,    2, percent, False       ,                ,          2,              14, Baron Davis; Corey Feldman
+    34,    3, percent, False       ,                ,          1,              12, Lauren Jauregui
+    34,    4, percent, False       ,                ,          1,              11, Hilaria Baldwin
+    34,    5, percent, False       ,                ,          0,              10, 
+    34,    6, percent, False       ,                ,          1,              10, Scott Hoying
+    34,    7, percent, False       ,                ,          1,               9, Jen Affleck
+    34,    8, percent, False       ,                ,          1,               8, Whitney Leavitt
+    34,    9, percent, False       ,                ,          1,               7, Danielle Fishel
+    34,   10, percent, False       ,                ,          1,               6, Andy Richter
+    34,   11, percent, False       ,                ,          0,               5, 
+    34,    1, percent, True        ,                ,          0,              14, 
+    34,    2, percent, True        ,                ,          2,              14, Corey Feldman; Baron Davis
+    34,    3, percent, True        ,                ,          1,              12, Lauren Jauregui
+    34,    4, percent, True        ,                ,          1,              11, Hilaria Baldwin
+    34,    5, percent, True        ,                ,          0,              10, 
+    34,    6, percent, True        ,                ,          1,              10, Scott Hoying
+    34,    7, percent, True        ,                ,          1,               9, Jen Affleck
+    34,    8, percent, True        ,                ,          1,               8, Danielle Fishel
+    34,    9, percent, True        ,                ,          1,               7, Andy Richter
+    34,   10, percent, True        ,                ,          1,               6, Whitney Leavitt
+    34,   11, percent, True        ,                ,          0,               5, 
+    34,    1, rank   , False       , min            ,          0,              14, 
+    34,    2, rank   , False       , min            ,          2,              14, Corey Feldman; Baron Davis
+    34,    3, rank   , False       , min            ,          1,              12, Lauren Jauregui
+    34,    4, rank   , False       , min            ,          1,              11, Hilaria Baldwin
+    34,    5, rank   , False       , min            ,          0,              10, 
+    34,    6, rank   , False       , min            ,          1,              10, Scott Hoying
+    34,    7, rank   , False       , min            ,          1,               9, Jen Affleck
+    34,    8, rank   , False       , min            ,          1,               8, Danielle Fishel
+    34,    9, rank   , False       , min            ,          1,               7, Andy Richter
+    34,   10, rank   , False       , min            ,          1,               6, Whitney Leavitt
+    34,   11, rank   , False       , min            ,          0,               5, 
+    34,    1, rank   , True        , min            ,          0,              14, 
+    34,    2, rank   , True        , min            ,          2,              14, Corey Feldman; Baron Davis
+    34,    3, rank   , True        , min            ,          1,              12, Lauren Jauregui
+    34,    4, rank   , True        , min            ,          1,              11, Hilaria Baldwin
+    34,    5, rank   , True        , min            ,          0,              10, 
+    34,    6, rank   , True        , min            ,          1,              10, Scott Hoying
+    34,    7, rank   , True        , min            ,          1,               9, Jen Affleck
+    34,    8, rank   , True        , min            ,          1,               8, Andy Richter
+    34,    9, rank   , True        , min            ,          1,               7, Danielle Fishel
+    34,   10, rank   , True        , min            ,          1,               6, Jordan Chiles
+    34,   11, rank   , True        , min            ,          0,               5, 
+    34,    1, rank   , False       , average        ,          0,              14, 
+    34,    2, rank   , False       , average        ,          2,              14, Corey Feldman; Baron Davis
+    34,    3, rank   , False       , average        ,          1,              12, Lauren Jauregui
+    34,    4, rank   , False       , average        ,          1,              11, Hilaria Baldwin
+    34,    5, rank   , False       , average        ,          0,              10, 
+    34,    6, rank   , False       , average        ,          1,              10, Scott Hoying
+    34,    7, rank   , False       , average        ,          1,               9, Jen Affleck
+    34,    8, rank   , False       , average        ,          1,               8, Danielle Fishel
+    34,    9, rank   , False       , average        ,          1,               7, Andy Richter
+    34,   10, rank   , False       , average        ,          1,               6, Whitney Leavitt
+    34,   11, rank   , False       , average        ,          0,               5, 
+    34,    1, rank   , True        , average        ,          0,              14, 
+    34,    2, rank   , True        , average        ,          2,              14, Corey Feldman; Baron Davis
+    34,    3, rank   , True        , average        ,          1,              12, Lauren Jauregui
+    34,    4, rank   , True        , average        ,          1,              11, Hilaria Baldwin
+    34,    5, rank   , True        , average        ,          0,              10, 
+    34,    6, rank   , True        , average        ,          1,              10, Scott Hoying
+    34,    7, rank   , True        , average        ,          1,               9, Jen Affleck
+    34,    8, rank   , True        , average        ,          1,               8, Andy Richter
+    34,    9, rank   , True        , average        ,          1,               7, Danielle Fishel
+    34,   10, rank   , True        , average        ,          1,               6, Jordan Chiles
+    34,   11, rank   , True        , average        ,          0,               5, 
