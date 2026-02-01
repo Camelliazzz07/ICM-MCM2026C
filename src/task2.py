@@ -130,8 +130,8 @@ def compute_combined_scores(
     if method == "rank":
         # tie 处理：min / average / dense
         # judge_total/vote_share 从高到低是更好，所以 rank 用 ascending=False
-        wk["judge_rank"] = wk["judge_total"].rank(ascending=False, method=rank_tie_method)
-        wk["fan_rank"] = wk["vote_share"].rank(ascending=False, method=rank_tie_method)
+        wk["judge_rank"] = wk["judge_total"].rank(ascending=False, method=rank_tie_method) # type: ignore
+        wk["fan_rank"] = wk["vote_share"].rank(ascending=False, method=rank_tie_method) # type: ignore
         wk["combined"] = wk["judge_rank"] + wk["fan_rank"]
         # 最差：combined 大；tie-break：fan_rank 大（粉丝更差），再 judge_rank 大
         wk_sorted = stable_sort(wk, ["combined", "fan_rank", "judge_rank"], [False, False, False])
