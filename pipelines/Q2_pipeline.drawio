@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="第 1 页" id="TcrecUCLdmsggV-FhMBT">
+    <mxGraphModel dx="930" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4bwR5-CiVdLhjyAdZF9j-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;direction=east;horizontal=0;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;i style=&quot;&quot;&gt;Rule Specification&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="110" x="109" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="4bwR5-CiVdLhjyAdZF9j-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;i style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Input Layer&lt;/b&gt;&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Inferred Fan Vote Share (from Q1)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Weekly Judge Scores&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Official Elimination Records&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="90" width="270" x="129" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4bwR5-CiVdLhjyAdZF9j-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;b&gt;Weekly Elimination Simulation&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Active contestants&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Combined score&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Weekly elimination&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Season replay&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p data-start=&quot;435&quot; data-end=&quot;437&quot;&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="270" x="129" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="4bwR5-CiVdLhjyAdZF9j-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.182;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;" target="4bwR5-CiVdLhjyAdZF9j-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="179" y="270" as="sourcePoint" />
+            <mxPoint x="179.39999999999986" y="354.24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4bwR5-CiVdLhjyAdZF9j-7" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="199" y="290" as="sourcePoint" />
+            <mxPoint x="209" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4bwR5-CiVdLhjyAdZF9j-9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="209" y="290" />
+              <mxPoint x="189" y="290" />
+              <mxPoint x="189" y="330" />
+              <mxPoint x="189" y="410" />
+              <mxPoint x="209" y="410" />
+            </Array>
+            <mxPoint x="199" y="290" as="sourcePoint" />
+            <mxPoint x="209" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4bwR5-CiVdLhjyAdZF9j-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Rank/Percentage-based Combine&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="209" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4bwR5-CiVdLhjyAdZF9j-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Judges&#39; Save Mechanism&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="209" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="4bwR5-CiVdLhjyAdZF9j-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Tie-Breaking Schemes&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="209" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="4bwR5-CiVdLhjyAdZF9j-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;i style=&quot;&quot;&gt;Q2 - Evaluation &amp;amp; Comparison of Voting Rules&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="320" x="119" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4bwR5-CiVdLhjyAdZF9j-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;Rule Evaluation (Q2.1)&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Elimination agreement&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Fan bias (vote share / percentile)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p data-start=&quot;435&quot; data-end=&quot;437&quot;&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="88" width="270" x="449" y="452" as="geometry" />
+        </mxCell>
+        <mxCell id="4bwR5-CiVdLhjyAdZF9j-16" edge="1" parent="1" source="4bwR5-CiVdLhjyAdZF9j-3" style="endArrow=classic;html=1;rounded=0;entryX=0.003;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.998;exitY=0.553;exitDx=0;exitDy=0;exitPerimeter=0;" target="4bwR5-CiVdLhjyAdZF9j-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="401" y="480" as="sourcePoint" />
+            <mxPoint x="179.39999999999986" y="614.24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4bwR5-CiVdLhjyAdZF9j-19" edge="1" parent="1" source="4bwR5-CiVdLhjyAdZF9j-15" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="4bwR5-CiVdLhjyAdZF9j-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="359" y="530" as="sourcePoint" />
+            <mxPoint x="459" y="622" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4bwR5-CiVdLhjyAdZF9j-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;Controversial Case Analysis (Q2.2)&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Controversial contestants&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Elimination Week / Final Rank&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p data-start=&quot;435&quot; data-end=&quot;437&quot;&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="270" x="449" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4bwR5-CiVdLhjyAdZF9j-23" edge="1" parent="1" source="4bwR5-CiVdLhjyAdZF9j-20" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="4bwR5-CiVdLhjyAdZF9j-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="584" y="330" as="sourcePoint" />
+            <mxPoint x="459" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4bwR5-CiVdLhjyAdZF9j-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;Rule Recommendation(Q2.3)&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Consistency&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Fan Favorability&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Robustness&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;b&gt;-&amp;gt; Percentage-based without judges&#39; save&lt;/b&gt;&lt;/i&gt;&lt;/span&gt;&lt;p data-start=&quot;435&quot; data-end=&quot;437&quot;&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="270" x="449" y="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
