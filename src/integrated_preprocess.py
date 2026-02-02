@@ -3,23 +3,23 @@ import pandas as pd
 import numpy as np
 import re
 
-# 获取当前脚本所在目录的上一级目录作为项目根目录 (ROOT)
-ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+# # 获取当前脚本所在目录的上一级目录作为项目根目录 (ROOT)
+# ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
-# 定义数据输入目录和结果输出目录
-DATA_DIR = os.path.join(ROOT, "data")
-OUT_DIR = os.path.join(ROOT, "output")
+# # 定义数据输入目录和结果输出目录
+# DATA_DIR = os.path.join(ROOT, "data")
+# OUT_DIR = os.path.join(ROOT, "output")
 
-# 确保输出目录存在，如果不存在则创建
-os.makedirs(OUT_DIR, exist_ok=True)
+# # 确保输出目录存在，如果不存在则创建
+# os.makedirs(OUT_DIR, exist_ok=True)
 
-# 定义具体的文件路径
-INPUT_FILE = os.path.join(DATA_DIR, "ProbC_Data.csv")  # 原始输入文件
-OUTPUT_FILE = os.path.join(OUT_DIR, "visualization_data_final.csv") # 结果输出文件
+# # 定义具体的文件路径
+# INPUT_FILE = os.path.join(DATA_DIR, "ProbC_Data.csv")  # 原始输入文件
+# OUTPUT_FILE = os.path.join(OUT_DIR, "visualization_data_final.csv") # 结果输出文件
 
-print(f"项目根目录: {ROOT}")
-print(f"读取数据路径: {INPUT_FILE}")
-print(f"输出保存路径: {OUTPUT_FILE}")
+# print(f"项目根目录: {ROOT}")
+# print(f"读取数据路径: {INPUT_FILE}")
+# print(f"输出保存路径: {OUTPUT_FILE}")
 
 # ==========================================
 # 辅助函数定义
@@ -74,9 +74,9 @@ def main():
     print("Step 1: 加载原始数据并清洗...")
     # 使用 utf-8-sig 处理 BOM (Byte Order Mark) 问题
     try:
-       df = pd.read_csv("INPUT_FILE", dtype=str)
+       df = pd.read_csv("data/ProbC_Data.csv", dtype=str)
     except UnicodeDecodeError:
-        df = pd.read_csv("INPUT_FILE", encoding='latin1')
+        df = pd.read_csv("data/ProbC_Data.csv", encoding='latin1')
 
     # 清洗列名
     df.columns = df.columns.str.strip().str.lower()
@@ -204,8 +204,8 @@ def main():
     output_df = long_df[final_cols]
     
     print(f"处理完成！生成数据形状: {output_df.shape}")
-    print(f"正在保存至: {OUTPUT_FILE}")
-    output_df.to_csv(OUTPUT_FILE, index=False, encoding='utf-8-sig')
+    print(f"正在保存至: output/visualization_data_final.csv")
+    output_df.to_csv("output/visualization_data_final.csv", index=False, encoding='utf-8-sig')
     print(">>> 完成。你可以用这份 CSV 去画 Sankey 图、热力图或分布图了。")
 
 if __name__ == "__main__":
